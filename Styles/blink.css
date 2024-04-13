@@ -1,0 +1,23 @@
+@keyframes blink1 {
+    0% { opacity: 1; }
+    50% { opacity: 0.3; }
+    100% { opacity: 1; }
+}
+
+.blinking-text1 {
+    font-size: 2.5vw;
+    line-height: 0;
+    animation: blink1 1s infinite; /* Adjust the duration as needed */
+}
+
+@keyframes blink2 {
+    0% { opacity: 0.3; }
+    50% { opacity: 1; }
+    100% { opacity: 0.3; }
+}
+
+.blinking-text2 {
+    font-size: 2.5vw;
+    line-height: 0;
+    animation: blink2 1s infinite; /* Adjust the duration as needed */
+}
