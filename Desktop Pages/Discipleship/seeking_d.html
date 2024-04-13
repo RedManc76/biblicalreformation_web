@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../../Styles/general.css">
+    </head>
+
+<body>
+
+<script src="../Main/menu_d.html" type="text/javascript"></script>
+
+<div class="main">
+    <section class="intro">
+        <h2>Introduction</h2>
+        <div class="temp_cont" style="display: flex; align-items: center; justify-content: center;">
+            <h3 style="width: 60%">We are in the process of writing this course; the first video is now up, and we will be adding new videos every couple of weeks. It is hoped to have the course completed by the end of autumn 2024. Please feel free to start the course before it is completed.</h3>
+        </div>
+        <div class="temp_cont" style="display: flex; align-items: center; justify-content: center;">
+            <h3 style="width: 60%">Choose session below</h3>
+        </div>
+        <div style="height: 500px;"></div>
+    </section>
+    <section class="column">
+        <div class="box">
+            <h3 id="session_title">Introduction</h3>
+            <button class="accordion" id="acc_open_prayer">Opening Prayer</button>
+            <div class="panel">
+                <h2 class="quote" id="quote_open_prayer"></h2> 
+            </div>
+            <button class="accordion" id="acc_read">Bible Reading</button>
+            <div class="panel">
+                <h2 class="quote" id="quote_read"></h2> 
+            </div>
+            <button class="accordion" id="acc_watch">Watch Video</button>
+            <div class="panel">
+                <h2 class="quote" id="quote_watch"></h2> 
+            </div>
+            <button class="accordion" id="acc_meditate">Meditation Questions</button>
+            <div class="panel">
+                <h2 class="quote"  id="quote_meditate"></h2> 
+            </div>
+            <button class="accordion" id="acc_close_prayer">Close Prayer</button>
+            <div class="panel">
+                <h2 class="quote" id="quote_close_prayer"></h2> 
+            </div>
+            <button class="accordion" id="acc_further">Further Study</button>
+            <div class="panel">
+                <h2 class="quote" id="quote_further"></h2> 
+            </div>
+        </div>
+        <div class="video-container2">
+          <h2 class="session_video_title">Title</h2>
+          <iframe id="youtube-iframe2" src="https://www.youtube.com/embed/NPvJ8YJtcQg" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+    <section style="height: 100px;"></section>
+</div>
+
+<div class='drawer drawer-closed'>
+    <div class="drawer-header">
+        <h3 class="drawer_title">Choose Session</h3>
+        <button class="drawer-button active">
+            <img src="../../Images/up_arrow.png" alt="Up Arrow" class="up_arrow">
+            <img src="../../Images/down_arrow.png" style="display: none;" alt="Down Arrow" class="down_arrow">
+        </button>
+    </div>
+    <div class="drawer-body"></div>
+</div>
+
+<script src="../Main/footer_d.html" type="text/javascript"></script>
+
+</body>
+
+<!-- main section Style -->
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #0A2F54;
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+    }
+
+    .column {
+        display: none;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .video-container1 {
+        width: 60%;
+        padding-bottom: 34%; /* 16:9 aspect ratio (height:width) */
+        position: relative;
+        margin: 20px auto; /* Center the video container */
+    }
+
+    .video-container1 iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+    .video-container2 {
+        width: 45%;
+        padding-bottom: 21.6%; /* 16:9 aspect ratio (height:width) */
+        position: relative;
+        margin: 20px auto; /* Center the video container */
+    }
+
+    .video-container2 iframe {
+        position: absolute;
+        width: 100%;
+        height: 80%;
+        top: 30%;
+        left: 0;
+    }
+
+</style>
+
+<!-- accordian section Style -->
+<style>
+
+    .box {
+        float: left;
+        width: 45%;
+        margin: 10px;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: #0A2F54;
+        color: white;
+        text-align: center;
+        align-items: center; /* Center items vertically */
+        justify-content: center; /* Center items horizontally */
+    }
+
+    .box img {
+        padding-top: 100px;
+        max-width: 70%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .panel {
+        display: none;
+        padding: 10px;
+        background-color: lightgrey;
+        overflow: hidden;
+    }
+
+    .accordion {
+        margin-top: 5px;
+        background-color: #002244;
+        cursor: pointer;
+        padding: 25px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        color: white;
+        font-size: 2vw;
+    }
+    
+    .accordion:after {
+        content: '\002B';
+        color: grey;
+        font-weight: bold;
+        float: right;
+        margin-left: 5px;
+    }
+    
+    .active:after {
+        content: "\2212";
+    }
+    
+    h2.title {
+        color:#002244;
+        font-size: 2.5vw;
+        text-align: center;
+    }
+    
+    h2.subtitle {
+        color:#002244;
+        font-size: 2vw;
+        text-align: center;
+    }
+
+    h2.text {
+        color:#002244;
+        font-size: 1.5vw;
+        text-align: center;
+    }
+    
+    h2.quote {
+        color:#002244;
+        font-size: 1.5vw;
+        text-align: center;
+    }
+    
+    h2.arabic {
+        color:#002244;
+        font-size: 3.5vw;
+        text-align: center;
+    }
+    
+    h2.manuscript {
+        line-height: 1;
+        color:#002244;
+        font-size: 1.5vw;
+        text-align: center;
+    }
+    
+    h2.link {
+        color: black;
+        font-size: 2vw;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    h2.link:hover {
+        color: gray;
+    }
+
+</style>
+
+<!-- drawer Style -->
+<style>
+    
+    .main {
+        transition: all .3s cubic-bezier(0.075, 0.820, 0.165, 1.000);
+        overflow-y: hidden;
+
+        &.hide {
+        overflow-y: hidden;
+        opacity: .5;
+        transition: all .3s cubic-bezier(0.075, 0.820, 0.165, 1.000);
+        }
+    }
+
+    .drawer {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        height: calc(100vh - 4em); /* Adjust height to fit the screen minus the height of the drawer header */
+        background: black;
+        padding: 0;
+        margin: 0;
+        z-index: 9999;
+        overflow-y: hidden; /* Enable vertical scrolling when content exceeds the height */
+        overflow-x: hidden; /* Hide horizontal scrollbar */
+
+        &.drawer-closed {
+            height: 4em;
+            transition: height 0.2s cubic-bezier(0.31, 1, 0.85, 1);
+        }
+        &.drawer-open {
+            height: 400px; /* Adjust height to fit 50% of the screen minus the height of the drawer header */
+            transition: height 0.3s cubic-bezier(0.31, 1, 0.85, 1);
+            box-shadow: 0px 1px 34px 0px rgba(0, 0, 0, 0.21);
+
+            .drawer-header {
+                background: #061e36;
+                transition: background 0.2s ease;
+            }
+        }
+    }
+
+    .drawer-header {
+        height: 4em;
+        background: #061e36;
+        transition: background .2s ease;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /* Align items to the left and right edges */
+        padding-right: 10px; /* Adjust padding to leave space for the arrows */
+        padding-left: 10px; /* Adjust padding to leave space for the arrows */
+    }
+
+    .drawer-button {
+        background: transparent;
+        color: white;
+        border: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .up_arrow,
+    .down_arrow {
+        width: 20px;
+        margin-left: 5px; /* Add margin to separate the arrow from the button text */
+    }
+
+    .drawer_title {
+        color: white;
+        margin: 0; /* Remove default margin */
+        text-align: center; /* Center the text */
+        flex-grow: 1; /* Allow the title to take up remaining space */
+    }
+    
+    .drawer-body {
+      height: 1000px;
+      background: #0c2742;
+      padding-top: 20px;
+      padding-left: 5%;
+    }
+
+</style>
+
+<!-- session buttons Style -->
+<style>
+
+    .sessionButton:hover, .sessionButton:focus {
+        box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+        transform: translateY(-0.25em);
+    }
+
+    .sessionButton:focus {
+        opacity: .8;
+    }
+
+    .sessionButton {
+        --color: #ffa260;
+        --hover: #e5ff60;
+    }
+
+    button:hover, button:focus {
+        border-color: var(--hover);
+        color: #fff;
+    }
+
+    button {
+        color: var(--color);
+        transition: 0.25s;
+        background: none;
+        border: 2px solid;
+        font: inherit;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        line-height: 1;
+        width: 8%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+ 
+</style>
+
+<script src="../../jquery.js"></script>
+
+<!-- drawer Script -->
+<script>
+    $('.drawer-button').on('click', function(evt) {
+        var button = $(this);
+        var body = $('.main');
+        var container = $('.drawer');
+
+        // Toggle active class
+        button.toggleClass('active');
+
+        // Toggle arrow images visibility based on drawer state
+        var isDrawerOpen = container.hasClass('drawer-open');
+        button.find('.up_arrow').toggle(isDrawerOpen);
+        button.find('.down_arrow').toggle(!isDrawerOpen);
+
+        // Toggle hide class on body
+        body.toggleClass('hide');
+
+        // Toggle drawer-open and drawer-closed classes on container
+        container.toggleClass('drawer-open drawer-closed');
+    });
+</script>
+
+<!-- button generator Script -->
+<script>
+    // Function to generate buttons
+    function generateButtons() {
+    var drawerBody = $('.drawer-body');
+
+    // Loop to create 50 buttons
+    for (var i = 1; i <= 50; i++) {
+        var button = $('<button>', {
+            class: 'sessionButton',
+            'data-session': i, // Update the data-session attribute to the current session number
+            text: i
+        });
+        drawerBody.append(button);
+
+        // Add line break after every 10 buttons
+        if (i % 10 === 0) {
+            drawerBody.append('<br>');
+        }
+    }
+}
+
+    // Call the function to generate buttons when the document is ready
+    $(document).ready(function() {
+        generateButtons();
+    });
+
+</script>
+
+<!-- accordian Script -->
+<script>
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        jQuery(function($){
+            
+            var acc = $(".accordion")
+            
+            var i;
+            var j;
+            
+            for (i = 0; i < acc.length; i++) {
+                acc[i].nextElementSibling.style.display = "none";
+                acc[i].addEventListener("click", function() {
+                    if (this.nextElementSibling.style.display === "none"){
+                        closeAllAcc();
+                        openAcc(this); 
+                    }else{
+                        closeAcc(this)
+                    }
+                });
+            }    
+    
+            function closeAllAcc(){
+                for (j = 0; j < acc.length; j++) {
+                    if (acc[j].nextElementSibling.style.display === "block") {
+                        closeAcc(acc[j]);
+                    }
+                }
+            }
+            
+            function closeAcc(elem){
+                elem.classList.remove("active");
+                elem.nextElementSibling.style.display = "none";
+            }
+            
+            function openAcc(elem){
+                elem.classList.add("active");
+                elem.nextElementSibling.style.display = "block";
+                scrollToResponse(elem);
+            }
+            
+            function scrollToResponse(elem){
+                let rect = elem.getBoundingClientRect();
+                let scrollTotal = rect.top - 100;
+                window.scrollBy({top: scrollTotal, left: 0, behavior: "smooth"})
+            }
+
+        });
+        
+    });    
+    
+
+            
+</script>
+
+<!-- reading Script -->
+<script>
+
+    const API_KEY = 'ee78fa7f093ae48f039244b30c9100a02e73f142';
+    const API_URL = 'https://api.esv.org/v3/passage/text/';
+  
+    function getEsvText(passage) {
+      const params = new URLSearchParams({
+        q: passage,
+        'include-headings': false,
+        'include-footnotes': false,
+        'include-verse-numbers': false,
+        'include-short-copyright': false,
+        'include-passage-references': false
+      });
+  
+      const headers = new Headers({
+        'Authorization': `Token ${'ee78fa7f093ae48f039244b30c9100a02e73f142'}`
+      });
+  
+      const url = new URL('https://api.esv.org/v3/passage/text/');
+      url.search = params;
+  
+      return fetch(url, { headers })
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then(data => {
+        const passages = data.passages;
+        return passages[0] ? passages[0].trim() : 'Error: Passage not found';
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        return 'Error: An error occurred while fetching data.';
+      });
+    }
+  
+</script>
+
+<!-- session Script -->
+<script>
+
+    document.addEventListener('DOMContentLoaded', function() {
+        jQuery(function($){
+            
+            var quote_open_prayer = $('#quote_open_prayer');
+            var quote_watch = $('#quote_watch');
+            var quote_read = $('#quote_read');
+            var quote_meditate = $('#quote_meditate');
+            var quote_further = $('#quote_further');
+            var quote_close_prayer = $('#quote_close_prayer');
+            var session_button = $('.sessionButton')
+            var drawer_button = $('.drawer-button')
+            var intro_video = $('#youtube-iframe1')
+            var session_video = $('#youtube-iframe2')
+            var intro = $('.intro')
+            var column = $('.column')
+            var session_title = $('#session_title')
+            var session_video_title = $('.session_video_title')
+
+            var session_mode = 0
+
+            // Add text to the selected element
+            
+            function change_session(session){
+                intro.hide();
+                column.show().css('display', 'flex');
+                intro_video.attr('src', '');
+                unfocus_button(session_mode);
+                session_mode = session;
+                session_title.text("Session " + session + " Workflow");
+                session_video.attr('src', video_src_array[session]);
+                session_video_title.text(video_title_array[session]);
+                quote_open_prayer.html(open_prayer_array[session]);
+                getEsvText(read_array[session]).then(result => quote_read.text(result));
+                quote_watch.html(watch_array[session]);
+                quote_meditate.html(meditate_array[session]);
+                quote_further.html(further_array[session]);
+                quote_close_prayer.html(close_prayer_array[session]);
+            }
+
+            session_button.click(function() {
+                change_session($(this).data('session'));
+            });
+            
+            drawer_button.on('click', function() {
+                focus_button(session_mode)
+            });
+
+            function focus_button(session){
+                $('.sessionButton[data-session="' + session + '"]').css({
+                    'box-shadow': '0 0.5em 0.5em -0.4em var(--hover)',
+                    'transform': 'translateY(-0.25em)',
+                    'opacity': '0.8',
+                    'color': '#e5ff60'
+                });
+            }
+
+            function unfocus_button(session){
+                $('.sessionButton[data-session="' + session + '"]').css({
+                    'box-shadow': 'none',
+                    'transform': 'translateY(0em)',
+                    'opacity': '1',
+                    'color': '#ffa260'
+                });                
+            }
+
+            function getEsvText(passage) {
+                const params = new URLSearchParams({
+                    q: passage,
+                    'include-headings': false,
+                    'include-footnotes': false,
+                    'include-verse-numbers': true,
+                    'include-short-copyright': true,
+                    'include-passage-references': true
+                });
+            
+                const headers = new Headers({
+                    'Authorization': `Token ${'ee78fa7f093ae48f039244b30c9100a02e73f142'}`
+                });
+            
+                const url = new URL('https://api.esv.org/v3/passage/text/');
+                url.search = params;
+            
+                return fetch(url, { headers })
+                .then(response => {
+                    if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const passages = data.passages;
+                    return passages[0] ? passages[0].trim() : 'Error: Passage not found';
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    return 'Error: An error occurred while fetching data.';
+                });
+            }
+  
+        });
+        
+    });    
+
+    document.addEventListener('DOMContentLoaded', function() {
+        jQuery(function($){
+            
+            create_session_1(1);
+            create_session_2(2);
+            create_session_3(3);
+            create_session_4(4);
+            create_session_5(5);
+            create_session_6(6);
+            create_session_7(7);
+            create_session_8(8);
+
+            function add_main_video(index, text){video_src_array[index] = "https://www.youtube.com/embed/" + text;}
+            function add_video_title(index, text){video_title_array[index] = text;}
+            function add_reading(index, text){read_array[index] = text;}
+            function add_open_prayer(index, text){open_prayer_array[index] = open_prayer_array[index] + "<h2 class='text'>" + text + "</h2>";}
+            function add_watch_title(index, text){watch_array[index] = watch_array[index] + "<h2 class='title'>" + text + "</h2>";}
+            function add_watch_topic(index, text){watch_array[index] = watch_array[index] + "<h2 class='subtitle'>" + text + "</h2>";}
+            function add_watch_term(index, text){watch_array[index] = watch_array[index] + "<h2 class='text'>" + text + "</h2>";}
+            function add_meditate_question(index, text){meditate_array[index] = meditate_array[index] + "<h2 class='text'>" + text + "</h2>";}
+            function add_close_prayer(index, text){close_prayer_array[index] = close_prayer_array[index] + "<h2 class='text'>" + text + "</h2>";}
+            function add_close_prayer_link(index, link, text){close_prayer_array[index] = close_prayer_array[index] + "<a href='" + link + "'><h2 class='link'>" + text + "</h2></a>";}
+            function add_further_title(index, text){further_array[index] = further_array[index] + "<h2 class='title'>" + text + "</h2>";}
+            function add_further_link(index, link, text){further_array[index] = further_array[index] + "<a href='" + link + "'><h2 class='link'>" + text + "</h2></a>";}
+
+            function create_session_(index){
+                add_main_video(index, "");
+                add_video_title(index, "");
+                add_reading(index, "");
+
+                add_open_prayer(index, "");
+ 
+                add_watch_title(index, "Topics");
+                add_watch_topic(index, " - ");
+                add_watch_topic(index, " - ");
+                add_watch_topic(index, " - ");
+                add_watch_topic(index, " - ");
+                add_watch_topic(index, " - ");
+                add_watch_topic(index, " - ");
+                add_watch_title(index, "Biblical Terms");
+                add_watch_term(index, ": ");
+                add_watch_term(index, ": ");
+                add_watch_term(index, ": ");
+                add_watch_term(index, ": ");
+                add_watch_term(index, ": ");
+
+                add_meditate_question(index, "1. ");
+                add_meditate_question(index, "2. ");
+                add_meditate_question(index, "3. ");
+                add_meditate_question(index, "4. ");
+                add_meditate_question(index, "5. ");
+                add_meditate_question(index, "6. ");
+                add_meditate_question(index, "7. ");
+                add_meditate_question(index, "8. ");
+                add_meditate_question(index, "9. ");
+                add_meditate_question(index, "10. ");
+
+                add_close_prayer(index, "");
+
+                add_further_title(index, 'Links to Further Study');
+                add_further_link(index, '','');
+                add_further_link(index, '','');
+                add_further_link(index, '','');
+                add_further_link(index, '','');
+                add_further_link(index, '','');
+                add_further_link(index, '','');
+            }
+
+            // video edited, data complete, grammar checked
+            function create_session_1(index){
+
+                add_main_video(index, "gx-T3cYDLOQ");
+                add_video_title(index, "The Word");
+                add_reading(index, "John 1:1-18");
+
+                add_open_prayer(index, "Almighty God, as I begin this study to learn who you are and what you have done, please assist me in comprehending everything I read and hear. Please show yourself to me and make your love for me evident. Amen.");
+ 
+                add_watch_title(index, "Topics");
+                add_watch_topic(index, "Introducing the Word - 0:25");
+                add_watch_topic(index, "Beyond Expectations - 2:19");
+                add_watch_topic(index, "The Unique God - 5:23");
+                add_watch_topic(index, "The knowable God - 8:22");
+                add_watch_topic(index, "Biblical Authenticity - 11:28");
+                add_watch_title(index, "Biblical Terms");
+                add_watch_term(index, "Monotheism: a religion or belief that claims that God is one being; simply put, there is only one God.");
+                add_watch_term(index, "Godhead: a term used to describe God in his essential being, one nature but in three persons.");
+
+                add_meditate_question(index, "1. Think about how intricate, complex, and truly massive this universe that we live in is.");
+                add_meditate_question(index, "2. Spend a few moments imagining what sort of being would have the power and skill to design and create it.");
+                add_meditate_question(index, "3. Now spend a few moments to consider that this awesome being has a desire to know you and to reveal himself to you.");
+
+                add_close_prayer(index, "Thank you, God, for creating me and for wanting to know me. Im not even sure if this is all real, but if it is and you want to know me, please make yourself known to me. Help me understand all I've heard and keep me safe until next time. Amen.");
+
+                add_further_title(index, 'Links to Further Study');
+                add_further_link(index, 'https://www.youtube.com/watch?v=0G2S5ziDcO0','Trinity Explained');
+                add_further_link(index, 'https://www.youtube.com/watch?v=XRwupHsCUBg','Sermon - In the beginning was the Word');
+                add_further_link(index, 'https://www.youtube.com/watch?v=Doi8JxJOtgE&t=683s','Biblical Authenticity');
+            }
+
+        });
+        
+    });  
+
+    var open_prayer_array = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+    var watch_array = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+    var meditate_array = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+    var close_prayer_array = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+    var further_array = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+    var video_src_array = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+    var video_title_array = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+    var read_array = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
+
+</script>
+</html>
