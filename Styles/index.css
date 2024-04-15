@@ -1,0 +1,29 @@
+body {
+    background-color: #0A2F54;
+    overflow: hidden;
+}
+
+.container_title {
+    margin-top: 50px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.moble_container{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .moble_container{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .container_title, .john_container, .tv_main, .core_main_container{
+        display: none;
+    }
+
+}
