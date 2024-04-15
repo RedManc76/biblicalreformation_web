@@ -141,21 +141,21 @@
 }
 .main_slide_2_darkbg {
     left: -50%;
-    background: url('../images/web.jpg') center center no-repeat;
+    background: url('../Images/web.jpg') center center no-repeat;
 }
 .main_slide_2_darkbg:after {
     opacity: .40;
 }
 .main_slide_3_darkbg {
     left: -100%;
-    background: url('../images/Literature.jpg') center center no-repeat;
+    background: url('../Images/Literature.jpg') center center no-repeat;
 }
 .main_slide_3_darkbg:after {
     opacity: .35;
 }
 .main_slide_4_darkbg {
     left: -150%;
-    background: url('../images/religion.jpg') center center no-repeat;
+    background: url('../Images/religion.jpg') center center no-repeat;
 }
 .main_slide_4_darkbg:after {
     opacity: .45;
