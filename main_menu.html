@@ -365,10 +365,15 @@
                 transition: all 0.5s ease-out, background 1s ease-out;
                 transition-delay: 0.2s;
                 z-index: 1;
-                -ms-overflow-style: none;
-                scrollbar-width: none;
             }
-            
+
+            .header {
+                scrollbar-width: none; /* New property */
+            }
+            .header::-webkit-scrollbar {
+                width: 8px; /* Fallback for Webkit browsers */
+            }
+
             .header .burger-container {
                 position: relative;
                 display: inline-block;
@@ -377,9 +382,15 @@
                 cursor: pointer;
                 transform: rotate(0deg);
                 transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
+                -webkit-user-select: none;
                 user-select: none;
-                -webkit-tap-highlight-color: transparent;
+                -webkit-tap-highlight-color: transparent; /* Safari and Chrome for iOS */
+                -webkit-touch-callout: none; /* Disable callout on iOS Safari */
+                -moz-tap-highlight-color: transparent; /* Firefox for Android */
+                -ms-touch-action: manipulation; /* IE 10+ */
+                touch-action: manipulation; /* IE 11+, Firefox, Chrome, Safari */
             }
+            
             .header .burger-container #burger {
                 width: 18px;
                 height: 8px;

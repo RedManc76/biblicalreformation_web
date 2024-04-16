@@ -139,7 +139,6 @@ h3.tv_screen_text {
         perspective(900px) rotateY(25deg) scale(0.9) rotateX(-10deg) rotateZ(5deg);
     filter: blur(0px);
     opacity: 1;
-    scale: 1;
     transition: 0.6s ease transform;
 }
 
@@ -156,7 +155,6 @@ h3.tv_screen_text {
         perspective(900px) rotateY(-25deg) scale(0.9) rotateX(-10deg) rotateZ(-5deg);
     filter: blur(0px);
     opacity: 1;
-    scale: 1;
     transition: 0.6s ease transform;
 }
 
@@ -202,7 +200,6 @@ h3.tv_screen_text {
             perspective(900px) rotateY(0deg) scale(0.9) rotateX(-20deg) rotateZ(-1deg);
         filter: blur(0px);
         opacity: 1;
-        scale: 1;
         transition: 0.6s ease transform;
     }
 
@@ -219,7 +216,6 @@ h3.tv_screen_text {
             perspective(900px) rotateY(0deg) scale(0.9) rotateX(-20deg) rotateZ(1deg);
         filter: blur(0px);
         opacity: 1;
-        scale: 1;
         transition: 0.6s ease transform;
     }
 

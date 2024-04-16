@@ -56,7 +56,7 @@
         cssClass: 'core_titles',
         range: [0, 6],
         rangeContent: function (i) {
-            return '<h3 style="font-size:75px">' + titles[i] + '</h3>';
+            return '<h3>' + titles[i] + '</h3>';
         },
         vertical: true,
         reverse: true,
@@ -76,7 +76,7 @@
 
 
             // Return the link with the appropriate URL based on the index
-            return '<a class="core_slide_link pulse-link" href="' + urls[index] + '">' + link_name[index] + '</a>';
+            return '<a class="core_slide_link pulse-link" href="' + urls[index] + '"title="' + titles[index] +'">' + link_name[index] + '</a>';
         },
         vertical: true,
         interactive: false
