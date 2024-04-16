@@ -2,19 +2,8 @@
 (function () {
   document.write(`
 
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-
-  </head>
-
-    <body>
-
         <div class="mainhead">
-            <img id="logo1" src="../../Images/logo.png">
+            <img id="logo1" src="../../Images/logo.png" title="Biblical Reformation Logo">
             <h1 id="menuTitle">Biblical Reformation</h1>
         </div>
             
@@ -116,6 +105,7 @@
                 display: flex;
                 align-items: center; /* Center vertically */
                 justify-content: center; /* Center horizontally */
+                overflow: hidden;
             }
     
             #logo1 {
@@ -213,6 +203,7 @@
             .header-placeholder {
                 display: none;
                 height: 60px; /* Same as header height */
+                overflow: hidden;
             }
         </style>
 
@@ -231,12 +222,6 @@
                 }
             };
         </script>
-
-    </body>
-
-    </html>
-
-
 
   `);
 })();
