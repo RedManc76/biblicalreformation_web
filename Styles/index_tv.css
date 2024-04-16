@@ -26,6 +26,7 @@
 .headersCol {
     color: white;
     display: flex;
+    -ms-flex-direction: column;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -135,33 +136,25 @@ h3.tv_screen_text {
 
 
 .tv_screen_left {
-    transform:
-        perspective(900px) rotateY(25deg) scale(0.9) rotateX(-10deg) rotateZ(5deg);
-    filter: blur(0px);
+    transform: perspective(900px) rotateY(25deg) scale(0.9) rotateX(-10deg) rotateZ(5deg);
     opacity: 1;
     transition: 0.6s ease transform;
 }
 
 .tv_screen_left:hover {
-    transform:
-        perspective(900px) rotateY(10deg) scale(0.8) rotateX(-10deg) rotateZ(0deg);
-    filter: blur(0px);
+    transform: perspective(900px) rotateY(10deg) scale(0.8) rotateX(-10deg) rotateZ(0deg);
     opacity: 1;
     transition: 1.6s ease transform;
 }
 
 .tv_screen_right {
-    transform:
-        perspective(900px) rotateY(-25deg) scale(0.9) rotateX(-10deg) rotateZ(-5deg);
-    filter: blur(0px);
+    transform: perspective(900px) rotateY(-25deg) scale(0.9) rotateX(-10deg) rotateZ(-5deg);
     opacity: 1;
     transition: 0.6s ease transform;
 }
 
 .tv_screen_right:hover {
-    transform:
-        perspective(900px) rotateY(-10deg) scale(0.8) rotateX(-10deg) rotateZ(0deg);
-    filter: blur(0px);
+    transform: perspective(900px) rotateY(-10deg) scale(0.8) rotateX(-10deg) rotateZ(0deg);
     opacity: 1;
     transition: 1.6s ease transform;
 }
@@ -196,33 +189,25 @@ h3.tv_screen_text {
     }
 
     .tv_screen_left {
-        transform:
-            perspective(900px) rotateY(0deg) scale(0.9) rotateX(-20deg) rotateZ(-1deg);
-        filter: blur(0px);
+        transform: perspective(900px) rotateY(0deg) scale(0.9) rotateX(-20deg) rotateZ(-1deg);
         opacity: 1;
         transition: 0.6s ease transform;
     }
 
     .tv_screen_left:hover {
-        transform:
-            perspective(900px) rotateY(0deg) scale(0.9) rotateX(-20deg) rotateZ(1deg);
-        filter: blur(0px);
+        transform: perspective(900px) rotateY(0deg) scale(0.9) rotateX(-20deg) rotateZ(1deg);
         opacity: 1;
         transition: 1.6s ease transform;
     }
 
     .tv_screen_right {
-        transform:
-            perspective(900px) rotateY(0deg) scale(0.9) rotateX(-20deg) rotateZ(1deg);
-        filter: blur(0px);
+        transform: perspective(900px) rotateY(0deg) scale(0.9) rotateX(-20deg) rotateZ(1deg);
         opacity: 1;
         transition: 0.6s ease transform;
     }
 
     .tv_screen_right:hover {
-        transform:
-            perspective(900px) rotateY(0deg) scale(0.9) rotateX(-25deg) rotateZ(1deg);
-        filter: blur(0px);
+        transform: perspective(900px) rotateY(0deg) scale(0.9) rotateX(-25deg) rotateZ(1deg);
         opacity: 1;
         transition: 1.6s ease transform;
     }

@@ -1,3 +1,21 @@
+body {
+  background-color: #0A2F54;
+  overflow-x: hidden;
+  margin: 0px;
+}
+
+.small_divide {
+  height: 50px;
+}
+
+.medium_divide {
+  height: 100px;
+}
+
+.large_divide {
+  height: 200px;
+}
+
 h1 {
   font-family: 'Rubik', sans-serif;
   color: white;
@@ -27,10 +45,16 @@ h1.video-title {
   width: 70%;
 }
 
+.email_tag{
+  font-size: 3vw;
+}
+
 .center_video_container {
   position: relative;
-  width: 70%;
+  width: 70%; 
   padding-top: 39.4%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .center_video_container .center_iframe {
@@ -41,6 +65,49 @@ h1.video-title {
   height: 100%;
 }
 
+.right_video_container {
+  position: relative;
+  width: 90%;
+  padding-bottom: 50.6%; /* 16:9 aspect ratio (height:width) */
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.right_video_container .right_iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.center_text {
+  margin-left: 15vw;
+  margin-right: 15vw;
+}
+
+.center_container {
+  position: relative;
+  text-align: center;
+}
+
+.link_button {
+  background-color: #b5cab6;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3vw;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: relative;
+  z-index: 3;
+  margin-top: 20px;
+  /* Adjust this as needed */
+}
 
 @media only screen and (max-width: 768px) {
 

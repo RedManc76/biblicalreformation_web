@@ -20,7 +20,7 @@
     transform: translateX(-50%);
     width: 70%;
     height: 100%;
-    /* Adjust this as needed */
+    z-index: 1;
 }
 
 .john_intro_overlay {
@@ -31,6 +31,7 @@
     width: 70%;
     height: 100%;
     cursor: pointer;
+    z-index: 2;
 }
 
 .john_intro_overlay img {
@@ -38,24 +39,6 @@
     height: 100%;
     object-fit: cover;
     /* Ensure the image completely covers the container */
-}
-
-.john_intro_button {
-    background-color: #b5cab6;
-    border: none;
-    color: rgb(0, 0, 0);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 3vw;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    position: relative;
-    z-index: 3;
-    margin-top: 20px;
-    /* Adjust this as needed */
 }
 
 #playButton {

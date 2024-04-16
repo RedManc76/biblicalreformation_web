@@ -36,6 +36,7 @@
     transform: translate3d(0, 0, 0);
     will-change: transform;
     cursor: all-scroll;
+    -ms-user-select: none;
     -webkit-user-select: none;
     user-select: none;
     display: flex;
