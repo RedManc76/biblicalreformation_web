@@ -300,7 +300,7 @@
     opacity: 1;
 }
 
-#pulse-link {
+.pulse-link {
     opacity: 1;
     /* Initial opacity */
     transition: transform 0.5s ease-in-out;
@@ -327,12 +327,12 @@
 }
 
 /* Apply the pulse animation to the link */
-#pulse-link:not(:hover) {
+.pulse-link:not(:hover) {
     animation: pulse 1s infinite;
     /* Pulse animation lasts 2 seconds and repeats infinitely */
 }
 
-#pulse-link:hover {
+.pulse-link:hover {
     animation-play-state: paused;
     /* Pause the animation on hover */
 }
@@ -406,11 +406,4 @@ h3 {
     .footer {
         display: none;
     }
-}
-
-@media only screen and (max-width: 768px) {
-    .core_main_container{
-        display: none;
-    }
-
 }

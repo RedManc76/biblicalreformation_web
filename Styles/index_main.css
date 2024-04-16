@@ -225,9 +225,3 @@ html {
     margin: 0;
     padding: 0;
 }
-
-@media only screen and (max-width: 768px) {
-    .main_side_nav, .main_screen_container {
-        display: none;
-    }
-}

@@ -231,9 +231,4 @@ h3.tv_screen_text {
         transition: 1.6s ease transform;
     }
 
-}@media only screen and (max-width: 768px) {
-    .tv_main {
-        display: none;
-    }
-
 }

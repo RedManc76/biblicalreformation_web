@@ -39,7 +39,7 @@
         'Desktop Pages/Prayer/request_d.html',
         'Desktop Pages/Evangelism/preachers_d.html',
         'Desktop Pages/Evangelism/street_d.html',
-        '#'
+        './index.html'
     ];
     var link_name = [
         'Find',
@@ -76,7 +76,7 @@
 
 
             // Return the link with the appropriate URL based on the index
-            return '<a id="pulse-link" class="core_slide_link" href="' + urls[index] + '">' + link_name[index] + '</a>';
+            return '<a class="core_slide_link pulse-link" href="' + urls[index] + '">' + link_name[index] + '</a>';
         },
         vertical: true,
         interactive: false
@@ -116,6 +116,7 @@
 
     // Select corresponding slider item when a core_pagination button is clicked
     core_pagination.addEventListener('click', function (e) {
+
         if (e.target.matches('.core_pagination_button')) {
             var index = core_paginationItems.indexOf(e.target.parentNode);
             msImages.select(index);

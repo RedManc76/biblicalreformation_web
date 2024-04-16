@@ -11,19 +11,25 @@ body {
 }
 
 .moble_container{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mobile{
     display: none;
 }
 
 @media only screen and (max-width: 768px) {
-    .moble_container{
+    .mobile{
         display: block;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
     }
-    .container_title, .john_container, .tv_main, .core_main_container{
+
+    .desktop{
         display: none;
     }
+
 
 }
