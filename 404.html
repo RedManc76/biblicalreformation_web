@@ -35,7 +35,7 @@
         window.location.href = redirections[pathname];
       } else {
         // If no mapping found, display a generic message
-        window.location.href = "redirections[pathname];"
+        document.getElementById("message").innerText = pathname;
       }
     };
   </script>
