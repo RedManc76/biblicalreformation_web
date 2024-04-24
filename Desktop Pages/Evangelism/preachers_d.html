@@ -1,21 +1,32 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="../../Styles/general.css">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblical Preachers</title>
+    <meta name="description" content="Good bible teaching preachers">
+    <meta name="keywords" content="Jesus Christ, Christianity, evangelism, biblical preaching, man of God, teaching, gospel">
+    <meta name="author" content="Biblical Reformation">
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P40KG9YVY3"></script>
+    <script src="./Scripts/analytics.js"></script>
 
+    <link rel="stylesheet" href="../../Styles/general.css">
+    <link rel="stylesheet" href="../../Styles/accordian_double.css">
+
+</head>
 <body>
 
     <script src="../Main/menu_d.html" type="text/javascript"></script>
 
     <div class="small_divide"></div>
 
-    <h1 style="color: white;">Biblical Preachers</h1>
+    <h1>Biblical Preachers</h1>
 
     <div class="small_divide"></div>
 
-    <div class="container clearfix">
-        <div class="box">
+    <div class="accordian_container clearfix">
+        <div class="accordian_box">
 
             <button class="accordion">Favorite Preachers</button>
             <div class="panel">
@@ -173,256 +184,20 @@
             </div>
                 
         </div>
-        <div class="box" style="background-color: white; margin: 50px;">
+        <div class="response_box">
             <div class="response">
                 <h2></h2>
-                <h2 style="color:black;text-align:center">Choose a Preacher</h2>      
+                <h2 class="title">Choose a Preacher</h2>      
             </div>
         </div>
     </div>
 
-    <div style="height: 200px;"></div>
+    <div class="large_divide"></div>
         
     <script src="../Main/footer_d.html" type="text/javascript"></script>
-    
-    <!-- Main Stlye -->
-    <style>
 
-        body {
-            background-color: #0A2F54;
-            overflow-x: hidden;
-        }
-
-        .container {
-            display: flex;
-            width: 90%;
-            margin-left: 5%;
-            margin-right: 5%;
-            padding-left: 3%;
-            padding-right: 3%;
-        }
-
-        .box {
-            flex: 1;
-            box-sizing: border-box;
-        }
-
-        /* Clear the float to prevent container collapse */
-        .clearfix::after {
-            content: "";
-            clear: both;
-            display: table;
-        }
-
-    </style>
-
-    <!-- Accordian Stlye -->
-    <style>
-        
-        .response{
-            background-color: white;
-        }
-
-        .subpanel {
-            padding: 10px;
-            display: none;
-            background-color: lightgrey;
-            overflow: hidden;
-            display: none;
-            opacity: 0;
-        }
-
-        .accordion, .subaccordion {
-            margin-top: 5px;
-            background-color: #002244;
-            cursor: pointer;
-            padding: 25px;
-            width: 100%;
-            border: none;
-            text-align: left;
-            font-size: 15px;
-            color: white;
-        }
-        
-        .accordion{
-            font-size: 2vw;
-        }
-        
-        .subaccordion{
-            width :95%;
-            margin-left: 20px;
-            font-size: 1.5vw;
-        }
-        
-        .accordion:after {
-            content: '\002B';
-            color: grey;
-            font-weight: bold;
-            float: right;
-            margin-left: 5px;
-        }
-        
-        .subaccordion:after {
-            content: '\21E2';
-            color: grey;
-            font-weight: bold;
-            float: right;
-            margin-right: 10px;
-        }
-        
-        .active:after {
-            content: "\2212";
-        }
-        
-        .subactive:after {
-            content: "\21E8";
-            size: 40px;
-        }    
-        
-        h2.title {
-        color:#002244;
-        font-size: 2.5vw;
-        text-align: center;
-    }
-    
-    h2.subtitle {
-        color:#002244;
-        font-size: 2vw;
-        text-align: center;
-    }
-
-    h2.text {
-        color:#002244;
-        font-size: 1.5vw;
-        text-align: center;
-    }
-    
-    h2.quote {
-        color:#002244;
-        font-size: 1.5vw;
-        text-align: center;
-    }
-    
-    h2.arabic {
-        color:#002244;
-        font-size: 3.5vw;
-        text-align: center;
-    }
-    
-    h2.manuscript {
-        line-height: 1;
-        color:#002244;
-        font-size: 1.5vw;
-        text-align: center;
-    }
-    
-    h2.link {
-        color: black;
-        font-size: 2vw;
-        text-align: center;
-        margin-top: 0;
-        margin-bottom: 0;
-    }
-
-    h2.link:hover {
-        color: gray;
-    }
-        
-    </style>
-
-    <script src="../../jquery.js"></script>
-
-    <!-- Accordian Script -->
-    <script>
-
-        document.addEventListener('DOMContentLoaded', function() {
-        jQuery(function($){
-            
-            var acc = $(".accordion")
-            var subacc = $(".subaccordion");
-            var response = $(".response");
-                    
-            var i;
-            var j;
-            
-            for (i = 0; i < acc.length; i++) {
-                acc[i].nextElementSibling.style.display = "none";
-                acc[i].addEventListener("click", function() {
-                    closeAllSubAcc();
-                    if (this.nextElementSibling.style.display === "none"){
-                        closeAllAcc();
-                        openAcc(this); 
-                    }else{
-                        closeAcc(this)
-                    }
-                });
-            }    
-            
-            for (i = 0; i < subacc.length; i++) {
-                //subacc[i].nextElementSibling.style.display = "none";
-                subacc[i].nextElementSibling.style.opacity = 0;
-                subacc[i].addEventListener("click", function() {
-                    if (this.nextElementSibling.style.opacity == 0){
-                        closeAllSubAcc();
-                        openSubAcc(this);
-                    }else{
-                        closeSubAcc(this);
-                    }
-                });
-                
-            }
-            
-            function closeAllAcc(){
-                for (j = 0; j < acc.length; j++) {
-                    if (acc[j].nextElementSibling.style.display === "block") {
-                        closeAcc(acc[j]);
-                    }
-                }
-            }
-            
-            function closeAcc(elem){
-                elem.classList.remove("active");
-                elem.nextElementSibling.style.display = "none";
-            }
-            
-            function openAcc(elem){
-                elem.classList.add("active");
-                elem.nextElementSibling.style.display = "block";
-            }
-            
-            function closeAllSubAcc(){
-                for (j = 0; j < subacc.length; j++) {
-                    if (subacc[j].nextElementSibling.style.opacity == 1) {
-                        closeSubAcc(subacc[j])
-                    }
-                }
-            }
-            
-            function closeSubAcc(elem){
-                elem.classList.remove("subactive");
-                var subpanel = elem.nextElementSibling
-                subpanel.style.opacity = 0;
-                var eText = '<h2></h2><h2 style="color:black;text-align:center">Choose a Preacher</h2>  ';
-                response.html(eText);
-            }
-            
-            function openSubAcc(elem){
-                elem.classList.add("subactive");
-                var subpanel = elem.nextElementSibling
-                subpanel.style.opacity = 1;
-                response.html(subpanel.innerHTML);
-                scrollToResponse();
-            }
-            
-            function scrollToResponse(){
-                let rect = response.get(0).getBoundingClientRect();
-                let scrollTotal = rect.top - 100;
-                window.scrollBy({top: scrollTotal, left: 0, behavior: "smooth"})     
-            }
-            
-        });
-    });
-    </script>
+    <script src="../../Scripts/jquery.js"></script>
+    <script src="../../Scripts/accordian_double.js"></script>
 
 </body>
 </html>

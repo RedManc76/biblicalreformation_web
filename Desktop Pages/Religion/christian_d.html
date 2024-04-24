@@ -1,9 +1,20 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="../../Styles/general.css">
-    </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christianity</title>
+    <meta name="description" content="Evanglistic content for Christians">
+    <meta name="keywords" content="Jesus Christ, Christianity, born again, seeker sensitive, weak Christians, unregenerate">
+    <meta name="author" content="Biblical Reformation">
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P40KG9YVY3"></script>
+    <script src="./Scripts/analytics.js"></script>
+    
+    <link rel="stylesheet" href="../../Styles/general.css">
+    <link rel="stylesheet" href="../../Styles/blink.css">
 
+</head>
 <body>
 
     <script src="../Main/menu_d.html" type="text/javascript"></script>
@@ -14,9 +25,10 @@
 
     <div class="small_divide"></div>
 
-    <h3>Are you truly a Christian?</h3>
-    <div class="center_video_container">
+    <h1 class="video-title">Are you truly a Christian?</h1>
+    <div class="center_video_container" id="video-container">
         <iframe class="center_iframe"
+            title="Are you truly a Christian?"
             id="youtube-iframe"
             src="https://www.youtube.com/embed/6N7f8hvUMxg"
             frameborder="0"
@@ -24,11 +36,13 @@
         ></iframe>
     </div>
 
-    <div style="height: 100px;"></div>
 
-    <h3>The American Gospel</h3>
-    <div class="center_video_container">
+    <div class="medium_divide"></div>
+
+    <h1 class="video-title">The American Gospel</h1>
+    <div class="center_video_container" id="video-container">
         <iframe class="center_iframe"
+            title="The American Gospel"
             id="youtube-iframe"
             src="https://www.youtube.com/embed/ocHm18wUAGU"
             frameborder="0"
@@ -36,11 +50,12 @@
         ></iframe>
     </div>
 
-    <div style="height: 100px;"></div>
+    <div class="medium_divide"></div>
 
-    <h3>Message that shocked the lukewarm Christian world</h3>
-    <div class="center_video_container">
+    <h1 class="video-title">Message that shocked the lukewarm Christian world</h1>
+    <div class="center_video_container" id="video-container">
         <iframe class="center_iframe"
+            title="Shocking Youth Message"
             id="youtube-iframe"
             src="https://www.youtube.com/embed/HkPFv7v9CkY"
             frameborder="0"
@@ -48,71 +63,9 @@
         ></iframe>
     </div>
 
-    <div style="height: 100px;"></div>
+    <div class="medium_divide"></div>
         
     <script src="../Main/footer_d.html" type="text/javascript"></script>
-    
-    <!-- Main Style -->
-    <style>
-
-        body {
-            background-color: #052d56;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        h1 {
-            color: white;
-            text-align: center;
-            font-size: 4vw;
-        }
-
-        h2 {
-            color: white;
-            text-align: center;
-            font-size: 3vw;
-        }
-
-        h3 {
-            color: white;
-            text-align: center;
-            font-size: 2.5vw;
-        }
-
-        .video-container {
-            position: relative;
-            width: 70%;
-            padding-top: 39.4%;
-        }
-
-        .video-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-
-        img {
-            padding: 50px;
-            max-width: 20%;
-            height: auto;
-            margin-right: 10px; /* Adjust the margin as needed */
-        }
-
-        @keyframes blink {
-            0% { opacity: 1; }
-            50% { opacity: 0.3; }
-            100% { opacity: 1; }
-        }
-
-        .blinking-text {
-            animation: blink 1s infinite; /* Adjust the duration as needed */
-        }
-
-    </style>
 
 </body>
-
 </html>
