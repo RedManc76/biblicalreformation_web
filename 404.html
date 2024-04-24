@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Page Not Found</title>
+  <h1 id="message">hello</h1>
   <script>
     window.onload = function() {
       // Parse the URL to get the pathname
@@ -34,7 +35,7 @@
         window.location.href = redirections[pathname];
       } else {
         // If no mapping found, display a generic message
-        window.location.href = "https://www.biblicalreformation.com"
+        window.location.href = "redirections[pathname];"
       }
     };
   </script>
