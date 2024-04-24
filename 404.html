@@ -1,14 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="refresh" content="0; url=/about/index.html">
-<title>Redirecting...</title>
-<script type="text/javascript">
-    window.location.href = "/index.html";
-</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found</title>
+  <script>
+    window.onload = function() {
+      // Parse the URL to get the pathname
+      var pathname = window.location.pathname;
+
+      // Define the redirection mappings
+      var redirections = {
+        "https://www.biblicalreformation.com/abortion":"https://www.biblicalreformation.com/Mobile%20Pages/Literature/abortion.html",
+      };
+
+      // Check if the requested page has a redirection mapping
+      if (redirections[pathname]) {
+        // Redirect to the corresponding page
+        window.location.href = redirections[pathname];
+      } else {
+        // If no mapping found, display a generic message
+        document.getElementById("message").innerText = "We're sorry, the page you requested could not be found.";
+      }
+    };
+  </script>
 </head>
-<body>
-If you are not redirected automatically, follow this <a href='/index.html'>link</a>.
-</body>
-</html>
