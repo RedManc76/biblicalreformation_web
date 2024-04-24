@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
         var acc = $(".accordion")
         var subacc = $(".subaccordion");
         var sinacc = $(".singleaccordion");
-        var response = $(".response");
                 
         var i;
         var j;
@@ -92,13 +91,14 @@ document.addEventListener('DOMContentLoaded', function() {
         
         function closeSubAcc(elem){
             elem.classList.remove("subactive");
+            elem.nextElementSibling.style.display = "none";
             elem.nextElementSibling.style.opacity = 0;
         }
         
         function openSubAcc(elem){
             elem.classList.add("subactive");
+            elem.nextElementSibling.style.display = "block";
             elem.nextElementSibling.style.opacity = 1;
-            response.html(elem.nextElementSibling.innerHTML);
             scrollToResponse(response);
         }
         

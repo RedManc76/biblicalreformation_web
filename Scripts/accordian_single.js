@@ -31,8 +31,6 @@ document.addEventListener('DOMContentLoaded', function() {
         function closeAcc(elem){
             elem.classList.remove("active");
             elem.nextElementSibling.style.opacity = 0;
-            var eText = '<h2></h2><h2 style="color:black;text-align:center">Choose a Question</h2>  ';
-            response.html(eText);
         }
         
         function openAcc(elem){

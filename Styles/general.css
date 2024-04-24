@@ -42,11 +42,19 @@ h3 {
 
 h1.video-title {
   font-size: 3vw;
-  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .email_tag{
   font-size: 3vw;
+}
+
+.full_video_container {
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .center_video_container {
@@ -86,6 +94,15 @@ h1.video-title {
   margin-right: 15vw;
 }
 
+.center_text_scripture {
+  margin-left: 25vw;
+  margin-right: 25vw;
+}
+
+.text_scripture{
+  color: rgb(163, 163, 163);
+}
+
 .center_container {
   position: relative;
   text-align: center;
@@ -104,9 +121,20 @@ h1.video-title {
   cursor: pointer;
   transition: background-color 0.3s ease;
   position: relative;
-  z-index: 3;
   margin-top: 20px;
   /* Adjust this as needed */
+}
+
+.link_button:hover{
+  background-color: #99cc9b;
+}
+
+.construction_image{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -137,63 +165,39 @@ h1.video-title {
 
   h1.video-title {
     font-size: 5vw;
-    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
-  .accordion{
-    font-size: 4vw;
-  }
-
-  .singleaccordion{
-    font-size: 4vw;
-  }
-
-  h2.title {
-    color:#002244;
-    font-size: 5vw;
-    text-align: center;
-  }
-
-  h2.subtitle {
-      color:#002244;
-      font-size: 4vw;
-      text-align: center;
-  }
-
-  h2.quote {
-      color:#002244;
-      font-size: 3vw;
-      text-align: center;
-  }
-
-  h2.arabic {
-      color:#002244;
-      font-size: 3.5vw;
-      text-align: center;
-  }
-
-  h2.manuscript {
-      line-height: 1;
-      color:#002244;
-      font-size: 1.5vw;
-      text-align: center;
-  }
-
-  h2.link {
-      color:black;
-      font-size: 4vw;
-      text-align: center;
-  }
-
-  h2.scripture {
-    color:black;
-    font-size: 3.5vw;
-    text-align: center;
+  .full_video_container {
+    position: block;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .center_video_container {
     position: relative;
-    width: 95%;
-    padding-top: 53%;
+    width: 90%;
+    padding-top: 50.6%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .center_text {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  
+  .center_text_scripture {
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
+
+  .link_button {
+    font-size: 5vw;
+  }
+
+  .email_tag{
+    font-size: 4vw;
   }
 }

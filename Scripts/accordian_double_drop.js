@@ -3,11 +3,10 @@ jQuery(function($){
     
     var acc = $(".accordion")
     var subacc = $(".subaccordion");
-    var response = $(".response");
             
     var i;
     var j;
-
+    
     for (i = 0; i < acc.length; i++) {
         acc[i].nextElementSibling.style.display = "none";
         acc[i].addEventListener("click", function() {
@@ -63,22 +62,23 @@ jQuery(function($){
     
     function closeSubAcc(elem){
         elem.classList.remove("subactive");
+        elem.nextElementSibling.style.display = "none";
         var subpanel = elem.nextElementSibling
         subpanel.style.opacity = 0;
     }
     
     function openSubAcc(elem){
         elem.classList.add("subactive");
+        elem.nextElementSibling.style.display = "block";
         var subpanel = elem.nextElementSibling
         subpanel.style.opacity = 1;
-        response.html(subpanel.innerHTML);
-        scrollToResponse();
+        scrollToResponse(elem);
     }
     
-    function scrollToResponse(){
-        let rect = response.get(0).getBoundingClientRect();
-        let scrollTotal = rect.top - 100;
-        window.scrollBy({top: scrollTotal, left: 0, behavior: "smooth"})     
+    function scrollToResponse(elem){
+        let rect = elem.getBoundingClientRect();
+            let scrollTotal = rect.top - 100;
+            window.scrollBy({top: scrollTotal, left: 0, behavior: "smooth"})   
     }
     
 });
