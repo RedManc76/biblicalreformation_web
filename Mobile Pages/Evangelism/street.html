@@ -1,305 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Preaching</title>
+    <meta name="description" content="Street Preach in various locations">
+    <meta name="keywords" content="Jesus Christ, Christianity, evangelism, street preaching, preaching, Apologetics, religion, bible">
+    <meta name="author" content="Biblical Reformation">
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P40KG9YVY3"></script>
+    <script src="./Scripts/analytics.js"></script>
 
-<html>
-    <head>
-        <link rel="stylesheet" href="../../Styles/general.css">
-    </head>
+    <link rel="stylesheet" href="../../Styles/general.css">
+    <link rel="stylesheet" href="../../Styles/phone.css">
 
+</head>
 <body>
 
     <script src="../Main/menu.html" type="text/javascript"></script>
 
-    <section class="column">
+    <section class="street_main_container">
 
-        <div class="container">
-            <div class="phone-container">
-                <img class="phone-image" src="../../Images/phone.png" alt="Phone Image">
+        <div class="street_mobile_container">
+            <div class="phone_container">
+                <img class="phone_image" src="../../Images/phone.png" alt="Phone Image">
                 <img id="short_image" src="https://biblicalreformation.com/wp-content/uploads/2023/12/Blood-of-Christ_a.jpg" width="100%" height="100%">
-                <iframe id="short_video" width="100%" height="100%" src="" frameborder="0" allowfullscreen>
+                <iframe id="short_video" width="100%" height="100%" src="">
                 </iframe>
             </div>
         </div>
         
-        <div class="container">
+        <div class="street_mobile_container">
 
-            <div id="prevBtn"></div>
+            <div id="prev_button"></div>
 
             <div class="link-list" id="linkList">
-                <h3 id="head1" style="color: #5a5a5a;">1</h3>
-                <h3 id="head2" style="color: #737373;">2</h3>
-                <h3 id="head3" style="color: #8d8d8d;">3</h3>
-                <h3 id="head4" style="color: #a6a6a6;">4</h3>
-                <h3 id="head5" style="color: white;">5</h3>
-                <h3 id="head6" style="color: #a6a6a6;">6</h3>
-                <h3 id="head7" style="color: #8d8d8d;">7</h3>
-                <h3 id="head8" style="color: #737373;">8</h3>
-                <h3 id="head9" style="color: #5a5a5a;">9</h3>
+                <h3 id="head1">1</h3>
+                <h3 id="head2">2</h3>
+                <h3 id="head3">3</h3>
+                <h3 id="head4">4</h3>
+                <h3 id="head5">5</h3>
+                <h3 id="head6">6</h3>
+                <h3 id="head7">7</h3>
+                <h3 id="head8">8</h3>
+                <h3 id="head9">9</h3>
             </div>
 
-            <div id="nextBtn"></div>
+            <div id="next_button"></div>
 
         </div>
     </section>
 
-    <div style="height: 200px;"></div>
+    <div class="medium_divide"></div>
         
-    <script src="../Main/footer_d.html" type="text/javascript"></script>
-    
-    <!-- Main Stlye -->
-    <style>
+    <script src="../Main/footer.html" type="text/javascript"></script>
 
-    body {
-        margin: 0;
-        padding: 0;
-        background-color: #0A2F54;
-        overflow-x: hidden; /* Hide horizontal scrollbar */
-    }
+    <script src="../../Scripts/phone.js"></script>
 
-    .column {
-        display: block;
-        padding-left: 10%;
-        padding-right: 10%;
-    }
-
-    </style>
-
-<style>
-
-    .container {
-        width: 90%;
-        display: flex;
-        align-items: center;
-        justify-content: space-between; /* Space items equally */
-    }
-    
-    .link-list {
-        margin-top: 15px;
-        list-style: none;
-        padding: 0;
-        display: inline-block;
-    }
-    
-    #nextBtn {
-      width: 5%; 
-      height: 0; 
-      border-top: 20px solid transparent;
-      border-bottom: 20px solid transparent; 
-      border-left:20px solid white; 
-    }
-    
-    #prevBtn {
-      width: 5%; 
-      height: 0; 
-      border-top: 20px solid transparent;
-      border-bottom: 20px solid transparent; 
-      border-right:20px solid white; 
-    }
-
-</style>
-
-<style>
-/* Example styles for positioning */
-.phone-container {
-    margin: 10%;
-    position: relative; /* Ensure the container is a positioning context */
-}
-
-.phone-image {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%; /* Set width to 100% */
-    height: auto;
-}
-
-#short_video {
-    position: absolute;
-        top: 12%;
-        left: 7%;
-        height: 75%;
-        width: 87%;
-        display: none;
-}
-
-#short_image {
-    position: absolute;
-        top: 12%;
-        left: 7%;
-        height: 75%;
-        width: 87%;
-        display: block;
-}
-
-</style>
-
-    <script src="../../jquery.js"></script>
-
-    <script>
-
-        document.addEventListener("DOMContentLoaded", function(event){
-        
-            const nextButton = document.getElementById('nextBtn');
-            const prevButton = document.getElementById('prevBtn');
-            const linkList = document.getElementById('linkList');
-            const listItems = linkList.getElementsByTagName('h3');
-            
-            const short_video = document.getElementById('short_video');
-            const short_image = document.getElementById('short_image');
-                
-            const head1 = document.getElementById('head1');
-            const head2 = document.getElementById('head2');
-            const head3 = document.getElementById('head3');
-            const head4 = document.getElementById('head4');
-            const head5 = document.getElementById('head5');
-            const head6 = document.getElementById('head6');
-            const head7 = document.getElementById('head7');
-            const head8 = document.getElementById('head8');
-            const head9 = document.getElementById('head9');
-            
-            let currentIndex = 0;
-        
-            let videoNameArray = [
-                "Who can be against us",
-                "The Covernant",
-                "Temporal Judgements",
-                "Son of David",
-                "Salvation guarentee",
-                "Romans 8:31-38",
-                "No condemnation",
-                "My debt cancelled",
-                "Made for more",
-                "Love of God",
-                "Justified",
-                "Judgement seat",
-                "Freedom in Christ",
-                "Death defeated",
-                "Captive by sin",
-                "Blood of Christ",
-                "Birmingham is dark"];
-                
-            let videoFileArray = [
-                "https://www.youtube.com/embed/g-8Ki9hkDc0",
-                "https://www.youtube.com/embed/rg7I-fY8CXE",
-                "https://www.youtube.com/embed/ds2Ujk_Nf5c",
-                "https://www.youtube.com/embed/miI8nbs1AzE",
-                "https://www.youtube.com/embed/REDvBm83KfE",
-                "https://www.youtube.com/embed/GO2L2K0r8Es",
-                "https://www.youtube.com/embed/bQfy8Ysgg-w",
-                "https://www.youtube.com/embed/fPK3dg1hZYk",
-                "https://www.youtube.com/embed/qci20oJdQBg",
-                "https://www.youtube.com/embed/PsivAMvnKRo",
-                "https://www.youtube.com/embed/exH1UDwtzZU",
-                "https://www.youtube.com/embed/tec-O-yw62M",
-                "https://www.youtube.com/embed/kXsdrt9aJMc",
-                "https://www.youtube.com/embed/y5L-tV6pbow",
-                "https://www.youtube.com/embed/NKdmGBt3wAk",
-                "https://www.youtube.com/embed/T_z33HDbm2k",
-                "https://www.youtube.com/embed/aI6WgL0OXa4"];
-                
-            let imageFileArray = [
-                "../../Images/street/Who can be against you.jpg",
-                "../../Images/street/The Covernant.jpg",
-                "../../Images/street/Temporal Judgements.jpg",
-                "../../Images/street/Son of David.jpg",
-                "../../Images/street/Salvation guaranteed.jpg",
-                "../../Images/street/Rom8v31-38.jpg",
-                "../../Images/street/No condemnation.jpg",
-                "../../Images/street/My debt cancelled.jpg",
-                "../../Images/street/Made for more.jpg",
-                "../../Images/street/Love of God.jpg",
-                "../../Images/street/Justified.jpg",
-                "../../Images/street/Judgement seat.jpg",
-                "../../Images/street/Freedom in Christ.jpg",
-                "../../Images/street/Death defeated.jpg",
-                "../../Images/street/Captive by sin.jpg",
-                "../../Images/street/Blood of Christ.jpg",
-                "../../Images/street/Birmingham Is Dark.jpg"
-                ];            
-                    
-                
-            function updateCurrentIndex(direction) {
-                currentIndex += direction;
-                if (currentIndex >= videoNameArray.length) {
-                    currentIndex = (videoNameArray.length - currentIndex);;
-                } else if (currentIndex < 1) {
-                    currentIndex = (videoNameArray.length + currentIndex);
-                }
-                updateHeadings();
-                displayImage();
-                loadVideo();
-            }
-        
-            function updateHeadingsold() {
-                for (let i = 0; i < listItems.length; i++) {
-                    listItems[i].classList.add('nonselect-header');
-                }
-                const middleIndex = Math.floor(listItems.length / 2);
-                listItems[middleIndex].classList.remove('nonselect-header');
-                listItems[middleIndex].classList.add('select-header');
-            }
-        
-            function updateHeadings() {
-                let divor = videoNameArray.length
-                head1.innerHTML = videoNameArray[(currentIndex + 0) % divor];
-                head2.innerHTML = videoNameArray[(currentIndex + 1) % divor];
-                head3.innerHTML = videoNameArray[(currentIndex + 2) % divor];
-                head4.innerHTML = videoNameArray[(currentIndex + 3) % divor];
-                head5.innerHTML = videoNameArray[(currentIndex + 4) % divor];
-                head6.innerHTML = videoNameArray[(currentIndex + 5) % divor];
-                head7.innerHTML = videoNameArray[(currentIndex + 6) % divor];
-                head8.innerHTML = videoNameArray[(currentIndex + 7) % divor];
-                head9.innerHTML = videoNameArray[(currentIndex + 8) % divor];
-            }
-            
-            head1.addEventListener('click', () => {updateCurrentIndex(-4);});
-            head2.addEventListener('click', () => {updateCurrentIndex(-3);});
-            head3.addEventListener('click', () => {updateCurrentIndex(-2);});
-            head4.addEventListener('click', () => {updateCurrentIndex(-1);});
-            head6.addEventListener('click', () => {updateCurrentIndex(1);});
-            head7.addEventListener('click', () => {updateCurrentIndex(2);});
-            head8.addEventListener('click', () => {updateCurrentIndex(3);});
-            head9.addEventListener('click', () => {updateCurrentIndex(4);});
-            
-            // Event listener for prev button
-            prevButton.addEventListener('click', () => {
-                updateCurrentIndex(-1);});
-        
-            // Event listener for next button
-            nextButton.addEventListener('click', () => {
-                updateCurrentIndex(1);
-            });
-        
-            // Initial setting for the middle heading color
-            updateHeadings();
-            
-            function displayImage() {
-                let divor = videoNameArray.length;
-                short_video.style.display = "none"
-                short_image.style.display = "block"
-                short_image.src = imageFileArray[(currentIndex + 4) % divor];
-            }
-            
-            short_image.onclick = function(e) {
-                playVideo()
-            }
-        
-            function loadVideo() {
-                let divor = videoNameArray.length
-                let source = videoFileArray[(currentIndex + 4) % divor];
-                short_video.src = source;
-            }
-            
-            function playVideo() {
-                short_video.style.display = "block"
-                short_image.style.display = "none"
-                let divor = videoNameArray.length
-                let source = videoFileArray[(currentIndex + 4) % divor] + "?autoplay=1";
-                short_video.src = source;
-            }
-        
-        });
-            
-        </script>
-  
-  
 </body>
 </html>
