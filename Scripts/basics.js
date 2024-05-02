@@ -100,9 +100,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     resources_button.addEventListener("click", function() {
         if (window.screen.width >= 768) {
-            window.location.href = '../../Desktop Pages/Discipleship/seeking_d.html';
+            window.location.href = '../../Desktop Pages/Seek/seeking_d.html';
         } else {
-            window.location.href = '../../Mobile Pages/Discipleship/seeking.html';
+            window.location.href = '../../Mobile Pages/Seek/seeking.html';
         }
     });
 

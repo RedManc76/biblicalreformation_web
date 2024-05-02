@@ -15,22 +15,6 @@ $(document).ready(function() {
         }, 200);
     }
 
-    $('#btn_basics').click(function() {
-        window.location.href = "./basics_d.html";
-    });
-
-    $('#btn_john').click(function() {
-        window.location.href = "../Seek/jesus_d.html";
-    });
-
-    $('#btn_preaching').click(function() {
-        window.location.href = "../Seek/gospel_d.html";
-    });
-
-    $('#btn_connect').click(function() {
-        window.location.href = "../Connect/church_d.html";
-    });
-
     $(window).scroll(function(e) {
         frames = 17;
         step = (($("body").height()) - window.innerHeight) / frames;
@@ -57,7 +41,7 @@ $(document).ready(function() {
 
     setTimeout(function() {
         document.body.style.overflowY = 'auto';
-    }, 5000);
+    }, 2000);
 
     $('.has-animation').each(function(index) {
         $(this).delay($(this).data('delay')).queue(function(){
