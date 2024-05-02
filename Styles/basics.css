@@ -1,0 +1,89 @@
+body {
+    overflow: hidden;
+}
+
+.mainhead{
+    transition: all 1s linear;
+}
+
+#navbar{
+    transition: all 1s linear;
+}
+
+.basics_container {
+    position: relative;
+    width: 2500px;
+    height: 30000px;
+}
+
+.item_container{
+    display: block;
+    transition: transform 1.5s ease-in-out;
+    position: absolute;
+    z-index: 4;
+    background-color: #052342;
+    border: 5px solid white;
+    border-radius: 100px;
+    padding: 40px;
+}
+
+.basics_button_container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.basics_button{
+    background-color: #b5cab6;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+    z-index: 3;
+    margin-top: 20px;
+}
+
+.basics_button:hover{
+    background-color: #99cc9b;
+}
+
+h1{
+    width: 600px;
+    font-size: 20px;
+    z-index: 10;
+}
+
+.line{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    stroke:white;
+    stroke-width:10px;
+}
+
+.line_all{
+    transition: 1.5s ease-in-out;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+    h1{
+        width: 70vw;
+        font-size: 3.5vw;
+    }
+
+    .basics_button{
+        padding: 5px 10px;
+        font-size: 3.2vw;
+    }
+
+}

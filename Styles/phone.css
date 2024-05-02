@@ -1,0 +1,126 @@
+.street_main_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space items equally */
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.street_select_container {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space items equally */
+}
+
+.link-list {
+    margin-top: 15px;
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}
+
+#head1 {
+    color: #5a5a5a;
+}
+
+#head2 {
+    color: #737373;
+}
+
+#head3 {
+    color: #8d8d8d;
+}
+
+#head4 {
+    color: #a6a6a6;
+}
+
+#head5 {
+    color:white;
+}
+
+#head6 {
+    color: #a6a6a6;
+}
+
+#head7 {
+    color: #8d8d8d;
+}
+
+#head8 {
+    color: #737373;
+}
+
+#head9 {
+    color: #5a5a5a;
+}
+
+#next_button {
+    width: 5%; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent; 
+    border-left:20px solid white; 
+}
+
+#prev_button {
+    width: 5%; 
+    height: 0; 
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent; 
+    border-right:20px solid white; 
+}
+
+.phone_container {
+    width: 35%;
+    position: relative; /* Ensure the container is a positioning context */
+}
+
+.phone_image {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%; /* Set width to 100% */
+    height: auto;
+}
+
+#short_video {
+    position: absolute;
+    top: 12%;
+    left: 7%;
+    height: 75%;
+    width: 87%;
+    display: none;
+    border-width: 0;
+}
+
+#short_image {
+    position: absolute;
+    top: 12%;
+    left: 7%;
+    height: 75%;
+    width: 87%;
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .street_main_container {
+        display: block;
+    }
+
+    .street_mobile_container {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /* Space items equally */
+    }
+
+    .phone_container {
+        width: auto;
+        margin: 10%;
+        position: relative; /* Ensure the container is a positioning context */
+    }
+
+}

@@ -1,0 +1,136 @@
+.accordian_container {
+    max-width: 1200px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.accordian_box {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #052d56;
+    color: white;
+    text-align: center;
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+}
+
+.panel {
+    display: none;
+    padding: 10px;
+    background-color: lightgrey;
+    overflow: hidden;
+}
+
+.accordion {
+    margin-top: 5px;
+    background-color: #002244;
+    cursor: pointer;
+    padding: 25px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    color: white;
+    font-size: 2vw;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: grey;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+h2.title {
+    color:#002244;
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+h2.subtitle {
+    color:#002244;
+    font-size: 2vw;
+    text-align: center;
+}
+
+h2.quote {
+    color:#002244;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+h2.arabic {
+    color:#002244;
+    font-size: 3.5vw;
+    text-align: center;
+}
+
+h2.manuscript {
+    line-height: 1;
+    color:#002244;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+h2.link {
+    color:darkblue;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+h2.scripture {
+    color:black;
+    font-size: 2vw;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .accordion {
+        font-size: 4vw;
+    }
+
+    .accordian_box {
+        width: 100%;
+        margin: 0;
+    }
+
+    h2.title, h2.subtitle, h2.quote, h2.arabic, h2.manuscript, h2.link, h2.scripture  {
+        color:#002244;
+    }
+
+    h2.title {
+        font-size: 5vw;
+    }
+    
+    h2.subtitle {
+        font-size: 4vw;
+    }
+    
+    h2.quote {
+        font-size: 4vw;
+    }
+    
+    h2.arabic {
+        font-size: 7vw;
+    }
+    
+    h2.manuscript {
+        font-size: 3vw;
+    }
+    
+    h2.link {
+        font-size: 3vw;
+    }
+    
+    h2.scripture {
+        font-size: 4vw;
+    }
+
+}
