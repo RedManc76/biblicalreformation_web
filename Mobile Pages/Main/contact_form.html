@@ -8,7 +8,7 @@
         </div>
         <div class="contact_body">
             <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xwkgavpd" method="post">
-            <ul>
+            <ul class="contact_ul">
               <li>
                 <label for="full-name">Full Name</label>
                 <input type="text" name="name" class="contact_inputs" id="full-name" placeholder="First and Last" required="" autocomplete="name">
@@ -32,6 +32,10 @@
     
     <style>
     
+        .contact_ul{
+            display: block;
+        }
+
         .contact_container {
             margin : 15px;
             max-width: 510px;
