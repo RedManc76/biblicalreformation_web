@@ -1,0 +1,152 @@
+(function () {
+    document.write(`
+
+    <div class="contact_container">
+        <div class="contact_header">
+          <h1>CONTACT US &nbsp;</h1>
+          <h3>Please fill out the form below</h3>
+        </div>
+        <div class="contact_body">
+            <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xwkgavpd" method="post">
+            <ul class="contact_ul">
+              <li>
+                <label for="full-name">Full Name</label>
+                <input type="text" name="name" class="contact_inputs" id="full-name" placeholder="First and Last" required="" autocomplete="name">
+              </li>
+              <li>
+                <label for="email-address">Email Address</label>
+                <input type="email" name="_replyto" class="contact_inputs" id="email-address" placeholder="email@domain.tld" required="" autocomplete="email">
+              </li>        
+              <li><div class="divider"></div></li>
+              <li>
+                <label for="message">Message</label>
+                <textarea cols="46" rows="5" name="message" id="message" placeholder="" required=""></textarea>
+              </li>
+              <li>
+                <input class="contact_button" type="submit" value="Submit" />
+              </li>
+            </ul>
+          </form>  
+        </div>
+      </div>
+    
+    <style>
+    
+        .contact_ul{
+            display: block;
+        }
+        
+        .contact_container {
+            max-width: 510px;
+            min-width: 324px;
+            margin: 50px auto 0px;
+            background-color: #fff;
+            border: 1px solid #cfcfcf;
+            border-bottom: 3px solid #ccc;
+        }
+        
+        .contact_header {
+            margin: 0 0 1em 0;
+            padding: 1.5em 2.5em;
+            border-bottom: 1px solid #ccc;
+            background-image: url(../../Images/contact/contact.jpg);
+            background-size: cover;
+            color: #fff;
+        }
+        
+        .contact_body {
+            margin: 0 0 1em 0;
+            padding: 0.5em 2.5em 1em;
+            display: block;
+        }
+        
+        .contact_header h1 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            display: inline-block;
+            font-weight: 100;
+            font-size: 2.8125em;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+            margin: 0 0 0.1em 0;
+            padding: 0 0 0.4em 0;
+        }
+        .contact_header h3 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            font-size: 1.25em;
+            margin: 1em 0 0.4em 0;
+        }
+        .contact_button {
+            font-size: 1.0625em;
+            display: inline-block;
+            padding: 0.74em 1.5em;
+            margin: 1.5em 0 0;
+            color: #fff;
+            border-width: 0 0 0 0;
+            border-bottom: 5px solid;
+            text-transform: uppercase;
+            background-color: #4f6fad;
+            border-bottom-color: #374d78;
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+        }
+        .contact_button:hover {
+            background-color: #5f7db6;
+        }
+        .contact_body ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .contact_body ul li {
+            margin: 0 0 0.25em 0;
+            clear: both;
+            display: inline-block;
+            width: 100%;
+        }
+        .contact_body ul li:last-child {
+            margin: 0;
+        }
+        .contact_body ul li p {
+            margin: 0;
+            padding: 0;
+            float: left;
+        }
+        .contact_body ul li p.right {
+            float: right;
+        }
+        .contact_body ul li .divider {
+            margin: 0.5em 0 0.5em 0;
+            border: 0;
+            height: 1px;
+            width: 100%;
+            display: block;
+            background-color: #4f6fad;
+            background-image: linear-gradient(to right, #ee9cb4, #4f6fad);
+        }
+        .contact_body ul li .req {
+            color: #ee9cb4;
+        }
+        .contact_body label {
+            display: block;
+            margin: 0 0 0.5em 0;
+            color: #4f6fad;
+            font-size: 1em;
+        }
+        .contact_inputs {
+            margin: 0 0 0.5em 0;
+            border: 1px solid #ccc;
+            padding: 6px 10px;
+            color: #555;
+            font-size: 1em;
+        }
+        .contact_body textarea {
+            border: 1px solid #ccc;
+            width: 100%;
+            color: #555;
+        }
+    
+    </style>
+
+    `);
+})();
