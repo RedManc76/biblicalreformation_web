@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
             change_session_video(video_src_array[session])
             session_video_title.text(video_title_array[session]);
             quote_open_prayer.html(open_prayer_array[session]);
-            //getEsvText(read_array[session]).then(result => quote_read.text(result));
+            getEsvText(read_array[session]).then(result => quote_read.text(result));
             quote_watch.html(watch_array[session]);
             quote_meditate.html(meditate_array[session]);
             quote_further.html(further_array[session]);
