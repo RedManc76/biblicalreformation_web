@@ -196,4 +196,8 @@ document.addEventListener("DOMContentLoaded", function() {
         return css + html;
     }
 
+    document.querySelector('.burger-container').addEventListener('click', function() {
+        document.querySelector('body').classList.toggle('menu-open');
+    });
+
 })

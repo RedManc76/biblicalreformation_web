@@ -1,5 +1,11 @@
 body {
+    height: 100%;
     overflow: hidden;
+}
+
+body.menu-open {
+    height: 1500px;
+    overflow-y: visible;
 }
 
 .mainhead{
