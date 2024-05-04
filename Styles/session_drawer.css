@@ -112,3 +112,15 @@ button {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.video_chapter{
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: auto;
+    border: none;
+}
+
+.acc_meditate{
+    display: block;
+}

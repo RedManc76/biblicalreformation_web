@@ -22,7 +22,11 @@ document.addEventListener('DOMContentLoaded', function() {
         
         function change_session(session){
             intro.hide();
-            sessions.css('display', 'block');
+            if (window.screen.width >= 768) {
+                sessions.css('display', 'flex');
+            } else {
+                sessions.css('display', 'block');
+            }
             intro_video.attr('src', '');
             unfocus_button(session_mode);
             session_mode = session;
@@ -35,6 +39,29 @@ document.addEventListener('DOMContentLoaded', function() {
             quote_meditate.html(meditate_array[session]);
             quote_further.html(further_array[session]);
             quote_close_prayer.html(close_prayer_array[session]);
+
+            
+            $('.video_chapter').on('click', async function() {
+                var buttonText = $(this).text().trim();
+                console.log(buttonText);
+        
+                setTimeout(async function() {
+                    try {
+                        const lite_youtube = document.querySelectorAll('lite-youtube');
+                        const lite_youtube_player = lite_youtube[1];         
+                        if (lite_youtube_player) {
+                            const player = await lite_youtube_player.getYTPlayer();
+                            player.seekTo(getTimeInSeconds(buttonText)); // Jump to 60 seconds
+                        } else {
+                            console.error('Lite YouTube players not found.');
+                        }
+                    } catch (error) {
+                        console.error('Error accessing Lite YouTube player:', error);
+                    }
+                }, 100);
+
+            });
+            
         }
 
         session_button.click(function() {
@@ -98,7 +125,47 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function change_session_video(video){
-            document.getElementById('session_video').reset(video);
+            // Find the existing lite-youtube element within the center_video_container div
+            var existingLiteYouTube = $('.right_video_container lite-youtube');
+        
+            // Check if the existing element is found
+            if (existingLiteYouTube.length > 0) {
+                // Remove the existing lite-youtube element
+                existingLiteYouTube.remove();
+        
+                // Create a new lite-youtube element with the new videoid
+                var newLiteYouTube = $('<lite-youtube videoid="'+ video + '" playlabel="Introduction to John Commentary" js-api></lite-youtube>');
+        
+                // Append the new lite-youtube element to the center_video_container div
+                $('.right_video_container').append(newLiteYouTube);
+            }
+        }
+
+        function getTimeInSeconds(full_string) {
+            // Split the time string into minutes and seconds
+            var indexOfTime = full_string.lastIndexOf('-');
+            var time_string = full_string.substr(indexOfTime + 1).trim();
+            var timeParts = time_string.split(':');
+    
+            if (timeParts.length !== 2) {
+                // Invalid time format
+                console.error('Invalid time format. Expected "m:ss".');
+                return 0;
+            }
+    
+            // Extract minutes and seconds
+            var minutes = parseInt(timeParts[0], 10);
+            var seconds = parseInt(timeParts[1], 10);
+    
+            if (isNaN(minutes) || isNaN(seconds)) {
+                // Invalid numeric values
+                console.error('Invalid numeric values for minutes or seconds.');
+                return 0;
+            }
+    
+            // Calculate total seconds
+            var totalSeconds = minutes * 60 + seconds;
+            return totalSeconds;
         }
 
     });
@@ -122,7 +189,8 @@ document.addEventListener('DOMContentLoaded', function() {
         function add_reading(index, text){read_array[index] = text;}
         function add_open_prayer(index, text){open_prayer_array[index] = open_prayer_array[index] + "<h2 class='quote'>" + text + "</h2>";}
         function add_watch_title(index, text){watch_array[index] = watch_array[index] + "<h2 class='title'>" + text + "</h2>";}
-        function add_watch_topic(index, text){watch_array[index] = watch_array[index] + "<h2 class='subtitle'>" + text + "</h2>";}
+        //function add_watch_topic(index, text){watch_array[index] = watch_array[index] + "<h2 class='subtitle'>" + text + "</h2>";}
+        function add_watch_topic(index, text){watch_array[index] = watch_array[index] + "<div><button class='video_chapter'>" + text + "</button></div>";}
         function add_watch_term(index, text){watch_array[index] = watch_array[index] + "<h2 class='quote'>" + text + "</h2>";}
         function add_meditate_question(index, text){meditate_array[index] = meditate_array[index] + "<h2 class='quote'>" + text + "</h2>";}
         function add_close_prayer(index, text){close_prayer_array[index] = close_prayer_array[index] + "<h2 class='quote'>" + text + "</h2>";}
@@ -201,7 +269,8 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_title(index, 'Links to Further Study');
             add_further_link(index, 'https://www.youtube.com/watch?v=0G2S5ziDcO0','Trinity Explained');
             add_further_link(index, 'https://www.youtube.com/watch?v=XRwupHsCUBg','Sermon - In the beginning was the Word');
-            add_further_link(index, 'https://www.youtube.com/watch?v=Doi8JxJOtgE&t=683s','Biblical Authenticity');
+            add_further_link(index, 'https://www.youtube.com/watch?v=Doi8JxJOtgE&t=683s','Biblical Authenticity')
+
         }
         //redo video
         function create_session_2(index){

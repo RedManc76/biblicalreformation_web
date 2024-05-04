@@ -65,8 +65,6 @@ class LiteYTEmbed extends HTMLElement {
 
     reset(newVideoId) {
 
-        var id = this.id;
-
         // Remove existing attributes and children
         while (this.attributes.length > 0) {
             this.removeAttribute(this.attributes[0].name);
@@ -74,8 +72,6 @@ class LiteYTEmbed extends HTMLElement {
         while (this.firstChild) {
             this.removeChild(this.firstChild);
         }
-
-        this.setAttribute('id', id);
 
         // Set new video ID
         this.setAttribute('videoid', newVideoId);

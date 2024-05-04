@@ -1,5 +1,4 @@
 .accordian_container {
-    max-width: 1200px;
     margin: 20px auto;
     overflow: hidden;
 }
@@ -43,8 +42,20 @@
     margin-left: 5px;
 }
 
+.accordian_flex{
+    display: flex;
+}
+
 .active:after {
     content: "\2212";
+}
+
+.first_box {
+    max-width: 650px;
+}
+
+.second_box {
+    flex-grow: 1;
 }
 
 h2.title {
