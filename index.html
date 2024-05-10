@@ -14,17 +14,83 @@
     <link rel="preload" href="./Images/explore.jpg" as="image" media="screen and (min-width: 769px)">
     <link rel="stylesheet" href="./Styles/general.css">
     <link rel="stylesheet" href="./Styles/menu.css">
-    <link rel="stylesheet" href="./Styles/index.css">
     <link rel="stylesheet" href="./Styles/index_main.css">
+    <link rel="stylesheet" href="./Styles/index_mobile.css">
+    <link rel="stylesheet" href="./Styles/index.css">
 
 </head>
 <body>
     <script src="./main_menu.html" type="text/javascript"></script>
 
     <div class="mobile">
-        <div class="moble_container">
-            <h1 style="color: white; position: absolute; top: 50vh; left: 50vw; transform: translate(-50%, -50%); font-size: 50px;">Biblical Reformation</h1>
+
+        <div class="mobile_menu_spacer"></div>
+
+        <div class="mobile_primary_container">
+
+            <div class="mobile_container">
+                <div class="overlay"></div>
+                <img src="./Images/main/explore_mobile.jpg" alt="explore image">
+                <h1 class="overlay_title">Discover</h1>
+                <h2 class="overlay_subtitle">Jesus Christ</h2>
+            </div>
+            <div class="mobile_container">
+                <div class="overlay"></div>
+                <img src="./Images/main/seeker_mobile.jpg" alt="seekers image">
+                <h1 class="overlay_title">Seeking?</h1>
+                <h2 class="overlay_subtitle">Start Here</h2>
+            </div>
+            <div class="mobile_container">
+                <div class="overlay"></div>
+                <img src="./Images/main/web_mobile.jpg" alt="web image">
+                <h1 class="overlay_title">Explore</h1>
+                <h2 class="overlay_subtitle">Core Content</h2>
+            </div>
+
         </div>
+
+        <div class="mobile_secondary_container">
+            <div class="john_mobile_intro_container">
+                <div class="john_mobile_intro_overlay_container">
+                    <button id="play_john_mobile_button"><img src="Images/play_button.png" alt="Play"></button>
+                    <img src="Images/main/explore.jpg" alt="Play video">
+                </div>
+                <div class="john_mobile_intro_video_container">
+                    <video id="john_mobile_intro_video" loading="lazy">
+                        <source src="Videos/John Intro.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <a class="link_button" href="Mobile Pages/Seek/Jesus.html" title="Watch Video Commentary">Start Your Journey</a>
+            </div>
+            <div class="seeker_mobile_intro_container">
+                <div class="seeker_mobile_intro_overlay_container">
+                    <button id="play_seeker_mobile_button"><img src="Images/play_button.png" alt="Play"></button>
+                    <img src="Images/main/seeker_mobile.jpg" alt="Play video">
+                </div>
+                <div class="seeker_mobile_intro_video_container">
+                    <video id="seeker_mobile_intro_video" loading="lazy">
+                        <source src="Videos/Seeking Intro.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <a class="link_button" href="Mobile Pages/Seek/seeking.html" title="Start Seeking Christianity">Start Your Journey</a>
+            </div>
+            <div class="core_mobile_intro_container">
+                <a class="link_header" href="Mobile Pages/Seek/gospel.html" title="Good news">Good News</a>
+                <a class="link_header" href="Mobile Pages/Connect/church.html" title="Find a Church">Find a Church</a>
+                <a class="link_header" href="Mobile Pages/Prayer/request.html" title="Prayer Request">Prayer Request</a>
+                <a class="link_header" href="Mobile Pages/Literature/literature selection.html" title="Topics">Topics</a>
+                <a class="link_header" href="Mobile Pages/Religion/religion selection.html" title="World Religions">World Religions</a>
+                <a class="link_header" href="Mobile Pages/Ministry/apologetics.html" title="Apologetics">Apologetics</a>
+                <a class="link_header" href="Mobile Pages/Seek/bible.html" title="Biblical Reliability">Biblical Reliability</a>
+                <a class="link_header" href="Mobile Pages/Connect/contact.html" title="Contact">Contact</a>
+            </div>
+        </div>
+
+        <div class="mobile_menu_return"><img src="./Images/Jesus/up_arrow.png" alt="Up Arrow" class="up_arrow"></div>
+
+        <script src="./Scripts/jquery.js"></script>
+        <script src="./Scripts/index_mobile.js"></script>
+        
     </div>
 
     <div class="desktop">
@@ -237,9 +303,7 @@
         <script src="./Scripts/index_core.js"></script>
 
     </div>
-    
     <script src="./Scripts/menu.js"></script>
 
 </body>
 </html>
-

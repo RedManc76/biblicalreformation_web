@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function() {
         var mobileMenuItems = document.querySelectorAll('.mobile_menu-item');
 
         burgerContainer.addEventListener('click', function() {
-            console.log('here1')
             header.classList.toggle('menu-opened');
             if (header.classList.contains('menu-opened')) {
                 menuOpen();

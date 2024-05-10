@@ -1,0 +1,244 @@
+
+.mobile{
+    height: 100vh; /* Make sure the HTML and body take up the full viewport height */
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 50px calc(100% - 50px);
+    grid-template-columns: 1fr;
+}
+
+.mobile_primary_container{
+    position: relative;
+    grid-area: 2 / 1;
+    height: 100vh; /* Make sure the HTML and body take up the full viewport height */
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: calc((100% - 50px) / 3) calc((100% - 50px) / 3) calc((100% - 50px) / 3);
+    grid-template-columns: 1fr;
+    z-index: 4;
+}
+
+.mobile_container{
+    width: 100%; /* Take full width of the container */
+    flex: 1;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+}
+
+.mobile_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+}
+
+.overlay_title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+    zoom: 2;
+    z-index: 5; /* Ensure title is above the overlay */
+}
+
+.overlay_subtitle {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 100%;
+    zoom: 1.5;
+    color: lightgray;
+    z-index: 2; /* Ensure title is above the overlay */
+}
+
+.mobile_menu_return{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    position: absolute;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    transform: translateY(100px);
+    z-index: 6;
+}
+
+.up_arrow {
+    width: 40px; /* Adjust width of the arrow image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+
+
+
+
+
+
+.mobile_secondary_container {
+    position: relative;
+    grid-area: 2 / 1;
+    height: 100vh; /* Make sure the HTML and body take up the full viewport height */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+.john_mobile_intro_container {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column */
+    grid-template-rows: 1fr; /* Single row */
+    position: absolute;
+    height: auto;
+    width: 100%;
+    padding-bottom: 100px;
+    z-index: 0;
+    opacity: 0;
+}
+
+.john_mobile_intro_overlay_container {
+    height: 100%;
+    width: 100%;
+    grid-area: 1 / 1; /* Spanning the entire grid cell */
+    position: relative;
+    z-index: 2;
+}
+
+.john_mobile_intro_video_container {
+    height: 100%;
+    width: 100%;
+    grid-area: 1 / 1; /* Spanning the same grid cell as inner_1 */
+    position: relative;
+}
+
+.john_mobile_intro_overlay_container img{
+    width: 100%;
+    height: 100%;
+}
+.john_mobile_intro_overlay_container button{
+    background-color: transparent;
+    border: none;
+}
+/* Style for the play button */
+#play_john_mobile_button {
+    position: absolute;
+    height: 20vw;
+    width: 20vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Place the button above the video */
+    cursor: pointer;
+}
+
+/* Style for the video */
+#john_mobile_intro_video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1; /* Place the video below the button */
+}
+
+
+
+
+.seeker_mobile_intro_container {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column */
+    grid-template-rows: 1fr; /* Single row */
+    position: absolute;
+    height: auto;
+    width: 100%;
+    padding-bottom: 100px;
+    z-index: 0;
+    opacity: 0;
+}
+
+.seeker_mobile_intro_overlay_container {
+    height: 100%;
+    width: 100%;
+    grid-area: 1 / 1; /* Spanning the entire grid cell */
+    position: relative;
+    z-index: 2;
+}
+
+.seeker_mobile_intro_video_container {
+    height: 100%;
+    width: 100%;
+    grid-area: 1 / 1; /* Spanning the same grid cell as inner_1 */
+    position: relative;
+}
+
+.seeker_mobile_intro_overlay_container img{
+    width: 100%;
+    height: 100%;
+}
+.seeker_mobile_intro_overlay_container button{
+    background-color: transparent;
+    border: none;
+}
+/* Style for the play button */
+#play_seeker_mobile_button {
+    position: absolute;
+    height: 20vw;
+    width: 20vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2; /* Place the button above the video */
+    cursor: pointer;
+}
+
+/* Style for the video */
+#seeker_mobile_intro_video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1; /* Place the video below the button */
+}
+
+
+
+
+.core_mobile_intro_container {
+    display: grid;
+    grid-template-columns: 1fr; /* Single column */
+    grid-template-rows: 1fr; /* Single row */
+    position: absolute;
+    height: auto;
+    width: 100%;
+    padding-bottom: 100px;
+    z-index: 0;
+    opacity: 0;
+}
+
+.link_header{
+    width: 100%;
+    text-align: center;
+}

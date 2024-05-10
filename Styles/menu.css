@@ -86,7 +86,7 @@ ul.submenu {
     text-align: center; /* Center the text */
     left: 50%; /* Center the box horizontally */
     transform: translateX(-50%);
-    z-index: 32;
+    z-index: 11;
 }
 
 li:hover .submenu {
@@ -111,7 +111,7 @@ ul.submenu li:last-child {
     padding: 10px;
     text-align: center;
     width: 100%;
-    z-index: 1002;
+    z-index: 12;
 }
 
 .placeholder {
@@ -196,7 +196,7 @@ ul.submenu li:last-child {
         overflow-y: auto;
         transition: all 0.5s ease-out, background 1s ease-out;
         transition-delay: 0.2s;
-        z-index: 2;
+        z-index: 9;
     }
 
     .header {
