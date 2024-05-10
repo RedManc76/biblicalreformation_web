@@ -63,7 +63,7 @@ class LiteYTEmbed extends HTMLElement {
         this.needsYTApi = this.hasAttribute("js-api") || navigator.vendor.includes('Apple') || navigator.userAgent.includes('Mobi');
     }
 
-    reset(newVideoId) {
+    reset(elementId, newVideoId) {
 
         // Remove existing attributes and children
         while (this.attributes.length > 0) {
@@ -75,6 +75,7 @@ class LiteYTEmbed extends HTMLElement {
 
         // Set new video ID
         this.setAttribute('videoid', newVideoId);
+        this.setAttribute('id', elementId);
 
         // Call connectedCallback to initialize the element again
         this.connectedCallback();
