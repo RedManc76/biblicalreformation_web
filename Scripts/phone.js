@@ -139,7 +139,7 @@ document.addEventListener("DOMContentLoaded", function(event){
     }
     
     function loadVideo() {
-        document.getElementById('short_video').reset(videoFileArray[(currentIndex + 4) % videoNameArray.length]);
+        document.getElementById('short_video').reset('short_video', videoFileArray[(currentIndex + 4) % videoNameArray.length]);
     }
 
     async function playVideo() {
