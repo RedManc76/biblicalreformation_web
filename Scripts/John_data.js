@@ -127,7 +127,10 @@ document.addEventListener('DOMContentLoaded', function() {
         function change_session_video(video){
             // Find the existing lite-youtube element within the center_video_container div
             var existingLiteYouTube = $('.right_video_container lite-youtube');
-        
+
+            var mainVieo = $('.center_video_container lite-youtube');
+            mainVieo[0].pauseVideo()
+
             // Check if the existing element is found
             if (existingLiteYouTube.length > 0) {
                 // Remove the existing lite-youtube element
