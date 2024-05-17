@@ -247,7 +247,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // video edited, data complete, grammar checked
         function create_session_1(index){
 
-            add_main_video(index, "gx-T3cYDLOQ");
+            add_main_video(index, "gwahJTB150U");
             add_video_title(index, "The Word");
             add_reading(index, "John 1:1-18");
 
@@ -278,7 +278,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //redo video
         function create_session_2(index){
 
-            add_main_video(index, "");
+            add_main_video(index, "Cf0tW5g_xN0");
             add_video_title(index, "Light of the world");
             add_reading(index, "John 1:1-18");
 
@@ -322,7 +322,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // video edited, data complete, grammar checked
         function create_session_3(index){
 
-            add_main_video(index, "373W6xpofxY");
+            add_main_video(index, "Ob4VtG43m5k");
             add_video_title(index, "The plan of salvation");
             add_reading(index, "John 1:1-18");
 
@@ -355,7 +355,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // video edited, data complete, grammar checked
         function create_session_4(index){
 
-            add_main_video(index, "-eTeBP-cV3A");
+            add_main_video(index, "x8H9gIEq3f8");
             add_video_title(index, "The Word became flesh");
             add_reading(index, "John 1:1-18");
 
