@@ -278,7 +278,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //redo video
         function create_session_2(index){
 
-            add_main_video(index, "Cf0tW5g_xN0");
+            add_main_video(index, "tQnP83Yla0Q");
             add_video_title(index, "Light of the world");
             add_reading(index, "John 1:1-18");
 
@@ -394,7 +394,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // video edited, data complete, grammar checked *** link to first steps needs adding
         function create_session_5(index){
 
-            add_main_video(index, "cuAzLd0IxLY");
+            add_main_video(index, "BStOz0ccZ3Y");
             add_video_title(index, "The Lamb of God");
             add_reading(index, "John 1:19-34");
 
