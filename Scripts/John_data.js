@@ -278,46 +278,39 @@ document.addEventListener('DOMContentLoaded', function() {
         //redo video
         function create_session_2(index){
 
-            add_main_video(index, "tQnP83Yla0Q");
+            add_main_video(index, "U-2QceNd1xo");
             add_video_title(index, "Light of the world");
             add_reading(index, "John 1:1-18");
 
-            add_open_prayer(index, "");
+            add_open_prayer(index, "Almighty God, thank you for all you taught me about the Word in our last session. Please help me to see and understand more about the Word and what it all means for me. Amen.");
 
             add_watch_title(index, "Topics");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
+            add_watch_topic(index, "The creator - 0:25");
+            add_watch_topic(index, "The creation - 2:43");
+            add_watch_topic(index, "The Life - 4:25");
+            add_watch_topic(index, "The Light - 5:46");
+            add_watch_topic(index, "The menssenger - 8:09");
             add_watch_title(index, "Biblical Terms");
-            add_watch_term(index, " - ");
-            add_watch_term(index, " - ");
-            add_watch_term(index, " - ");
-            add_watch_term(index, " - ");
-            add_watch_term(index, " - ");
+            add_watch_term(index, "Prophecy: the foretelling of a future event before it has happened.");
+            add_watch_term(index, "The Word: The Word is God, one of the three divine persons of the Trinity who would take on human nature as Jesus Christ.");
 
-            add_meditate_question(index, "1. ");
-            add_meditate_question(index, "2. ");
-            add_meditate_question(index, "3. ");
-            add_meditate_question(index, "4. ");
-            add_meditate_question(index, "5. ");
-            add_meditate_question(index, "6. ");
-            add_meditate_question(index, "7. ");
-            add_meditate_question(index, "8. ");
-            add_meditate_question(index, "9. ");
-            add_meditate_question(index, "10. ");
+            add_meditate_question(index, "1. Has it occurred to you that, as God has created you, he owns you and therefore has a right to know what you have done with the life he granted you? Is this a cause for concern?");
+            add_meditate_question(index, "2. Every human being worships something. It's the one thing you love first and foremost, the primary motivation for your life. Do you worship God or something else?");
+            add_meditate_question(index, "3. Why is it that people who have everything this world can offer are the most dissatisfied and empty?");
+            add_meditate_question(index, "4. Have you considered the fact that your life is borrowed and that only God has life in himself? What are the implications of this for you?");
+            add_meditate_question(index, "5. Watch some of the videos in the further study section about the immense odds that the prophecies of the coming Word would be filfilled. Whats if anything is keeping you believing the evidence?");
+            add_meditate_question(index, "6. Why is it that God gave over 300 recorded prophecies of the Word's coming and Mohammed, Buddha, Confucius, etc. received none?");
 
             add_close_prayer(index, "");
 
             add_further_title(index, 'Links to Further Study');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
+            add_further_link(index, 'https://www.youtube.com/watch?v=x3V42MW3EjE','Worship creation not the creator');
+            add_further_link(index, 'https://www.youtube.com/watch?v=pn69quaqWO8','Worship of God');
+            add_further_link(index, 'https://www.youtube.com/watch?v=x1GgGyV8ZQc&t=188s','Hopeless Without Christ');
+            add_further_link(index, 'https://www.youtube.com/watch?v=NWaLb_-MOxI','The light of the world');
+            add_further_link(index, 'https://www.youtube.com/watch?v=2WDOOt4qZL0','Impossible odds');
+            add_further_link(index, 'https://www.youtube.com/watch?v=3gr4kn2tf_k','Odds of 48 prophecies being fulfilled');
+
         }
         // video edited, data complete, grammar checked
         function create_session_3(index){
