@@ -301,7 +301,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_meditate_question(index, "5. Watch some of the videos in the further study section about the immense odds that the prophecies of the coming Word would be filfilled. Whats if anything is keeping you believing the evidence?");
             add_meditate_question(index, "6. Why is it that God gave over 300 recorded prophecies of the Word's coming and Mohammed, Buddha, Confucius, etc. received none?");
 
-            add_close_prayer(index, "");
+            add_close_prayer(index, "Thank you, God, for making a way for the darkness that has infected humanity through our sin to be erradicated. Help me to understand what I have read today, and I ask that you come and eliminate the darkness that has control of my life. Amen.");
 
             add_further_title(index, 'Links to Further Study');
             add_further_link(index, 'https://www.youtube.com/watch?v=x3V42MW3EjE','Worship creation not the creator');
