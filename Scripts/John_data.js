@@ -192,14 +192,19 @@ document.addEventListener('DOMContentLoaded', function() {
         function add_reading(index, text){read_array[index] = text;}
         function add_open_prayer(index, text){open_prayer_array[index] = open_prayer_array[index] + "<h2 class='quote'>" + text + "</h2>";}
         function add_watch_title(index, text){watch_array[index] = watch_array[index] + "<h2 class='title'>" + text + "</h2>";}
-        //function add_watch_topic(index, text){watch_array[index] = watch_array[index] + "<h2 class='subtitle'>" + text + "</h2>";}
         function add_watch_topic(index, text){watch_array[index] = watch_array[index] + "<div><button class='video_chapter'>" + text + "</button></div>";}
         function add_watch_term(index, text){watch_array[index] = watch_array[index] + "<h2 class='quote'>" + text + "</h2>";}
         function add_meditate_question(index, text){meditate_array[index] = meditate_array[index] + "<h2 class='quote'>" + text + "</h2>";}
         function add_close_prayer(index, text){close_prayer_array[index] = close_prayer_array[index] + "<h2 class='quote'>" + text + "</h2>";}
-        function add_close_prayer_link(index, link, text){close_prayer_array[index] = close_prayer_array[index] + "<a href='" + link + "'><h2 class='link'>" + text + "</h2></a>";}
         function add_further_title(index, text){further_array[index] = further_array[index] + "<h2 class='title'>" + text + "</h2>";}
         function add_further_link(index, link, text){further_array[index] = further_array[index] + "<a href='" + link + "'><h2 class='link'>" + text + "</h2></a>";}
+        function add_close_prayer_link(index, link_desktop, link_mobile, text){
+            if (window.screen.width >= 768) {
+                close_prayer_array[index] = close_prayer_array[index] + "<a href='" + link_desktop + "'><h2 class='link'>" + text + "</h2></a>";
+            } else {
+                close_prayer_array[index] = close_prayer_array[index] + "<a href='" + link_mobile + "'><h2 class='link'>" + text + "</h2></a>";
+            }
+        }
 
         function create_session_(index){
             add_main_video(index, "");
@@ -275,7 +280,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=Doi8JxJOtgE&t=683s','Biblical Authenticity')
 
         }
-        //redo video
+        // video edited, data complete, grammar checked
         function create_session_2(index){
 
             add_main_video(index, "U-2QceNd1xo");
@@ -356,7 +361,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_watch_title(index, "Topics");
             add_watch_topic(index, "The Word became flesh - 0:25");
-            add_watch_topic(index, "Person of Jesus Christ - 5:15");
+            add_watch_topic(index, "Person of Jesus Christ - 4:05");
             add_watch_topic(index, "The Son - 6:27");
             add_watch_topic(index, "Law and Grace - 10:35");
             add_watch_topic(index, "God with us - 15:30");
@@ -414,7 +419,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_close_prayer(index, "Almighty God, thank you for sending your Son as a sacrifice for sin, so that anyone who trusts in you may recieve forgiveness of sin. Thank you that this was done for us at a great cost to yoursef. I can not even image what it would be like to give my Son up to save another person, especially those that rejected you. I want to know more of this love, help me to see it.");
             add_close_prayer(index, "There is a genuine promise from God that anone who trusts in Jesus Christ receives forgiveness for sin and the transforming power of his Holy Spirit to dwell in them. If this is something you would like from God ask him to help you to make the first steps and keep studying John");
-            add_close_prayer_link(index, '#',"click here more");
+            add_close_prayer_link(index, '../../Desktop Pages/Seek/seeking_d.html', '../../Mobile Pages/Seek/seeking.html', "click here more");
 
             add_further_title(index, 'Links to Further Study');
             add_further_link(index, 'https://www.youtube.com/playlist?list=PLZ3iRMLYFlHsHyvMtfgOgSPU6zEnCvxUO','Playlist - Types and Shadows');
@@ -426,11 +431,11 @@ document.addEventListener('DOMContentLoaded', function() {
         // video edited, data complete, grammar checked
         function create_session_6(index){
 
-            add_main_video(index, "_rx0rkBa4iY");
+            add_main_video(index, "TxHl278YFXg");
             add_video_title(index, "The Disciples");
             add_reading(index, "John 1:35-51");
 
-            add_open_prayer(index, "Have a go at praying yourself. After all, it's just speaking to God, telling him how you feel, and requesting what you need. If you don't feel comfortable yet, follow the prayer below<br>Almighty God. As I watch this next video, I ask for your help to learn more about Jesus. Help me to believe what I learn, and help me to trust you. Amen.");
+            add_open_prayer(index, "Almighty God. As I watch this next video, I ask for your help to learn more about Jesus. Help me to believe what I learn, and help me to trust you. Amen.");
             add_watch_title(index, "Topics");
             add_watch_topic(index, "The Twelve - 0:25");
             add_watch_topic(index, "The Scriptures - 1:52");
@@ -459,13 +464,13 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=gjhbhqrbAS8&t=595s','I serve a King');
             add_further_link(index, 'https://www.youtube.com/watch?v=E8jY6wJ0gwQ','The cost of not following');
         }
-        // video edited
+        // video edited, data complete, grammar checked
         function create_session_7(index){
-            add_main_video(index, "GrNhOOGNjac");
+            add_main_video(index, "TzKFo1lwrg0");
             add_video_title(index, "First Miracle");
             add_reading(index, "John 2:1-12");
 
-            add_open_prayer(index, "");
+            add_open_prayer(index, "Almighty God, as I move into chapter two, I want to thank you for all you have taught me in chapter one. Help me to continue digesting all that I have learned and open my eyes to see more of your truth in this next chapter. Amen.");
 
             add_watch_title(index, "Topics");
             add_watch_topic(index, "Miracles - 0:25");
@@ -476,27 +481,27 @@ document.addEventListener('DOMContentLoaded', function() {
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Signs - miracles of Jesus that pointed to who he said he was.");
 
-            add_meditate_question(index, "1. Why do you think people reject the miracles Jesus performed? Do they have good reason to do so, unless they first deny the existance of God?");
-            add_meditate_question(index, "2. Do you think God would have allowed Jesus to perfom miracles if he was lying about who he was?");
-            add_meditate_question(index, "3. As it stands what is your relationship with Jesus? A right and saving relationship with Jesus is our complete surrender to him.");
+            add_meditate_question(index, "1. Why do you think people reject the miracles Jesus performed? Do they have good reason to do so, unless they first deny the existence of God?");
+            add_meditate_question(index, "2. Do you think God would have allowed Jesus to perform miracles if he was lying about who he was?");
+            add_meditate_question(index, "3. As it stands, what is your relationship with Jesus? A righteous and saving relationship with Jesus is our complete surrender to him.");
             add_meditate_question(index, "4. Does Christianity seem boring, stuffy, and dull to you? It is likely that you don't know Jesus as your saviour yet.");
-            add_meditate_question(index, "5. If you feel in your heart that this world is not right? Your right to feel that but do you believe that there is a world coming that is perfect?");
+            add_meditate_question(index, "5. If you feel in your heart that this world is not right, you would be right to feel that, but do you believe that there is a world coming that is perfect?");
 
-            add_close_prayer(index, "Thank you God for Jesus Chirst and the love that he has for men and women. I am sorry that my view of him is weak and small. Help me to see how wonderful he is as I continue this study. Give me a heart to love him and the ablility to surerender every thing to him. Thank you that there is a new world coming where all that is borken in this world will be gone, help me to trust in Jesus so that I will be there with him. Amen");
+            add_close_prayer(index, "Thank you, God, for Jesus Christ and the love that he has for men and women. I am sorry that my view of him is weak and small. Help me to see how wonderful he is as I continue this study. Give me a heart to love him and the ability to surrender everything to him. Thank you that there is a new world coming where all that is broken in this world will be gone. Help me to trust in Jesus so that I will be there with him. Amen");
 
             add_further_title(index, 'Links to Further Study');
-            add_further_link(index, 'https://www.youtube.com/watch?v=y3VSIWHZtOI','Case for miracles');
+            add_further_link(index, 'https://www.youtube.com/watch?v=y3VSIWHZtOI','A case for miracles');
             add_further_link(index, 'https://www.youtube.com/watch?v=jpvfmjRUJl0','Why so few miracles today?');
             add_further_link(index, 'https://www.youtube.com/watch?v=5JQOBMi4QS8','It will cost you everything');
             add_further_link(index, 'https://www.youtube.com/watch?v=cRmWSB1c6L8','How to read the Bible');
             add_further_link(index, 'https://www.youtube.com/watch?v=5cC-1rkVvQA','Difficult Bible passages');
-            add_further_link(index, 'https://www.youtube.com/watch?v=B4mOyNIF5MQ','Can I trust my interpritation');
+            add_further_link(index, 'https://www.youtube.com/watch?v=B4mOyNIF5MQ','Can I trust my interpretation?');
             add_further_link(index, 'https://www.youtube.com/watch?v=UEd0nUAjwy4','The new creation');
 
         }
         //video recorded needs editing
         function create_session_8(index){
-            add_main_video(index, "");
+            add_main_video(index, "0fwWk9GSVP8");
             add_video_title(index, "Cleansing the Temple");
             add_reading(index, "John 2:13-25");
 
@@ -506,37 +511,35 @@ document.addEventListener('DOMContentLoaded', function() {
             add_watch_topic(index, "The Temple - 0:25");
             add_watch_topic(index, "The Sacrifice - 3:23");
             add_watch_topic(index, "Pigeons - 5:59");
-            add_watch_topic(index, "Righteous Anger - ");
-            add_watch_topic(index, "New Temple - ");
-            add_watch_topic(index, " - ");
+            add_watch_topic(index, "Righteous Anger - 7:52");
+            add_watch_topic(index, "New Temple - 12:09");
+            add_watch_topic(index, "Deceiving Heart - 15:14");
             add_watch_title(index, "Biblical Terms");
-            add_watch_term(index, "Mercy Seat - ");
-            add_watch_term(index, "Temple - ");
-            add_watch_term(index, "Holiness - ");
-            add_watch_term(index, " - ");
-            add_watch_term(index, " - ");
+            add_watch_term(index, "Mercy Seat: It is a seat that sits on top of the Ark of the Covenant, which represents the place where God would receive the sacrifices for sin and administer forgiveness.");
+            add_watch_term(index, "Temple: The centre of Jewish worship, it represented the presence of God amongst his people.");
+            add_watch_term(index, "Holiness: more than just righteousness or goodness; it is to be set apart and made fit for something or someone.");
+            add_watch_term(index, "Penal Substitution: The view that Jesus Christ was punished in our place for our sins and through which God's wrath againast us was taken by Christ and we thereby escape it");
 
-            add_meditate_question(index, "1. ");
-            add_meditate_question(index, "2. ");
-            add_meditate_question(index, "3. ");
-            add_meditate_question(index, "4. ");
-            add_meditate_question(index, "5. ");
-            add_meditate_question(index, "6. ");
-            add_meditate_question(index, "7. ");
-            add_meditate_question(index, "8. ");
-            add_meditate_question(index, "9. ");
-            add_meditate_question(index, "10. ");
+            add_meditate_question(index, "1. How amazing it is that the infinite God desire to have relationship with us his creatures? God desires to be in that relationship with you.");
+            add_meditate_question(index, "2. How terrible must our sins be if it took the death of God's own son to remove our guilt? What love must God have for us that he would be willing to do that so he could draw near to us?");
+            add_meditate_question(index, "3. Salvation is not about what we have or do but about what God has done through his son Jesus Christ. What is holding you back from coming to him?");
+            add_meditate_question(index, "4. God is angry with sin and with those who continue in their sin. What do you think about this?");
+            add_meditate_question(index, "5. If God is just, he must administer perfect justice and therefore must punish sin. If we refuse to accept the substitution of Jesus Christ on our behalf can we escape God's wrath?");
+            add_meditate_question(index, "6. What must God the Father have to have gone through to pour out his wrath on his son? How much must the Father and the Son love us?");
+            add_meditate_question(index, "7. What did the temple represent? How much better is Jesus than the temple?");
+            add_meditate_question(index, "8. If are hearts can deicieve so that we don't even know we are deceived, how can we know what is true? If God could give you a new heart that knows the truth and loves him would you take it?");
 
             add_close_prayer(index, "");
 
             add_further_title(index, 'Links to Further Study');
-            add_further_link(index, '','Temple and Jesus');
-            add_further_link(index, '','Temple Types and shadows');
             add_further_link(index, 'https://www.youtube.com/watch?v=_OsJoVZIILs','Why was the curtain torn');
             add_further_link(index, 'https://www.youtube.com/watch?v=aaTotHAYGNg','Sermon - Curtain Torn');
             add_further_link(index, 'https://www.youtube.com/watch?v=9Ty4TVoSts4','Blood sacrifices');
-            add_further_link(index, 'https://www.youtube.com/watch?v=9Ty4TVoSts4','Animal sacrifice');
-            add_further_link(index, '','');
+            add_further_link(index, 'https://www.youtube.com/watch?v=LLsWFKZo5Nw&t','Penal Substitution');
+            add_further_link(index, 'https://www.youtube.com/watch?v=QZjQe8QkV7w','How the cross works');
+            add_further_link(index, 'https://www.youtube.com/watch?v=la0SkKC091s','Objections to Penal Substitution');
+            add_further_link(index, 'https://www.youtube.com/watch?v=Q_rEZWjIEQk','Sermon - Christ our substitute');
+            add_further_link(index, 'https://www.youtube.com/watch?v=K3gNWO-Au1g','Jesus is the new temple');
         }
 
     });
