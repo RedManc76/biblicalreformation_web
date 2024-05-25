@@ -596,7 +596,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_watch_topic(index, "Condemned already - 6:51");
             add_watch_topic(index, "Hope in Christ - 9:25");
             add_watch_title(index, "Biblical Terms");
-            add_watch_term(index, "Just: Someone who always gives a law breaks their correct sentence.");
+            add_watch_term(index, "Just: Someone who always gives a lawbreaker their correct sentence.");
 
             add_meditate_question(index, "1. What can you understand about the love of God towards you from knowing that he sent his son that you might be saved?");
             add_meditate_question(index, "2. Do you feel that you deserve God's condemnation? Would it be fair for God to punish you?");
