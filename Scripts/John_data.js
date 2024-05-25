@@ -186,6 +186,8 @@ document.addEventListener('DOMContentLoaded', function() {
         create_session_6(6);
         create_session_7(7);
         create_session_8(8);
+        create_session_9(9);
+        create_session_10(10);
 
         function add_main_video(index, text){video_src_array[index] = text;}
         function add_video_title(index, text){video_title_array[index] = text;}
@@ -499,13 +501,13 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=UEd0nUAjwy4','The new creation');
 
         }
-        //video recorded needs editing
+        // video edited, data complete, grammar checked
         function create_session_8(index){
             add_main_video(index, "0fwWk9GSVP8");
             add_video_title(index, "Cleansing the Temple");
             add_reading(index, "John 2:13-25");
 
-            add_open_prayer(index, "");
+            add_open_prayer(index, "Alimighty God, please give me a clear mind and heart to receive the truth today. Help me not to rely on my own understanding of what is true and false, right and wrong, and give me a right-thinking mind and a right-feeling heart, according to your will. Amen.");
 
             add_watch_title(index, "Topics");
             add_watch_topic(index, "The Temple - 0:25");
@@ -518,18 +520,18 @@ document.addEventListener('DOMContentLoaded', function() {
             add_watch_term(index, "Mercy Seat: It is a seat that sits on top of the Ark of the Covenant, which represents the place where God would receive the sacrifices for sin and administer forgiveness.");
             add_watch_term(index, "Temple: The centre of Jewish worship, it represented the presence of God amongst his people.");
             add_watch_term(index, "Holiness: more than just righteousness or goodness; it is to be set apart and made fit for something or someone.");
-            add_watch_term(index, "Penal Substitution: The view that Jesus Christ was punished in our place for our sins and through which God's wrath againast us was taken by Christ and we thereby escape it");
+            add_watch_term(index, "Penal Substitution: The view that Jesus Christ was punished in our place for our sins and through which God's wrath againast us was taken by Christ and we thereby escape it.");
 
-            add_meditate_question(index, "1. How amazing it is that the infinite God desire to have relationship with us his creatures? God desires to be in that relationship with you.");
+            add_meditate_question(index, "1. How amazing is it that the infinite God desires to have a relationship with us, his creatures? God desires to be in that relationship with you; how does that make you feel?");
             add_meditate_question(index, "2. How terrible must our sins be if it took the death of God's own son to remove our guilt? What love must God have for us that he would be willing to do that so he could draw near to us?");
-            add_meditate_question(index, "3. Salvation is not about what we have or do but about what God has done through his son Jesus Christ. What is holding you back from coming to him?");
+            add_meditate_question(index, "3. Salvation is not about what we have or do but about what God has done through his son, Jesus Christ. What is holding you back from coming to him?");
             add_meditate_question(index, "4. God is angry with sin and with those who continue in their sin. What do you think about this?");
-            add_meditate_question(index, "5. If God is just, he must administer perfect justice and therefore must punish sin. If we refuse to accept the substitution of Jesus Christ on our behalf can we escape God's wrath?");
-            add_meditate_question(index, "6. What must God the Father have to have gone through to pour out his wrath on his son? How much must the Father and the Son love us?");
+            add_meditate_question(index, "5. If God is just, he must administer perfect justice and therefore punish sin. If we refuse to accept the substitution of Jesus Christ on our behalf, how can we escape God's wrath?");
+            add_meditate_question(index, "6. What must God the Father have gone through to pour out his wrath on his son? How much must the Father and the Son love us?");
             add_meditate_question(index, "7. What did the temple represent? How much better is Jesus than the temple?");
-            add_meditate_question(index, "8. If are hearts can deicieve so that we don't even know we are deceived, how can we know what is true? If God could give you a new heart that knows the truth and loves him would you take it?");
+            add_meditate_question(index, "8. If our hearts can deceive us so that we don't even know we are deceived, how can we know what is true? If God could give you a new heart that knows the truth and loves him, would you take it?");
 
-            add_close_prayer(index, "");
+            add_close_prayer(index, "Almighty God, thank you for sending your son to be a substitute for my sin. Help me to see just how much it cost you to do so and how much you must love me to have done this for me. If my heart has been deceived, please help me to know the truth. Amen.");
 
             add_further_title(index, 'Links to Further Study');
             add_further_link(index, 'https://www.youtube.com/watch?v=_OsJoVZIILs','Why was the curtain torn');
@@ -540,6 +542,82 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=la0SkKC091s','Objections to Penal Substitution');
             add_further_link(index, 'https://www.youtube.com/watch?v=Q_rEZWjIEQk','Sermon - Christ our substitute');
             add_further_link(index, 'https://www.youtube.com/watch?v=K3gNWO-Au1g','Jesus is the new temple');
+        }
+        // video edited, data complete, grammar checked
+        function create_session_9(index){
+            add_main_video(index, "MtmIQ4YpyXY");
+            add_video_title(index, "You must be born again");
+            add_reading(index, "John 3:1-15");
+
+            add_open_prayer(index, "Almighty God, I come again to learn from your word. Please give me the spiritual insight that I need to understand it, and not just understand it, but to have my life changed and transformed by your Holy Spirit. Amen.");
+
+            add_watch_title(index, "Topics");
+            add_watch_topic(index, "The big question - 0:25");
+            add_watch_topic(index, "Seek and Find - 1:28");
+            add_watch_topic(index, "Supernatural Book - 3:48");
+            add_watch_topic(index, "Born Again - 8:52");
+            add_watch_topic(index, "What can I do? - 11:27");
+            add_watch_topic(index, "The Serpent - 13:07");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Supernatural: some force or being that exists outside of the natural universe and is not subject to the laws of nature.");
+            add_watch_term(index, "Means of salvation: those natural processes which God uses to impart spiritual life into a human being");
+
+            add_meditate_question(index, "1. What questions are most important to you today? Will they matter on your deathbed?");
+            add_meditate_question(index, "2. Do you find Jesus Christ compelling? Why? Would you be willing to come to Jesus even if I meant being an outcast from friends and family?");
+            add_meditate_question(index, "3. Why would God give us a book that we need his help to understand? Why do men and women want to be self-reliant?");
+            add_meditate_question(index, "4. Do you feel the effects of a spiritual birth in your life? Based on what has been taught, what would that look like? Do you want it?");
+            add_meditate_question(index, "5. What are the means that God uses to save people?");
+            add_meditate_question(index, "6. Does it comfort you to know that everyone who asks will receive, and everyone who seeks will find God and his salvation? What does it encourage you to do?");
+            add_meditate_question(index, "7. Jesus, who never sinned, became sin for us so that we might receive forgiveness for our sins. What is the right response to such a kind and loving act?");
+
+            add_close_prayer(index, "Almighty God, thank you for everything you have done to make a way of salvation open to me. Please help me to continue to ask, seek, and knock until you do that work that only you can do so that I might be born again. Thank you. Amen");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=Tye19ZjLnHk&t=279s','God Speaks!');
+            add_further_link(index, 'https://www.youtube.com/watch?v=0lvGW5tw-wA','Find gold in the Bible');
+            add_further_link(index, 'https://www.youtube.com/watch?v=UGttCRpA56E','Sermon - You must be born again');
+            add_further_link(index, 'https://www.youtube.com/watch?v=9nlvj9nNVCA','Am I born again?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=YHZaoOP-DuI','Am i saved?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=Q5aFfp4-pfA','Excerpt - Serpent lifted up');
+            add_further_link(index, 'https://www.youtube.com/watch?v=5KJPjpVI7xs','Sermon - Serpent lifted up');
+        }
+
+        function create_session_10(index){
+            add_main_video(index, "JwjgfERk9ZE");
+            add_video_title(index, "God so loved the world");
+            add_reading(index, "John 3:16-21");
+
+            add_open_prayer(index, "Almighty God, Thank you for what I have learned so far. Please continue to make yourself known to me and grant me the heart to love you in the same way that you love me. Amen.");
+
+            add_watch_title(index, "Topics");
+            add_watch_topic(index, "God's Love - 0:25");
+            add_watch_topic(index, "The Son - 1:53");
+            add_watch_topic(index, "Salvation or Condemnation? - 4:48");
+            add_watch_topic(index, "Condemned already - 6:51");
+            add_watch_topic(index, "Hope in Christ - 9:25");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Just: Someone who always gives a law breaks their correct sentence.");
+
+            add_meditate_question(index, "1. What can you understand about the love of God towards you from knowing that he sent his son that you might be saved?");
+            add_meditate_question(index, "2. Do you feel that you deserve God's condemnation? Would it be fair for God to punish you?");
+            add_meditate_question(index, "3. What does it say about God's character that he would rather save men and women than condemn them? Especially when he took the condemnation himself?");
+            add_meditate_question(index, "4. If we refuse the salvation that has been purchased, what else can be left but the condemnation we deserve?");
+            add_meditate_question(index, "5. Is it a good thing for a judge to let a vile criminal escape justice? Should we not expect God to be just?");
+            add_meditate_question(index, "6. Does it concern you that if we refuse Jesus, God gives us over to the power of our sin so that it is hard to leave it and be saved? How dangerous is sin?");
+
+            add_close_prayer(index, "Almighty God, thank you that you loved the world so much that you gave what was most precious to you. I doubt I could give the person I loved most in this world to save a friend, nevermind my enemy. Help me to see the beauty of what you have done for me, and help me to love you back. Amen.");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=rhLr0gaASns','Sermon - God so love the world');
+            add_further_link(index, 'https://www.youtube.com/watch?v=QEXsi0uzhjI','The Son of God');
+            add_further_link(index, 'https://www.youtube.com/watch?v=djdEsZzEuRk','God sent his Son Part 1');
+            add_further_link(index, 'https://www.youtube.com/watch?v=uRsRl0vGKhI','God sent his Son Part 2');
+            add_further_link(index, 'https://www.youtube.com/watch?v=vU2xTTUPdlw','Justice of God');
+            add_further_link(index, 'https://www.youtube.com/watch?v=GHpYeERpZf8','Just and the justifier');
+            add_further_link(index, 'https://www.youtube.com/watch?v=IsMRIHWqQVw','God the just');
+            add_further_link(index, 'https://www.youtube.com/watch?v=NWaLb_-MOxI','Light of the World');
+            add_further_link(index, 'https://www.youtube.com/watch?v=5QqMQNPy2LU','Sermon - Death and Hell');
+            
         }
 
     });
