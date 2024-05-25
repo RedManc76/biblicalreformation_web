@@ -583,7 +583,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_10(index){
-            add_main_video(index, "JwjgfERk9ZE");
+            add_main_video(index, "2pS_zIfwIpg");
             add_video_title(index, "God so loved the world");
             add_reading(index, "John 3:16-21");
 
