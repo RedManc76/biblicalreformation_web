@@ -557,7 +557,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_watch_topic(index, "Supernatural Book - 3:48");
             add_watch_topic(index, "Born Again - 8:52");
             add_watch_topic(index, "What can I do? - 11:27");
-            add_watch_topic(index, "The Serpent - 13:07");
+            add_watch_topic(index, "The Serpent - 14:13");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Supernatural: some force or being that exists outside of the natural universe and is not subject to the laws of nature.");
             add_watch_term(index, "Means of salvation: those natural processes which God uses to impart spiritual life into a human being");
