@@ -188,6 +188,8 @@ document.addEventListener('DOMContentLoaded', function() {
         create_session_8(8);
         create_session_9(9);
         create_session_10(10);
+        create_session_11(11);
+        create_session_12(12);
 
         function add_main_video(index, text){video_src_array[index] = text;}
         function add_video_title(index, text){video_title_array[index] = text;}
@@ -199,7 +201,7 @@ document.addEventListener('DOMContentLoaded', function() {
         function add_meditate_question(index, text){meditate_array[index] = meditate_array[index] + "<h2 class='quote'>" + text + "</h2>";}
         function add_close_prayer(index, text){close_prayer_array[index] = close_prayer_array[index] + "<h2 class='quote'>" + text + "</h2>";}
         function add_further_title(index, text){further_array[index] = further_array[index] + "<h2 class='title'>" + text + "</h2>";}
-        function add_further_link(index, link, text){further_array[index] = further_array[index] + "<a href='" + link + "'><h2 class='link'>" + text + "</h2></a>";}
+        function add_further_link(index, link, text){further_array[index] = further_array[index] + "<a href='" + link + "' target='_blank'><h2 class='link'>" + text + "</h2></a>";}
         function add_close_prayer_link(index, link_desktop, link_mobile, text){
             if (window.screen.width >= 768) {
                 close_prayer_array[index] = close_prayer_array[index] + "<a href='" + link_desktop + "'><h2 class='link'>" + text + "</h2></a>";
@@ -557,7 +559,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_watch_topic(index, "Supernatural Book - 3:48");
             add_watch_topic(index, "Born Again - 8:52");
             add_watch_topic(index, "What can I do? - 11:27");
-            add_watch_topic(index, "The Serpent - 14:13");
+            add_watch_topic(index, "The Serpent - 13:07");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Supernatural: some force or being that exists outside of the natural universe and is not subject to the laws of nature.");
             add_watch_term(index, "Means of salvation: those natural processes which God uses to impart spiritual life into a human being");
@@ -596,7 +598,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_watch_topic(index, "Condemned already - 6:51");
             add_watch_topic(index, "Hope in Christ - 9:25");
             add_watch_title(index, "Biblical Terms");
-            add_watch_term(index, "Just: Someone who always gives a lawbreaker their correct sentence.");
+            add_watch_term(index, "Just: Someone who always gives a law breaks their correct sentence.");
 
             add_meditate_question(index, "1. What can you understand about the love of God towards you from knowing that he sent his son that you might be saved?");
             add_meditate_question(index, "2. Do you feel that you deserve God's condemnation? Would it be fair for God to punish you?");
@@ -620,8 +622,91 @@ document.addEventListener('DOMContentLoaded', function() {
             
         }
 
-    });
+        function create_session_11(index){
+            add_main_video(index, "Hk46ws01GmQ");
+            add_video_title(index, "Supremecy of Jesus Christ");
+            add_reading(index, "John 3:22-36");
     
+            add_open_prayer(index, "We would encourage you to continue to pray what is on your heart. Remember, God wants honesty, so our prayer needs to be real. Remember that you don't have to use special words or terms; simply speak to God as you would speak to someone else you respect. <br> In this session, we will look again at how unique Jesus is, so this could be something you might ask him to reveal to you.");
+    
+            add_watch_title(index, "Topics");
+            add_watch_topic(index, "Voice in the wilderness - 0:25");
+            add_watch_topic(index, "Purpose and Reason - 2:48");
+            add_watch_topic(index, "Unworthy - 5:03");
+            add_watch_topic(index, "Wedding Banquet - 7:28");
+            add_watch_topic(index, "Voice of the Son - 10:18");
+            add_watch_topic(index, "Trust and Obey - 11:56");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Baptism: a ritual where a person is submerged in water, which has spiritual significance.");
+            add_watch_term(index, "Christ: means the annointed one, speaking of Jesus, God's own son in human flesh.");
+    
+            add_meditate_question(index, "1. Do you instinctively feel that your life has a purpose? Why do we try to find purpose for our lives in who we are and what we do?");
+            add_meditate_question(index, "2. Have you thought that you might be created for a purpose and if so what would that purpose be?");
+            add_meditate_question(index, "3. Why did the greatest of the prophets in the Bible say he was not worthy to untie Jesus's sandels?");
+            add_meditate_question(index, "4. How wrong would it be for the best man to steal the show at a wedding? How much more is it for a created being to promote themselves instead of their creator, for whom they were made?");
+            add_meditate_question(index, "5. If it is important to listen to God's word through the prophets, how much more important should we listen to his son?");
+            add_meditate_question(index, "6. What does it mean to trust Jesus?");
+    
+            add_close_prayer(index, "A good way to end in prayer is to thank God and ask him to help you understand and apply what you have learned<br><br>It would be good to thank God for not only sending prophets but actually sending his son and that he might help you to believe and be saved");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=s2XZv8LRHzc','John the Baptist');
+            add_further_link(index, 'https://www.youtube.com/watch?v=PLMIg1It0QQ','Enjoying God');
+            add_further_link(index, 'https://www.youtube.com/watch?v=AvATLgcM9gA','Enjoying and Glorfiying');
+            add_further_link(index, 'https://www.youtube.com/watch?v=pMzqA4XNxtw','Evolution Problems');
+            add_further_link(index, 'https://www.youtube.com/watch?v=VrIvwPConv0','Problems with Atheism');
+            add_further_link(index, 'https://www.youtube.com/watch?v=ZUS9LoalUu4','Freedom from the Self-Focused Life');
+            add_further_link(index, 'https://www.youtube.com/watch?v=eW7qqn8D4pE','Sermon - The Glory of God Through Man');
+            add_further_link(index, 'https://www.youtube.com/watch?v=XMKstKGPmjA','Sermon - Do you want to hear God speak?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=xuXO82T7Kpo','What is faith?');
+        }
+        
+        function create_session_12(index){
+            add_main_video(index, "");
+            add_video_title(index, "Women at the Well part 1");
+            add_reading(index, "");
+    
+            add_open_prayer(index, "");
+    
+            add_watch_title(index, "Topics");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, ": ");
+            add_watch_term(index, ": ");
+            add_watch_term(index, ": ");
+            add_watch_term(index, ": ");
+            add_watch_term(index, ": ");
+    
+            add_meditate_question(index, "1. ");
+            add_meditate_question(index, "2. ");
+            add_meditate_question(index, "3. ");
+            add_meditate_question(index, "4. ");
+            add_meditate_question(index, "5. ");
+            add_meditate_question(index, "6. ");
+            add_meditate_question(index, "7. ");
+            add_meditate_question(index, "8. ");
+            add_meditate_question(index, "9. ");
+            add_meditate_question(index, "10. ");
+    
+            add_close_prayer(index, "");
+    
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+        }   
+
+    });
+
+
 });  
 
 var open_prayer_array = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""];
