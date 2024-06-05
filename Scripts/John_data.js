@@ -662,46 +662,46 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         function create_session_12(index){
-            add_main_video(index, "");
+            add_main_video(index, "81fwwDEWx_o");
             add_video_title(index, "Women at the Well part 1");
-            add_reading(index, "");
+            add_reading(index, "John 4:1-45");
     
-            add_open_prayer(index, "");
+            add_open_prayer(index, "As you learn to pray, it is always good to start our prayers by acknowledging who God is. You have learned a fair bit about this over the last eleven sessions. Why don't you start today by acknowledging who God is and asking him to reveal more of himself?<br>In this session, we are going to look at the kindness of Jesus and how he can sympathise with our weaknesses. Also, we will start to look at what true worship is.");
     
             add_watch_title(index, "Topics");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
+            add_watch_topic(index, "Meeting at the well - 0:25");
+            add_watch_topic(index, "God who sympathizes - 3:09");
+            add_watch_topic(index, "Living Water - 5:39");
+            add_watch_topic(index, "An immoral women - 8:38");
+            add_watch_topic(index, "True worship - 11:01");
             add_watch_title(index, "Biblical Terms");
-            add_watch_term(index, ": ");
-            add_watch_term(index, ": ");
-            add_watch_term(index, ": ");
-            add_watch_term(index, ": ");
-            add_watch_term(index, ": ");
+            add_watch_term(index, "Holy Spirit: third person of the Godhead, God is one but subsists in three distinct person, Father, Son (Jesus) and Holy Spirit.");
+            add_watch_term(index, "Living Water: the gift of the Holy Spirit.");
+            add_watch_term(index, "Born Again: God granting Spiritual life and giving new desires and longings.");
     
-            add_meditate_question(index, "1. ");
-            add_meditate_question(index, "2. ");
-            add_meditate_question(index, "3. ");
-            add_meditate_question(index, "4. ");
-            add_meditate_question(index, "5. ");
-            add_meditate_question(index, "6. ");
-            add_meditate_question(index, "7. ");
-            add_meditate_question(index, "8. ");
-            add_meditate_question(index, "9. ");
-            add_meditate_question(index, "10. ");
+            add_meditate_question(index, "1. Why is it that the Bible is archaeologically and historically accurate where other religious texts aren't?");
+            add_meditate_question(index, "2. God doesn't look at people in the same way the world does. He's not impressed with the rich and powerful but seeks out the lowly and downtrodden. How does this make you feel?");
+            add_meditate_question(index, "3. As Jesus became a man and suffered in the same way we do, do you feel like he understands your trials and suffering? Does this encourage you to come to him?");
+            add_meditate_question(index, "4. Think about all the gifts that God gives those who come to his Son: escape from judgement, eternal life, joys of heaven, forgiveness of sins, peace with God, adoption into his family, and many more. Could there be a better gift than God coming and living within us as a friend, helper, encourager, guide, and sustainer? Do you not desire this gift? Is it worth keeping hold of your sin and missing out on this gift?");
+            add_meditate_question(index, "5. Do you feel that something is missing—that peace and satisfaction that the world cannot grant? Do you believe that this can be found in Jesus Christ?");
+            add_meditate_question(index, "6. Do you think you're beyond God's salvation? What does this account teach us about this?");
+            add_meditate_question(index, "7. Do you think that religion is just going through religious duties? If this seems pointless, you would be right.");
+            add_meditate_question(index, "8. A relationship based on just doing things for each other is a shallow one; a relationship should be based on love for the other person. How much more should this apply to our relationship with God?");
     
-            add_close_prayer(index, "");
+            add_close_prayer(index, "If we truly get to grips with the kindness of God towards us and his ability to truly understand our problems from the perspective of one who has suffered along with us, it will change our lives. Ask God to reveal this more clearly, and thank him for what he has done.");
     
             add_further_title(index, 'Links to Further Study');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
+            add_further_link(index, 'https://www.youtube.com/@ExpeditionBible','Biblical Historicity');
+            add_further_link(index, 'https://www.youtube.com/watch?v=Vq2KAlCR14Q','God providence');
+            add_further_link(index, 'https://www.youtube.com/watch?v=tnu7mCsZ8Kw','God Ordains Whatsoever Comes to Pass');
+            add_further_link(index, 'https://www.youtube.com/watch?v=24r4OwDIW2Y','Does God Control All Things');
+            add_further_link(index, 'https://www.youtube.com/watch?v=M2VJelWl_Fs','God Can Sympathize');
+            add_further_link(index, 'https://www.youtube.com/watch?v=Mc4B7dS9a88','Helps us in our weakness');
+            add_further_link(index, 'https://www.youtube.com/watch?v=kDxYyXKUUv0','Sermon - Who is the Holy Spirit');
+            add_further_link(index, 'https://www.youtube.com/watch?v=RCPozrJSBwg','Want the Spirit?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=J2sd7RrpccQ','He chooses the weak');
+            add_further_link(index, 'https://www.youtube.com/watch?v=OaDTHqPuwb8','Worship in Spirit and truth');
+            add_further_link(index, 'https://www.youtube.com/watch?v=Dy8ZEA4TGbk','Sermon - Worship in Spirit and truth');
         }   
 
     });
