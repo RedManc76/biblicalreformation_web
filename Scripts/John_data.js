@@ -190,6 +190,7 @@ document.addEventListener('DOMContentLoaded', function() {
         create_session_10(10);
         create_session_11(11);
         create_session_12(12);
+        create_session_13(13);
 
         function add_main_video(index, text){video_src_array[index] = text;}
         function add_video_title(index, text){video_title_array[index] = text;}
@@ -703,6 +704,87 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=OaDTHqPuwb8','Worship in Spirit and truth');
             add_further_link(index, 'https://www.youtube.com/watch?v=Dy8ZEA4TGbk','Sermon - Worship in Spirit and truth');
         }   
+
+        function create_session_13(index){
+            add_main_video(index, "sUJX8ZvSKuE");
+            add_video_title(index, "Women at the Well part 2");
+            add_reading(index, "John 4:1-45");
+
+            add_open_prayer(index, "Start by acknowledging God's goodness and thanking him for what he has already done. Then ask him for help understanding what you are about to learn. <br> In this session, we are going to look at the extent of the kingdom, the dangers of sin, and the task that God has for your life.");
+
+            add_watch_title(index, "Topics");
+            add_watch_topic(index, "The Messiah - 0:25");
+            add_watch_topic(index, "Expanding Kingdom - 3:35");
+            add_watch_topic(index, "Spiritual Cancer - 6:29");
+            add_watch_topic(index, "Will of the Father - 7:50");
+            add_watch_topic(index, "Harvest of Souls - 10:25");
+            add_watch_topic(index, "See for yourself - 12:40");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Jews are the people of God, naturally descended from Abraham, Isaac, and Jacob.");
+            add_watch_term(index, "Gentiles: none of the Jewish people, i.e., the rest of the world.");
+            add_watch_term(index, "Self Righteousness: thinking that oneself is good and pleasing to God in and of themselves");
+
+            add_meditate_question(index, "1. Jesus crossed cultural boundaries to bring the good news of salvation to them. Are there any boundaries that exist that would keep you from Jesus? If so, do you think they are a problem for Jesus?");
+            add_meditate_question(index, "2. God hates self-righteousness and self-righteous religion, thinking that God is for us because of anything we are or have done. If anyone is considered right before God, it is based entirely on what Jesus has done for them. Do you think you are good enough for God? If so, this attitude needs to go before you can come to him.");
+            add_meditate_question(index, "3. Have you thought that sin is a spiritual cancer and far more dangerous?");
+            add_meditate_question(index, "4. Doing his Father's will brought Jesus the most joy, and we were created to find our greatest joy in obeying God. This is the Father's will for your life: that you will trust his son and live for him. What is stopping you from coming to him and experiencing this joy?");
+            add_meditate_question(index, "5. God doesn't just want to save you; he wants to use you to save others. Would this not be the greatest thing you could give your life to?");
+
+            add_close_prayer(index, "Ask God to help you see the joy of a relationship with him. Ask him to help you see the dangers of sin and the cure that Jesus purchased on the cross. If you desire it, ask him to grant you the cure and the ability to trust in him. Finish by thanking him for making salvation possible.");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=TzPsa35Uhn4','Is Jesus the messiah');
+            add_further_link(index, 'https://www.youtube.com/watch?v=O11Br4lr3Qw','The Mystery of the Messiah');
+            add_further_link(index, 'https://www.youtube.com/watch?v=DgTTLDuL9TY','Sermon - Prophet, Priest, and King');
+            add_further_link(index, 'https://www.youtube.com/watch?v=EQJlGFBXyx8','Salvation for all');
+            add_further_link(index, 'https://www.youtube.com/watch?v=0xP0K2GkBn4','Sermon - A Blow to Self Righteousness');
+            add_further_link(index, 'https://www.youtube.com/watch?v=dZEX3Jsg1sY','Saved From Self Righteousness');
+            add_further_link(index, 'https://www.youtube.com/watch?v=N1QL-4oEx34','Saved from spirtual cancer');
+            add_further_link(index, 'https://www.youtube.com/watch?v=0w6fD8fyASo','Joy in God');
+        }
+
+        function create_session_20(index){
+            add_main_video(index, "");
+            add_video_title(index, "");
+            add_reading(index, "");
+
+            add_open_prayer(index, "Start including scripture about prayer");
+
+            add_watch_title(index, "Topics");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, ": ");
+            add_watch_term(index, ": ");
+            add_watch_term(index, ": ");
+            add_watch_term(index, ": ");
+            add_watch_term(index, ": ");
+
+            add_meditate_question(index, "1. ");
+            add_meditate_question(index, "2. ");
+            add_meditate_question(index, "3. ");
+            add_meditate_question(index, "4. ");
+            add_meditate_question(index, "5. ");
+            add_meditate_question(index, "6. ");
+            add_meditate_question(index, "7. ");
+            add_meditate_question(index, "8. ");
+            add_meditate_question(index, "9. ");
+            add_meditate_question(index, "10. ");
+
+            add_close_prayer(index, "");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+        }
 
     });
 
