@@ -191,6 +191,7 @@ document.addEventListener('DOMContentLoaded', function() {
         create_session_11(11);
         create_session_12(12);
         create_session_13(13);
+        create_session_14(14);
 
         function add_main_video(index, text){video_src_array[index] = text;}
         function add_video_title(index, text){video_title_array[index] = text;}
@@ -741,6 +742,42 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=dZEX3Jsg1sY','Saved From Self Righteousness');
             add_further_link(index, 'https://www.youtube.com/watch?v=N1QL-4oEx34','Saved from spirtual cancer');
             add_further_link(index, 'https://www.youtube.com/watch?v=0w6fD8fyASo','Joy in God');
+        }
+
+        function create_session_14(index){
+            add_main_video(index, "Second Sign");
+            add_video_title(index, "HrU3BAvQrps");
+            add_reading(index, "John 4:46-54");
+
+            add_open_prayer(index, "Again, start by acknowledging God's goodness and thanking him for what he has already done. Then ask him for help understanding what you are about to learn. <br> In this session, we are going to look at the proper way of interpreting difficult bible passages, God being in control, and Jesus power over death.");
+
+            add_watch_title(index, "Topics");
+            add_watch_topic(index, "Compassion? - 0:25");
+            add_watch_topic(index, "Interpretation - 2:04");
+            add_watch_topic(index, "On his throne - 5:18");
+            add_watch_topic(index, "Priorities - 7:18");
+            add_watch_topic(index, "Exemplary belief - 10:54");
+            add_watch_topic(index, "Death must flee - 12:33");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Hermeneutics:  the theory and methodology of interpretation");
+
+            add_meditate_question(index, "1. What should we do if we come across difficult biblical passages?");
+            add_meditate_question(index, "2. Is it more likely that we or God are to blame when we come across things in scripture that we disagree with?");
+            add_meditate_question(index, "3. What is more important than the death of a child? What about where a person will spend eternity?");
+            add_meditate_question(index, "4. How does it make you feel that God isn't running around heaven trying to solve one problem after another?");
+            add_meditate_question(index, "5. God sits on his throne, never flustered or surprised, and everything he plans will come to fruition. Could you trust such a God with your life?");
+            add_meditate_question(index, "6. Without witnessing Jesus' miracles firsthand, can you trust his word when he says, 'All who come to me will be saved'?");
+            add_meditate_question(index, "7. Is there something in your life that you believe is too difficult for Jesus? Is this going to put you off approaching him? Has this story changed your mind?");
+
+            add_close_prayer(index, "Ask God to help you correctly interpret scripture, especially when the passage appears difficult to understand. Ask him to show you how powerful he is and how he has everything under control. Ask him to help you trust him.Ask him to remove anything in your life that prevents you from trusting in him and receiving salvation. ");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=-Wvt8LTAdaw','Basic heurmenutics');
+            add_further_link(index, 'https://www.youtube.com/watch?v=L2_4TWZBc54','Sermon : How Should We Interpret the Bible?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=9e8_CClvTXY','Sermon : Interpreting the Bible');
+            add_further_link(index, 'https://www.thegospelcoalition.org/essay/interpreting-scripture-a-general-introduction/','Aritcle Bible Interpretation');
+            add_further_link(index, 'https://www.youtube.com/watch?v=y8xBngE-vbY','Sermon : Our Sovereign God');
+            add_further_link(index, 'https://www.youtube.com/watch?v=VygpRDmesJA','Sermon : Christ is Sufficient for All Your Crises');
         }
 
         function create_session_20(index){
