@@ -745,8 +745,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_14(index){
-            add_main_video(index, "Second Sign");
-            add_video_title(index, "HrU3BAvQrps");
+            add_main_video(index, "HrU3BAvQrps");
+            add_video_title(index, "Second Sign");
             add_reading(index, "John 4:46-54");
 
             add_open_prayer(index, "Again, start by acknowledging God's goodness and thanking him for what he has already done. Then ask him for help understanding what you are about to learn. <br> In this session, we are going to look at the proper way of interpreting difficult bible passages, God being in control, and Jesus power over death.");
