@@ -192,6 +192,7 @@ document.addEventListener('DOMContentLoaded', function() {
         create_session_12(12);
         create_session_13(13);
         create_session_14(14);
+        create_session_15(15);
 
         function add_main_video(index, text){video_src_array[index] = text;}
         function add_video_title(index, text){video_title_array[index] = text;}
@@ -779,6 +780,49 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=y8xBngE-vbY','Sermon : Our Sovereign God');
             add_further_link(index, 'https://www.youtube.com/watch?v=VygpRDmesJA','Sermon : Christ is Sufficient for All Your Crises');
         }
+
+        function create_session_15(index){
+            add_main_video(index, "zUMScsCpLJI");
+            add_video_title(index, "The ungrateful beggar");
+            add_reading(index, "John 5:1-18");
+
+            add_open_prayer(index, "Continue to thank God for what he has and is doing in your life, particularly in regards to your relationship with him. Ask him for help understanding what you are about to learn. <br> In this session, we will see Jesus's compassion, learn about the Sabbath, see how false religion keeps us away from God, and receive a warning against rejection of Jesus and ingratitude.");
+
+            add_watch_title(index, "Topics");
+            add_watch_topic(index, "Pool of Bethesda - 0:25");
+            add_watch_topic(index, "Singled out - 2:21");
+            add_watch_topic(index, "The Sabbath - 5:14");
+            add_watch_topic(index, "Self Righteousness - 9:39");
+            add_watch_topic(index, "Ingratitude - 13:05");
+            add_watch_topic(index, "The warning - 15:13");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Sabbath: instituted by God as a day of rest for his people");
+
+            add_meditate_question(index, "1. We've thought about it before, but it's worth remembering that Jesus suffered just like us, so he might be a better friend and comforter in your hour of need. Is it comforting to know that God truly cares?");
+            add_meditate_question(index, "2. Do you really feel the destructive power of sin? Do you think you can solve the problem yourself, or is it not a problem at all?");
+            add_meditate_question(index, "3. Do you believe that by watching this video, God has chosen you to hear the good news of His redeeming love? Will you not approach him on that basis?");
+            add_meditate_question(index, "4. Is it not gracious of God to give us rest from our physical labours? How much more significant is it that God, through his Son, has given us rest from our spiritual attempts to restore our relationship with him? ");
+            add_meditate_question(index, "5. Why do people use religion to make peace with God when Jesus Christ has already done so?");
+            add_meditate_question(index, "6. How thankful are we to God? Do we reflect on everything he has accomplished and give him the praise and thanks he deserves? He gives us everything good in life and has made it possible for us to escape death and hell. ");
+            add_meditate_question(index, "7. What kind of ingratitude is demonstrated when we reject God's Son, who paid a terrible price to save us? Can you understand how serious this sin is?");
+            add_meditate_question(index, "8. Why did God warn the man? What was the consequence of not heeding this warning? Will there be consequences for us if we ignore God's warnings?");
+
+            add_close_prayer(index, "Thank God for his compassion and for choosing you to hear his offer of salvation. Ask that he keep you from false religion and self-righteousness. Ask him to help you take his warning seriously and to give you a grateful and thankful heart.");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=V4uAEDPztmk','Compassion of Jesus');
+            add_further_link(index, 'https://www.youtube.com/watch?v=5YYVAdVpWvc','Sermon : The Inescapable Corruption of Sin');
+            add_further_link(index, 'https://www.youtube.com/watch?v=14-kR4TvyLs','Sermon : Damning power of false religion');
+            add_further_link(index, 'https://www.youtube.com/watch?v=Aq674KVVhyg',"Sermon : God's Electing Love");
+            add_further_link(index, 'https://www.youtube.com/watch?v=wj69iufhzhw',"Sabbath explained");
+            add_further_link(index, 'https://www.youtube.com/watch?v=WVpTf2HBz1A','Sermon : understanding the Sabbath');
+            add_further_link(index, 'https://www.youtube.com/watch?v=dZEX3Jsg1sY','Saved From Self Righteousness');
+            add_further_link(index, 'https://www.youtube.com/watch?v=1FIGuLp8L-s','All of us are ungrateful');
+            add_further_link(index, 'https://www.youtube.com/watch?v=U5HCcgoGUw4','What does the Bible say about ingratitude');
+            add_further_link(index, 'https://www.youtube.com/watch?v=FmaYSxu1oVE',"Do not scoff at God's warning");
+        }
+
+        
 
         function create_session_20(index){
             add_main_video(index, "");
