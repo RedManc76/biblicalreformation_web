@@ -831,15 +831,15 @@ document.addEventListener('DOMContentLoaded', function() {
             add_video_title(index, "Son of the Father");
             add_reading(index, "John 5:1-29");
 
-            add_open_prayer(index, "Thank God you are still here and watching these videos. If you have come to know his love and kindness over these sessions, now would be a good time to thank him again for this. <br> In this session, we will look at Jesus claim to be God and why this is important. Also, we will look at the resurrection of the dead and the purpose for which you were created.");
+            add_open_prayer(index, "It would be well to thank God you are still here and watching these videos. If you have come to know his love and kindness over these sessions, now would be a good time to thank him again for this. <br> In this session, we will look at Jesus claim to be God and why this is important. Also, we will look at the resurrection of the dead and the purpose for which you were created.");
 
             add_watch_title(index, "Topics");
             add_watch_topic(index, "Son of the Father - 0:25");
             add_watch_topic(index, "Image and Honour - 4:04");
             add_watch_topic(index, "Undeniable Claim - 6:22");
             add_watch_topic(index, "Spiritual life - 9:24");
-            add_watch_topic(index, "Restoration - 12:30");
-            add_watch_topic(index, "The Fathers love - 15:35");
+            add_watch_topic(index, "Restoration - 12:27");
+            add_watch_topic(index, "The Fathers love - 15:32");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Blasphemy: making a claim that you are God when your just a man");
 
