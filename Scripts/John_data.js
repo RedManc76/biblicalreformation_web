@@ -193,6 +193,7 @@ document.addEventListener('DOMContentLoaded', function() {
         create_session_13(13);
         create_session_14(14);
         create_session_15(15);
+        create_session_16(16);
 
         function add_main_video(index, text){video_src_array[index] = text;}
         function add_video_title(index, text){video_title_array[index] = text;}
@@ -790,7 +791,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_watch_title(index, "Topics");
             add_watch_topic(index, "Pool of Bethesda - 0:25");
-            add_watch_topic(index, "Singled out - 2:21");
+            add_watch_topic(index, "Singled out - 2:20");
             add_watch_topic(index, "The Sabbath - 5:14");
             add_watch_topic(index, "Self Righteousness - 9:39");
             add_watch_topic(index, "Ingratitude - 13:05");
@@ -815,13 +816,56 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=14-kR4TvyLs','Sermon : Damning power of false religion');
             add_further_link(index, 'https://www.youtube.com/watch?v=Aq674KVVhyg',"Sermon : God's Electing Love");
             add_further_link(index, 'https://www.youtube.com/watch?v=wj69iufhzhw',"Sabbath explained");
+            add_further_link(index, 'https://www.youtube.com/watch?v=3-8bODKmo_E',"Goal of creation");
             add_further_link(index, 'https://www.youtube.com/watch?v=WVpTf2HBz1A','Sermon : understanding the Sabbath');
             add_further_link(index, 'https://www.youtube.com/watch?v=dZEX3Jsg1sY','Saved From Self Righteousness');
             add_further_link(index, 'https://www.youtube.com/watch?v=1FIGuLp8L-s','All of us are ungrateful');
             add_further_link(index, 'https://www.youtube.com/watch?v=U5HCcgoGUw4','What does the Bible say about ingratitude');
             add_further_link(index, 'https://www.youtube.com/watch?v=FmaYSxu1oVE',"Do not scoff at God's warning");
+
+            
         }
 
+        function create_session_16(index){
+            add_main_video(index, "LVVjizc1_-c");
+            add_video_title(index, "Son of the Father");
+            add_reading(index, "John 5:1-29");
+
+            add_open_prayer(index, "Thank God you are still here and watching these videos. If you have come to know his love and kindness over these sessions, now would be a good time to thank him again for this. <br> In this session, we will look at Jesus claim to be God and why this is important. Also, we will look at the resurrection of the dead and the purpose for which you were created.");
+
+            add_watch_title(index, "Topics");
+            add_watch_topic(index, "Son of the Father - 0:25");
+            add_watch_topic(index, "Image and Honour - 4:04");
+            add_watch_topic(index, "Undeniable Claim - 6:22");
+            add_watch_topic(index, "Spiritual life - 9:24");
+            add_watch_topic(index, "Restoration - 12:30");
+            add_watch_topic(index, "The Fathers love - 15:35");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Blasphemy: making a claim that you are God when your just a man");
+
+            add_meditate_question(index, "1. If the people Jesus spoke to in his day knew he was claiming to be God, what evidence do we have today to suggest that he wasn't? ");
+            add_meditate_question(index, "2. Jesus claimed to be God, which is undeniable. Was he a liar who falsely claimed to be God, a madman who believed he was God but wasn't, or was he telling the truth and was God?");
+            add_meditate_question(index, "3. If you believe Jesus was who he claimed to be, then everything else he said must be true. What will you do about his claim that, unless you come to him, you will perish in Hell?");
+            add_meditate_question(index, "4. You can receive eternal life today, which will carry you through death and keep you free from the upcoming judgement. What's keeping you from receiving it?");
+            add_meditate_question(index, "5. We are all sinners and criminals under God's law, and there will come a day when you will be found guilty and cast into Hell for all eternity. Your primary need today is to avoid that judgement. The life that is found in Jesus Christ is able to do that for you; will you not have it?");
+            add_meditate_question(index, "6. There will be a great resurrection of all who have ever lived, some to eternal damnation and some to eternal life. Life and death are before you today; which will you choose?");
+            add_meditate_question(index, "7. It is difficult for us to accept that we exist for the benefit of another rather than for ourselves. Our goal is not ourselves, but Jesus Christ. Many people can't bear it and would rather go to Hell than live on that basis, but even there, they will exist solely for his glory. How about you?");
+
+            add_close_prayer(index, "Thank God for life and what he has done to rescue us from hell. Thank him for the new resurrection life that awaits those who trust in him. If you've still not come to him and trusted him for salvation, ask him to help you do that.");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=aTToBMda3VE','Understanding the Trinity');
+            add_further_link(index, 'https://www.youtube.com/playlist?list=PLxaDcwyjYomyL3-dlgZ1qqjeo7vJaKBT7','Playlist - Indepth look at the Trinity');
+            add_further_link(index, 'https://www.youtube.com/watch?v=wpTpc8H0XHw','Sermon - Startling Claim');
+            add_further_link(index, 'https://www.youtube.com/watch?v=hklLnO47APs','Liar, Lunatic or Lord');
+            add_further_link(index, 'https://www.youtube.com/watch?v=Sq98kwep_a4','Sermon - Liar, Lunatic, or Lord?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=QxKRH-9IRCg','Sermon - The Truth About Death');
+            add_further_link(index, 'https://www.youtube.com/watch?v=Bmr2j-H0O4M','Sermon - From Death to Life');
+            add_further_link(index, 'https://www.youtube.com/watch?v=Ai4AHSsdNp0','The Hope of the Resurrection');
+            add_further_link(index, 'https://www.youtube.com/watch?v=gs5VzPK8rw0','Heaven and the New Earth');
+            add_further_link(index, 'https://www.youtube.com/watch?v=GCXgMpy_WKc','Why God Created Us');
+            add_further_link(index, 'https://www.youtube.com/watch?v=S-LRBZKGhe0','What Is God’s Glory?');
+        }
         
 
         function create_session_20(index){
