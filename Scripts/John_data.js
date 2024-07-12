@@ -194,6 +194,7 @@ document.addEventListener('DOMContentLoaded', function() {
         create_session_14(14);
         create_session_15(15);
         create_session_16(16);
+        create_session_17(17);
 
         function add_main_video(index, text){video_src_array[index] = text;}
         function add_video_title(index, text){video_title_array[index] = text;}
@@ -867,6 +868,43 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=S-LRBZKGhe0','What Is God’s Glory?');
         }
         
+        function create_session_17(index){
+            add_main_video(index, "MOhADAYg080");
+            add_video_title(index, "Fourfold witness");
+            add_reading(index, "John 5:30-47");
+
+            add_open_prayer(index, "In this session, we'll look at more evidence that Jesus is who he claims. Ask God for an open mind so that you can evaluate the evidence on its own merits rather than rejecting it because of preconceived notions about who Jesus is. ");
+
+            add_watch_title(index, "Topics");
+            add_watch_topic(index, "Fourfold Witness - 0:25");
+            add_watch_topic(index, "Witness One - 2:38");
+            add_watch_topic(index, "Witness Two - 5:15");
+            add_watch_topic(index, "Witness Three - 8:25");
+            add_watch_topic(index, "Rejected - 10:28");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Scripture: Holy writings, The Bible.");
+
+            add_meditate_question(index, "1. Why do you believe God gave us so much evidence to support Jesus' claim to be God?");
+            add_meditate_question(index, "2. Why are Jesus' claims to be God superior to those made by others?");
+            add_meditate_question(index, "3. How much worse would it be to reject Jesus with so much evidence compared to those who had less?");
+            add_meditate_question(index, "4. Do you think people reject Jesus based on preconceived notions or evidence? How about you?");
+            add_meditate_question(index, "5. Why didn't even Jesus' critics deny his miracles?");
+            add_meditate_question(index, "6. If Jesus was a liar, why would God use powerful miracles to authenticate his ministry?");
+            add_meditate_question(index, "7. Have you ever read the Bible to find Jesus Christ? What is preventing you from starting today?");
+            add_meditate_question(index, "8. Is a relationship based solely on what we can get from someone a love relationship? Would you expect the eternal God to be treated this way?");
+            add_meditate_question(index, "9. Are you willing to have God even if it means giving up everything else?");
+
+            add_close_prayer(index, "Thank God for all of the evidence he has provided for us to evaluate Jesus' claims, and if you haven't come to Jesus yet, ask God to show you what is keeping you from him. Request that he remove any obstacles that are preventing you from connecting with him. ");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=iKU3ZcTc38s','Sermon - Deity of Christ, P1');
+            add_further_link(index, 'https://www.youtube.com/watch?v=IjhS5h0dTgw','Sermon - Deity of Christ, P2');
+            add_further_link(index, 'https://www.youtube.com/watch?v=zwgpAmMezYI','Sermon - Ministry of John Baptist');
+            add_further_link(index, 'https://www.youtube.com/watch?v=y3VSIWHZtOI','The Case for Miracles');
+            add_further_link(index, 'https://www.youtube.com/watch?v=ev4FoslmUj8','Are Miracles Possible?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=WWlpQauXiTU&list=PLZ3iRMLYFlHsHyvMtfgOgSPU6zEnCvxUO','Playlist - Jesus in Old Testament');
+            add_further_link(index, 'https://www.youtube.com/watch?v=qBviSLOhp1w','The will of the Father');
+        }
 
         function create_session_20(index){
             add_main_video(index, "");
