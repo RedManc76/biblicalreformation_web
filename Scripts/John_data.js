@@ -195,6 +195,7 @@ document.addEventListener('DOMContentLoaded', function() {
         create_session_15(15);
         create_session_16(16);
         create_session_17(17);
+        create_session_18(18);
 
         function add_main_video(index, text){video_src_array[index] = text;}
         function add_video_title(index, text){video_title_array[index] = text;}
@@ -213,49 +214,6 @@ document.addEventListener('DOMContentLoaded', function() {
             } else {
                 close_prayer_array[index] = close_prayer_array[index] + "<a href='" + link_mobile + "'><h2 class='link'>" + text + "</h2></a>";
             }
-        }
-
-        function create_session_(index){
-            add_main_video(index, "");
-            add_video_title(index, "");
-            add_reading(index, "");
-
-            add_open_prayer(index, "");
-
-            add_watch_title(index, "Topics");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
-            add_watch_title(index, "Biblical Terms");
-            add_watch_term(index, ": ");
-            add_watch_term(index, ": ");
-            add_watch_term(index, ": ");
-            add_watch_term(index, ": ");
-            add_watch_term(index, ": ");
-
-            add_meditate_question(index, "1. ");
-            add_meditate_question(index, "2. ");
-            add_meditate_question(index, "3. ");
-            add_meditate_question(index, "4. ");
-            add_meditate_question(index, "5. ");
-            add_meditate_question(index, "6. ");
-            add_meditate_question(index, "7. ");
-            add_meditate_question(index, "8. ");
-            add_meditate_question(index, "9. ");
-            add_meditate_question(index, "10. ");
-
-            add_close_prayer(index, "");
-
-            add_further_title(index, 'Links to Further Study');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
         }
 
         // video edited, data complete, grammar checked
@@ -906,12 +864,95 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=qBviSLOhp1w','The will of the Father');
         }
 
+        function create_session_18(index){
+            add_main_video(index, "aX-fy6dth_M");
+            add_video_title(index, "The God Man");
+            add_reading(index, "John 6:1-21");
+
+            add_open_prayer(index, "In this session, we will see some more miracles that Jesus performed, pointing to who he is. Ask God to help you see who Jesus is and what his miracles say about him. Ask him to give you an open mind and to think beyond the rationalism and scepticism in today's world.");
+
+            add_watch_title(index, "Topics");
+            add_watch_topic(index, "The Mystery - 0:25");
+            add_watch_topic(index, "Incarnate Son - 2:00");
+            add_watch_topic(index, "Implausible - 4:36");
+            add_watch_topic(index, "Water walker - 7:47");
+            add_watch_topic(index, "Fear now - 9:43");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Eternally begotten: the reationship of God the Son to God the Father");
+            add_watch_term(index, "Precede: The relationship between God the Spiriit and the Father and the Son");
+
+            add_meditate_question(index, "1. Does the fact that God, in his fullness, is beyond our understanding make you more or less likely to trust in him? Why?");
+            add_meditate_question(index, "2. Do you think it is possible for an all-powerful God to dwell in a human being? Why?");
+            add_meditate_question(index, "3. Do you think that the God of the Bible is the product of the human imagination? Why?");
+            add_meditate_question(index, "4. Does the mystery of God cause you to seek him more?");
+            add_meditate_question(index, "5. Does an easily comprehensible God make it more or less likely to be the true God?");
+            add_meditate_question(index, "6. Why do you think people deny Jesus's miracles?");
+            add_meditate_question(index, "7. Knowing Jesus is the most wonderful thing a human being can experience, what would you be willing to give up for it?");
+            add_meditate_question(index, "8. Do you fear God? Why? Should you fear God?");
+
+            add_close_prayer(index, "Thank God that he became a man and used his power to save and rescue lost sinners. Ask God to give you a godly fear that will cause you to run to him for safety. Ask God to give you a heart that is willing to pay whatever cost to get Jesus.");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=wX7Eb-llxbE&t=835s','That Christ Was ‘Begotten, Not Made’?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=bsT6D-i6C_s','The MYstery of the Incarnation');
+            add_further_link(index, 'https://www.youtube.com/watch?v=xkBbAXXDZEo','The Two Natures of Christ');
+            add_further_link(index, 'https://www.youtube.com/watch?v=kUTp7jwk-2M',"What about those who don't believe in miracles?");
+            add_further_link(index, 'https://www.youtube.com/watch?v=lE6sDPPQ7WA&list=PLC900F8EEB62AE426',"Miracles: Keener's Reflections");
+            add_further_link(index, 'https://www.youtube.com/watch?v=1Bjh3MKFv8s','How Much Is Jesus Really Worth to You?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=m8Qby8TKLME','How Do You Fear God?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=7ilEyczPr4A','Sermon : The Second Coming: Wrath and Rescue');
+        }
+
         function create_session_20(index){
             add_main_video(index, "");
             add_video_title(index, "");
             add_reading(index, "");
 
             add_open_prayer(index, "Start including scripture about prayer");
+
+            add_watch_title(index, "Topics");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, ": ");
+            add_watch_term(index, ": ");
+            add_watch_term(index, ": ");
+            add_watch_term(index, ": ");
+            add_watch_term(index, ": ");
+
+            add_meditate_question(index, "1. ");
+            add_meditate_question(index, "2. ");
+            add_meditate_question(index, "3. ");
+            add_meditate_question(index, "4. ");
+            add_meditate_question(index, "5. ");
+            add_meditate_question(index, "6. ");
+            add_meditate_question(index, "7. ");
+            add_meditate_question(index, "8. ");
+            add_meditate_question(index, "9. ");
+            add_meditate_question(index, "10. ");
+
+            add_close_prayer(index, "");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+        }
+
+        
+        function create_session_(index){
+            add_main_video(index, "");
+            add_video_title(index, "");
+            add_reading(index, "");
+
+            add_open_prayer(index, "");
 
             add_watch_title(index, "Topics");
             add_watch_topic(index, " - ");
