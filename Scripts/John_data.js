@@ -196,6 +196,7 @@ document.addEventListener('DOMContentLoaded', function() {
         create_session_16(16);
         create_session_17(17);
         create_session_18(18);
+        create_session_19(19);
 
         function add_main_video(index, text){video_src_array[index] = text;}
         function add_video_title(index, text){video_title_array[index] = text;}
@@ -903,12 +904,51 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=7ilEyczPr4A','Sermon : The Second Coming: Wrath and Rescue');
         }
 
+        function create_session_19(index){
+            add_main_video(index, "--rYLXvwJHU");
+            add_video_title(index, "The bread of life");
+            add_reading(index, "John 6:16-59");
+
+            add_open_prayer(index, "In this session, we will see the primary purpose in Jesus feeding the five thousand and that spiritual nourishment is more important than physically. Your greatest need is not your wants and needs in this life but the one to come. Ask God to change your perspective and to see what is of upmost importance.");
+
+            add_watch_title(index, "Topics");
+            add_watch_topic(index, "Wrong Motives - 0:25");
+            add_watch_topic(index, "Time and Eternity - 2:08");
+            add_watch_topic(index, "Not by works - 4:09");
+            add_watch_topic(index, "Spiritual food - 5:45");
+            add_watch_topic(index, "Bread of life - 8:39");
+
+            add_meditate_question(index, "1. What is your main priority in life? Is it a natural concern, something that matters only for this life, or an eternal concern?");
+            add_meditate_question(index, "2. If God could grant you one thing, what would it be?");
+            add_meditate_question(index, "3. How much of your time is spent working for things in this world, and how much time is spent working for those things in the next?");
+            add_meditate_question(index, "4. Why do people think so much about this life that lasts only a few decades and think very little about the next life that lasts forever?");
+            add_meditate_question(index, "5. Why do most religions have a work-based salvation, i.e., you have to do something to earn salvation? What does Jesus say?");
+            add_meditate_question(index, "6. What did Jesus mean when he said, 'I am the bread of life'?");
+            add_meditate_question(index, "7. Are you spiritually hungry? If you're unsure, will you not ask God to show you?");
+            add_meditate_question(index, "8. If you were hungry and someone offered you bread, you would take it. Jesus offers you bread to spiritually nourish you; will you not receive it?");
+            add_meditate_question(index, "9. Do you come to Jesus for what he can do for you or who he is?");
+
+            add_close_prayer(index, "Thank God for providing everything you need for abundant living in this life and, more importantly, in the next. Ask God to give you the bread of heaven, Jesus Christ, and to give you spiritual eyes to see his beauty and a heart to love him.");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=q8wLTsmFAUk','Excerpt : Do not love the world');
+            add_further_link(index, 'https://www.youtube.com/watch?v=pwv6qot7MZ4','Sermon : Do not love the world');
+            add_further_link(index, 'https://www.youtube.com/watch?v=6FVvCcPUmhM','The World Crucified to Me and I to the World');
+            add_further_link(index, 'https://www.youtube.com/watch?v=1zTjZwkN2UY','Why is salvation by works the predominantly held viewpoint?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=abVAUELTmz8','Sermon : Saved by Grace');
+            add_further_link(index, 'https://www.youtube.com/watch?v=hfYsvcmzNM8','The Bread of Life: Knowing Christ');
+            add_further_link(index, 'https://www.youtube.com/watch?v=YLZvJXmP7fo','What did Jesus mean when He said, “I am the Bread of Life”');
+            add_further_link(index, 'https://www.youtube.com/watch?v=vR4g6_TkKD4','Jesus Satisfies All Your Thirsts');
+            add_further_link(index, 'https://www.youtube.com/watch?v=YNFBQrzVRJk','Are You Satisfied With What Jesus Christ Has Done?');    
+        }
+
         function create_session_20(index){
             add_main_video(index, "");
             add_video_title(index, "");
             add_reading(index, "");
 
-            add_open_prayer(index, "Start including scripture about prayer");
+            //add more to open prayer 
+            add_open_prayer(index, "You should be comfortable with prayer by now, so there is no need for prompting. Prayer is such an important part of the Christian life, and so we encourage you to develop your own prayer habit and style. From this point forward, we will summarise the lesson from each session to give you some direction on what to pray for.");
 
             add_watch_title(index, "Topics");
             add_watch_topic(index, " - ");
@@ -935,7 +975,8 @@ document.addEventListener('DOMContentLoaded', function() {
             add_meditate_question(index, "9. ");
             add_meditate_question(index, "10. ");
 
-            add_close_prayer(index, "");
+            //add more to close prayer 
+            add_close_prayer(index, "From now on, we will suggest a few things to thank and ask God for, but please begin to develop your own list of thanks and requests from each session.");
 
             add_further_title(index, 'Links to Further Study');
             add_further_link(index, '','');
