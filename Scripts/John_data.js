@@ -220,7 +220,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // video edited, data complete, grammar checked
         function create_session_1(index){
 
-            add_main_video(index, "gwahJTB150U");
+            add_main_video(index, "_BkuzPZlnrk");
             add_video_title(index, "The Word");
             add_reading(index, "John 1:1-18");
 
@@ -228,10 +228,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_watch_title(index, "Topics");
             add_watch_topic(index, "Introducing the Word - 0:25");
-            add_watch_topic(index, "Beyond Expectations - 2:19");
-            add_watch_topic(index, "The Unique God - 5:23");
-            add_watch_topic(index, "The knowable God - 8:22");
-            add_watch_topic(index, "Biblical Authenticity - 11:28");
+            add_watch_topic(index, "Beyond Expectations - 2:23");
+            add_watch_topic(index, "The Unique God - 4:48");
+            add_watch_topic(index, "The knowable God - 7:00");
+            add_watch_topic(index, "Biblical Authenticity - 9:45");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Monotheism: a religion or belief that claims that God is one being; simply put, there is only one God.");
             add_watch_term(index, "Godhead: a term used to describe God in his essential being, one nature but in three persons.");
