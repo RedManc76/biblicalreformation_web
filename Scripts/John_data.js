@@ -246,7 +246,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_title(index, 'Links to Further Study');
             add_further_link(index, 'https://www.youtube.com/watch?v=0G2S5ziDcO0','Trinity Explained');
             add_further_link(index, 'https://www.youtube.com/watch?v=Doi8JxJOtgE&t=683s','Biblical Authenticity');
-            add_further_title(index, 'Links to helpful sermons');
+            add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, 'https://www.youtube.com/watch?v=XRwupHsCUBg','Sermon - In the beginning was the Word');
 
         }
@@ -317,7 +317,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=YECNi781OIA','Supression of truth');
             add_further_link(index, 'https://www.youtube.com/watch?v=QNDQMUjk-8A','We all sin');
             add_further_link(index, 'https://www.youtube.com/watch?v=3sNzzd1_77A','Born Again');
-            add_further_title(index, 'Links to helpful sermons');
+            add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, 'https://www.youtube.com/watch?v=cufnp5qn_Vs','Fall of Man');
 
         }
@@ -358,7 +358,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=EB-t4FsxS8s','Eye Witness');
             add_further_link(index, 'https://www.youtube.com/watch?v=cWVyCfha4LU','Son of God, Son of Man');
             add_further_link(index, 'https://www.youtube.com/watch?v=gXBvfY2-C2U','Only Begotten Son');
-            add_further_title(index, 'Links to helpful sermons');
+            add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, 'https://www.youtube.com/watch?v=zET15MB2VuI','Why the God man');
         }
         // video edited, data complete, grammar checked *** link to first steps needs adding
@@ -510,7 +510,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=QZjQe8QkV7w','How the cross works');
             add_further_link(index, 'https://www.youtube.com/watch?v=la0SkKC091s','Objections to Penal Substitution');
             add_further_link(index, 'https://www.youtube.com/watch?v=K3gNWO-Au1g','Jesus is the new temple');
-            add_further_title(index, 'Links to helpful sermons');
+            add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, 'https://www.youtube.com/watch?v=aaTotHAYGNg','Curtain Torn');
             add_further_link(index, 'https://www.youtube.com/watch?v=Q_rEZWjIEQk','Christ our substitute');
         }
@@ -549,7 +549,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=9nlvj9nNVCA','Am I born again?');
             add_further_link(index, 'https://www.youtube.com/watch?v=YHZaoOP-DuI','Am i saved?');
             add_further_link(index, 'https://www.youtube.com/watch?v=Q5aFfp4-pfA','Serpent lifted up');
-            add_further_title(index, 'Links to helpful sermons');
+            add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, 'https://www.youtube.com/watch?v=UGttCRpA56E','You must be born again');
             add_further_link(index, 'https://www.youtube.com/watch?v=5KJPjpVI7xs','Serpent lifted up');
         }
@@ -587,7 +587,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=GHpYeERpZf8','Just and the justifier');
             add_further_link(index, 'https://www.youtube.com/watch?v=IsMRIHWqQVw','God the just');
             add_further_link(index, 'https://www.youtube.com/watch?v=NWaLb_-MOxI','Light of the World');
-            add_further_title(index, 'Links to helpful sermons');
+            add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, 'https://www.youtube.com/watch?v=rhLr0gaASns','God so love the world');
             add_further_link(index, 'https://www.youtube.com/watch?v=5QqMQNPy2LU','Death and Hell');
             
@@ -628,7 +628,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=VrIvwPConv0','Problems with Atheism');
             add_further_link(index, 'https://www.youtube.com/watch?v=ZUS9LoalUu4','Freedom from the Self-Focused Life');
             add_further_link(index, 'https://www.youtube.com/watch?v=xuXO82T7Kpo','What is faith?');
-            add_further_title(index, 'Links to helpful sermons');
+            add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, 'https://www.youtube.com/watch?v=eW7qqn8D4pE','The Glory of God Through Man');
             add_further_link(index, 'https://www.youtube.com/watch?v=XMKstKGPmjA','Do you want to hear God speak?');
         }
@@ -672,7 +672,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=RCPozrJSBwg','Want the Spirit?');
             add_further_link(index, 'https://www.youtube.com/watch?v=J2sd7RrpccQ','He chooses the weak');
             add_further_link(index, 'https://www.youtube.com/watch?v=OaDTHqPuwb8','Worship in Spirit and truth');
-            add_further_title(index, 'Links to helpful sermons');
+            add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, 'https://www.youtube.com/watch?v=kDxYyXKUUv0','Who is the Holy Spirit');
             add_further_link(index, 'https://www.youtube.com/watch?v=Dy8ZEA4TGbk','Worship in Spirit and truth');
         }   
@@ -711,7 +711,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=dZEX3Jsg1sY','Saved From Self Righteousness');
             add_further_link(index, 'https://www.youtube.com/watch?v=N1QL-4oEx34','Saved from spirtual cancer');
             add_further_link(index, 'https://www.youtube.com/watch?v=0w6fD8fyASo','Joy in God');
-            add_further_title(index, 'Links to helpful sermons');
+            add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, 'https://www.youtube.com/watch?v=DgTTLDuL9TY','Prophet, Priest, and King');
             add_further_link(index, 'https://www.youtube.com/watch?v=0xP0K2GkBn4','A Blow to Self Righteousness');
         }
@@ -746,7 +746,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_title(index, 'Links to Further Study');
             add_further_link(index, 'https://www.youtube.com/watch?v=-Wvt8LTAdaw','Basic heurmenutics');
             add_further_link(index, 'https://www.thegospelcoalition.org/essay/interpreting-scripture-a-general-introduction/','Aritcle Bible Interpretation');
-            add_further_title(index, 'Links to helpful sermons');
+            add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, 'https://www.youtube.com/watch?v=L2_4TWZBc54','How Should We Interpret the Bible?');
             add_further_link(index, 'https://www.youtube.com/watch?v=9e8_CClvTXY','Interpreting the Bible');
             add_further_link(index, 'https://www.youtube.com/watch?v=y8xBngE-vbY','Our Sovereign God');
@@ -789,7 +789,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=1FIGuLp8L-s','All of us are ungrateful');
             add_further_link(index, 'https://www.youtube.com/watch?v=U5HCcgoGUw4','What does the Bible say about ingratitude');
             add_further_link(index, 'https://www.youtube.com/watch?v=FmaYSxu1oVE',"Do not scoff at God's warning");
-            add_further_title(index, 'Links to helpful sermons');
+            add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, 'https://www.youtube.com/watch?v=WVpTf2HBz1A','Understanding the Sabbath');
             add_further_link(index, 'https://www.youtube.com/watch?v=5YYVAdVpWvc','The Inescapable Corruption of Sin');
             add_further_link(index, 'https://www.youtube.com/watch?v=14-kR4TvyLs','Damning power of false religion');
@@ -831,7 +831,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=gs5VzPK8rw0','Heaven and the New Earth');
             add_further_link(index, 'https://www.youtube.com/watch?v=GCXgMpy_WKc','Why God Created Us');
             add_further_link(index, 'https://www.youtube.com/watch?v=S-LRBZKGhe0','What Is God’s Glory?');
-            add_further_title(index, 'Links to helpful sermons');
+            add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, 'https://www.youtube.com/watch?v=wpTpc8H0XHw','Startling Claim');
             add_further_link(index, 'https://www.youtube.com/watch?v=Sq98kwep_a4','Liar, Lunatic, or Lord?');
             add_further_link(index, 'https://www.youtube.com/watch?v=QxKRH-9IRCg','The Truth About Death');
@@ -871,7 +871,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=ev4FoslmUj8','Are Miracles Possible?');
             add_further_link(index, 'https://www.youtube.com/watch?v=WWlpQauXiTU&list=PLZ3iRMLYFlHsHyvMtfgOgSPU6zEnCvxUO','Playlist - Jesus in Old Testament');
             add_further_link(index, 'https://www.youtube.com/watch?v=qBviSLOhp1w','The will of the Father');
-            add_further_title(index, 'Links to helpful sermons');
+            add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, 'https://www.youtube.com/watch?v=iKU3ZcTc38s','Deity of Christ, P1');
             add_further_link(index, 'https://www.youtube.com/watch?v=IjhS5h0dTgw','Deity of Christ, P2');
             add_further_link(index, 'https://www.youtube.com/watch?v=zwgpAmMezYI','Ministry of John Baptist');
@@ -913,7 +913,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=lE6sDPPQ7WA&list=PLC900F8EEB62AE426',"Miracles: Keener's Reflections");
             add_further_link(index, 'https://www.youtube.com/watch?v=1Bjh3MKFv8s','How Much Is Jesus Really Worth to You?');
             add_further_link(index, 'https://www.youtube.com/watch?v=m8Qby8TKLME','How Do You Fear God?');
-            add_further_title(index, 'Links to helpful sermons');
+            add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, 'https://www.youtube.com/watch?v=7ilEyczPr4A','The Second Coming: Wrath and Rescue');
         }
 
@@ -951,18 +951,18 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=YLZvJXmP7fo','What did Jesus mean when He said, “I am the Bread of Life”');
             add_further_link(index, 'https://www.youtube.com/watch?v=vR4g6_TkKD4','Jesus Satisfies All Your Thirsts');
             add_further_link(index, 'https://www.youtube.com/watch?v=YNFBQrzVRJk','Are You Satisfied With What Jesus Christ Has Done?');
-            add_further_title(index, 'Links to helpful sermons');    
+            add_further_title(index, 'Links to Helpful Sermons');    
             add_further_link(index, 'https://www.youtube.com/watch?v=pwv6qot7MZ4','Do not love the world');
             add_further_link(index, 'https://www.youtube.com/watch?v=abVAUELTmz8','Saved by Grace');
         }
 
         function create_session_20(index){
-            add_main_video(index, "mT0L7cyWfAA");
+            add_main_video(index, "a1KXYDPMRow");
             add_video_title(index, "A Hard Saying");
             add_reading(index, "John 6:22-71");
 
             //add more to open prayer 
-            add_open_prayer(index, "We hope you will be comfortable with prayer by now, so we will give limited prompting from this session on. Prayer is such an important part of the Christian life, and so we encourage you to develop your own prayer habit and style. Going forward, we will summarise the lesson from each session to give you some direction on what to pray for.<br>Today's session we will continue with the discussion Jesus had with the crowd after his miraculous feeding of the 5,000 men. We will look at what it is to believe in Jesus and how we are to be saved.");
+            add_open_prayer(index, "We hope you will be comfortable with prayer by now, so we will give limited prompting from this session on. Prayer is such an important part of the Christian life, and so we encourage you to develop your own prayer habit and style. Going forward, we will summarise the lesson from each session to give you some direction on what to pray for.<br><br>Today's session we will continue with the discussion Jesus had with the crowd after his miraculous feeding of the 5,000 men. We will look at what it is to believe in Jesus and how we are to be saved.");
 
             add_watch_title(index, "Topics");
             add_watch_topic(index, "Extraordinary claim - 0:25");
@@ -986,7 +986,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_meditate_question(index, "7. How terrible is it to be self-deceived, thinking you have eternal life and you end up in hell? How can you tell if you're self-deceived?");
 
             //add more to close prayer 
-            add_close_prayer(index, "From now on, we will suggest a few things to thank and ask God for, but please begin to develop your own list of thanks and requests from each session.<br>Thank God that Jesus was prepared to give his life for us and that he was willing to lose friends to speak the truth. Ask God to help you see the true meaning of Jesus words and be prepared to have him at any cost.");
+            add_close_prayer(index, "From now on, we will suggest a few things to thank and ask God for, but please begin to develop your own list of thanks and requests from each session.<br><br>Thank God that Jesus was prepared to give his life for us and that he was willing to lose friends to speak the truth. Ask God to help you see the true meaning of Jesus words and be prepared to have him at any cost.");
 
             add_further_title(index, 'Links to Further Study');
             add_further_link(index, 'https://www.youtube.com/watch?v=Ph3N7tZ5LV4','‘This Is My Body, This Is My Blood’?');
@@ -999,7 +999,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=hfYsvcmzNM8','The Bread of Life: Knowing Christ');
             add_further_link(index, 'https://www.youtube.com/watch?v=9nlvj9nNVCA',"How do I know if I'm really saved?");
             add_further_link(index, 'https://www.youtube.com/watch?v=2_-kxwCDrOg','I AM');
-            add_further_title(index, 'Links to helpful sermons');
+            add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, 'https://www.youtube.com/watch?v=gg08g7lxRoI','Jesus Came Not to Give, to Be Bread');
             add_further_link(index, 'https://www.youtube.com/watch?v=5JxJ5sFHEuA','Words of eternal life');
             add_further_link(index, 'https://www.youtube.com/watch?v=jVTELfJHxjU','Judas, The Counterfeit Disciple');
