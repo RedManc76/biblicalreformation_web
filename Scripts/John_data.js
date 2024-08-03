@@ -957,7 +957,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_20(index){
-            add_main_video(index, "");
+            add_main_video(index, "mT0L7cyWfAA");
             add_video_title(index, "A Hard Saying");
             add_reading(index, "John 6:22-71");
 
