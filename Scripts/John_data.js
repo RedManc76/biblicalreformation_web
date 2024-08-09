@@ -290,18 +290,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
         function create_session_3(index){
 
-            add_main_video(index, "");
+            add_main_video(index, "T1Uuwr1tons");
             add_video_title(index, "The plan of salvation");
             add_reading(index, "John 1:1-18");
 
             add_open_prayer(index, "Almighty God, thank you for inspiring me to continue my studies. Please let me learn more about you and myself today. Help me believe what your word says and assess my own life in light of it.");
 
             add_watch_title(index, "Topics");
-            add_watch_topic(index, "Darkness - ");
-            add_watch_topic(index, "'True' Light - ");
-            add_watch_topic(index, "Man's Corruption - ");
-            add_watch_topic(index, "God's Salvation - ");
-            add_watch_topic(index, "New Birth - ");
+            add_watch_topic(index, "Darkness - 0:25");
+            add_watch_topic(index, "'True' Light - 2:11");
+            add_watch_topic(index, "Man's Corruption - 4:05");
+            add_watch_topic(index, "God's Salvation - 6:59");
+            add_watch_topic(index, "New Birth - 9:30");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Sin: lawlessness, i.e., the violation of God's moral law.");
             add_watch_term(index, "Messiah: the promised saviour and king of Gods people");
