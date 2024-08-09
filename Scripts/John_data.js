@@ -198,6 +198,7 @@ document.addEventListener('DOMContentLoaded', function() {
         create_session_18(18);
         create_session_19(19);
         create_session_20(20);
+        create_session_21(21);
 
         function add_main_video(index, text){video_src_array[index] = text;}
         function add_video_title(index, text){video_title_array[index] = text;}
@@ -218,7 +219,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
 
-        // video edited, data complete, grammar checked
         function create_session_1(index){
 
             add_main_video(index, "_BkuzPZlnrk");
@@ -250,21 +250,21 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=XRwupHsCUBg','Sermon - In the beginning was the Word');
 
         }
-        // video edited, data complete, grammar checked
+
         function create_session_2(index){
 
-            add_main_video(index, "U-2QceNd1xo");
+            add_main_video(index, "RZF5RiYQY7c");
             add_video_title(index, "Light of the world");
             add_reading(index, "John 1:1-18");
 
             add_open_prayer(index, "Almighty God, thank you for all you taught me about the Word in our last session. Please help me to see and understand more about the Word and what it all means for me. Amen.");
 
             add_watch_title(index, "Topics");
-            add_watch_topic(index, "The creator - 0:25");
-            add_watch_topic(index, "The creation - 2:43");
-            add_watch_topic(index, "The Life - 4:25");
-            add_watch_topic(index, "The Light - 5:46");
-            add_watch_topic(index, "The menssenger - 8:09");
+            add_watch_topic(index, "The Creator - 0:25");
+            add_watch_topic(index, "The Creation - 2:36");
+            add_watch_topic(index, "The Life - 4:23");
+            add_watch_topic(index, "The Light - 5:47");
+            add_watch_topic(index, "The Prophets - 7:37");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Prophecy: the foretelling of a future event before it has happened.");
             add_watch_term(index, "The Word: The Word is God, one of the three divine persons of the Trinity who would take on human nature as Jesus Christ.");
@@ -287,22 +287,24 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=3gr4kn2tf_k','Odds of 48 prophecies being fulfilled');
 
         }
-        // video edited, data complete, grammar checked
+
         function create_session_3(index){
 
-            add_main_video(index, "Ob4VtG43m5k");
+            add_main_video(index, "");
             add_video_title(index, "The plan of salvation");
             add_reading(index, "John 1:1-18");
 
             add_open_prayer(index, "Almighty God, thank you for inspiring me to continue my studies. Please let me learn more about you and myself today. Help me believe what your word says and assess my own life in light of it.");
 
             add_watch_title(index, "Topics");
-            add_watch_topic(index, "The 'True' Light - 0:25");
-            add_watch_topic(index, "The bad news - 4:35");
-            add_watch_topic(index, "Rejected - 7:30");
-            add_watch_topic(index, "The new birth - 10:35");
+            add_watch_topic(index, "Darkness - ");
+            add_watch_topic(index, "'True' Light - ");
+            add_watch_topic(index, "Man's Corruption - ");
+            add_watch_topic(index, "God's Salvation - ");
+            add_watch_topic(index, "New Birth - ");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Sin: lawlessness, i.e., the violation of God's moral law.");
+            add_watch_term(index, "Messiah: the promised saviour and king of Gods people");
 
             add_meditate_question(index, "1. Have you asked yourself, Who am I? And why am I here? If someone had the answer, would you want to know?");
             add_meditate_question(index, "2. Have you considered that there is a darkness inside of you that drives you to do what you know to be wrong? If there was a light that could overcome this darkness, would you seek it?");
@@ -321,7 +323,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=cufnp5qn_Vs','Fall of Man');
 
         }
-        // video edited, data complete, grammar checked
+
         function create_session_4(index){
 
             add_main_video(index, "x8H9gIEq3f8");
@@ -361,7 +363,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, 'https://www.youtube.com/watch?v=zET15MB2VuI','Why the God man');
         }
-        // video edited, data complete, grammar checked *** link to first steps needs adding
+
         function create_session_5(index){
 
             add_main_video(index, "BStOz0ccZ3Y");
@@ -400,7 +402,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=28HVFJttJiQ','The Holy Spirit');
 
         }
-        // video edited, data complete, grammar checked
+
         function create_session_6(index){
 
             add_main_video(index, "TxHl278YFXg");
@@ -436,7 +438,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=gjhbhqrbAS8&t=595s','I serve a King');
             add_further_link(index, 'https://www.youtube.com/watch?v=E8jY6wJ0gwQ','The cost of not following');
         }
-        // video edited, data complete, grammar checked
+
         function create_session_7(index){
             add_main_video(index, "TzKFo1lwrg0");
             add_video_title(index, "First Miracle");
@@ -471,7 +473,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=UEd0nUAjwy4','The new creation');
 
         }
-        // video edited, data complete, grammar checked
+
         function create_session_8(index){
             add_main_video(index, "0fwWk9GSVP8");
             add_video_title(index, "Cleansing the Temple");
@@ -514,7 +516,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=aaTotHAYGNg','Curtain Torn');
             add_further_link(index, 'https://www.youtube.com/watch?v=Q_rEZWjIEQk','Christ our substitute');
         }
-        // video edited, data complete, grammar checked
+
         function create_session_9(index){
             add_main_video(index, "MtmIQ4YpyXY");
             add_video_title(index, "You must be born again");
@@ -1005,7 +1007,48 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=jVTELfJHxjU','Judas, The Counterfeit Disciple');
         }
 
-        
+        function create_session_21(index){
+            add_main_video(index, "cHzr7zWxb9Q");
+            add_video_title(index, "Mission of Jesus");
+            add_reading(index, "John 1:1-25");
+
+            add_open_prayer(index, "In today's session, we will start to understand something about Jesus' mission, his humility and love for sinners, and how he rescues them from what they desire and gives them what they need.");
+
+            add_watch_title(index, "Topics");
+            add_watch_topic(index, "Secrecy - 0:25");
+            add_watch_topic(index, "Humility - 2:40");
+            add_watch_topic(index, "Love - 4:42");
+            add_watch_topic(index, "Authority - 6:45");
+            add_watch_topic(index, "Dangerous desires - 8:44");
+            add_watch_topic(index, "The Feast - 10:00");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Messiah: the promised saviour and king of Gods people");
+            add_watch_term(index, "Feast of Booths: jewish religious festival, celebrating the nation of israels deliverance from slavery in egypt and journey to the promise land");
+
+            add_meditate_question(index, "1. What is more important, temporal relief from trials and oppression or eternal relief from death, judgement and hell?");
+            add_meditate_question(index, "2. Jesus was God, and he became a man and submitted himself to ridicule so he might save you. Is this not a God worth seeking out?");
+            add_meditate_question(index, "3. Instead of being worshipped and adored, Jesus took a crown of thorns, was hung on a wooden cross, beaten and spat upon, and received the full punishment for sin. He chose to do this for us. What an incredible display of love this is?");
+            add_meditate_question(index, "4. Is it loving to witness someone or something harming another person and choose to stay silent out of fear of being disliked?");
+            add_meditate_question(index, "5. Is it loving to stand by while someone goes hell and not warn them and show them the way to escape?");
+            add_meditate_question(index, "6. Are you prepared to hear uncomfortable truths about yourself?");
+            add_meditate_question(index, "7. In Jesus' time, everyone who encountered him acknowledged the power and authority in his speech. Shouldn't we consider their testimonies credible?");
+            add_meditate_question(index, "8. Have you Have you considered that your natural desires and wants may not be good for you? If so, where can you find what is good for you?");
+            add_meditate_question(index, "9. If the Bible were made up, would we expect to encounter seeming contradictions or difficult passages, when it would have been very easy to leave them out?");
+
+            add_close_prayer(index, "Thank God for sending his Son and the love and humility of Jesus. Ask God to show you where your desires are wicked and give you the right heart to receive the truth. Help to trust Jesus and see the authority he has over his creation.");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=vvkqmUygsCU','God Crushed Jesus Christ to Save Wretched Sinners');
+            add_further_link(index, 'https://www.youtube.com/watch?v=lyAPhJVbuYM','Jesus and His Active Obedience');
+            add_further_link(index, 'https://www.youtube.com/watch?v=knLq1Jzfo6s','The Unconditional Love of Christ');
+            add_further_link(index, 'https://www.youtube.com/watch?v=7jrV6t-0At0','Did, Jesus lie?');
+            add_further_link(index, 'https://coldcasechristianity.com/writings/ten-principles-when-considering-alleged-bible-contradictions/','How to deal with seeming contradictions');
+            add_further_title(index, 'Links to Helpful Sermons');
+            add_further_link(index, 'https://www.youtube.com/watch?v=-ccfGXUw6zM','The Unparalleled Humility of Jesus');
+            add_further_link(index, 'https://www.youtube.com/watch?v=V-hiu2qsVsw','Embracing the Claims of Christ');
+            add_further_link(index, 'https://www.youtube.com/watch?v=aMc_gmYqDxk','The Authority of Jesus');
+        }
+
         function create_session_(index){
             add_main_video(index, "");
             add_video_title(index, "");
