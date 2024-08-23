@@ -199,6 +199,7 @@ document.addEventListener('DOMContentLoaded', function() {
         create_session_19(19);
         create_session_20(20);
         create_session_21(21);
+        create_session_22(22);
 
         function add_main_video(index, text){video_src_array[index] = text;}
         function add_video_title(index, text){video_title_array[index] = text;}
@@ -221,7 +222,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         function create_session_1(index){
 
-            add_main_video(index, "_BkuzPZlnrk");
+            add_main_video(index, "EMCcMIa9PKI");
             add_video_title(index, "The Word");
             add_reading(index, "John 1:1-18");
 
@@ -253,7 +254,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         function create_session_2(index){
 
-            add_main_video(index, "RZF5RiYQY7c");
+            add_main_video(index, "ag-C1Xho6gw");
             add_video_title(index, "Light of the world");
             add_reading(index, "John 1:1-18");
 
@@ -290,7 +291,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         function create_session_3(index){
 
-            add_main_video(index, "T1Uuwr1tons");
+            add_main_video(index, "BiYsqQv8RlE");
             add_video_title(index, "The plan of salvation");
             add_reading(index, "John 1:1-18");
 
@@ -334,10 +335,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_watch_title(index, "Topics");
             add_watch_topic(index, "The Word became flesh - 0:25");
-            add_watch_topic(index, "Person of Jesus Christ - 4:05");
-            add_watch_topic(index, "The Son - 6:27");
-            add_watch_topic(index, "Law and Grace - 10:35");
-            add_watch_topic(index, "God with us - 15:30");
+            add_watch_topic(index, "Person of Jesus Christ - ");
+            add_watch_topic(index, "Eyewitness - ");
+            add_watch_topic(index, "The Son - ");
+            add_watch_topic(index, "Law and Grace - ");
+            add_watch_topic(index, "God with us - ");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Godhead: a term used to describe God in his essential being, one nature but in three persons.");
             add_watch_term(index, "Hell: the eternal destiny of those who continue in their rebellion against God.");
@@ -374,13 +376,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_watch_title(index, "Topics");
             add_watch_topic(index, "The Enemy - 0:25");
-            add_watch_topic(index, "Behold the lamb - 2:23");
-            add_watch_topic(index, "Types and Shadows - 5:24");
-            add_watch_topic(index, "Abraham and Isaac - 6:35");
+            add_watch_topic(index, "Behold the lamb - ");
+            add_watch_topic(index, "Types and Shadows - ");
+            add_watch_topic(index, "Abraham and Isaac - ");
             add_watch_topic(index, "Passover - 11:15");
-            add_watch_topic(index, "The Holy Spirit - 14:36");
+            add_watch_topic(index, "The Holy Spirit - ");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Pharisee: religious and political elite around the time of Jesus.");
+            add_watch_term(index, "Incarnate: literally, in the flesh.");
             add_watch_term(index, "Types and Shadows: an Old Testament picture that points to Jesus Christ.");
             add_watch_term(index, "Passover: a feast to celebrate God's deliverance of his people from Egypt, foreshadowing the blood of Jesus Christ that was shed on the cross to cover the sins of his people.");
             add_watch_term(index, "Holy Spirit: the third person of God. The Father, the Son, and the Holy Spirit.");
@@ -1047,6 +1050,49 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=-ccfGXUw6zM','The Unparalleled Humility of Jesus');
             add_further_link(index, 'https://www.youtube.com/watch?v=V-hiu2qsVsw','Embracing the Claims of Christ');
             add_further_link(index, 'https://www.youtube.com/watch?v=aMc_gmYqDxk','The Authority of Jesus');
+        }
+
+        function create_session_22(index){
+            add_main_video(index, "");
+            add_video_title(index, "");
+            add_reading(index, "");
+
+            add_open_prayer(index, "");
+
+            add_watch_title(index, "Topics");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Ancient of days: one of the titles of God");
+            add_watch_term(index, ": ");
+            add_watch_term(index, ": ");
+            add_watch_term(index, ": ");
+            add_watch_term(index, ": ");
+
+            add_meditate_question(index, "1. ");
+            add_meditate_question(index, "2. ");
+            add_meditate_question(index, "3. ");
+            add_meditate_question(index, "4. ");
+            add_meditate_question(index, "5. ");
+            add_meditate_question(index, "6. ");
+            add_meditate_question(index, "7. ");
+            add_meditate_question(index, "8. ");
+            add_meditate_question(index, "9. ");
+            add_meditate_question(index, "10. ");
+
+            add_close_prayer(index, "");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
         }
 
         function create_session_(index){
