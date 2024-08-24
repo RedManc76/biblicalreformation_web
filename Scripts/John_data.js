@@ -368,7 +368,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         function create_session_5(index){
 
-            add_main_video(index, "BStOz0ccZ3Y");
+            add_main_video(index, "WPYDcsGmoq8");
             add_video_title(index, "The Lamb of God");
             add_reading(index, "John 1:19-34");
 
@@ -376,11 +376,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_watch_title(index, "Topics");
             add_watch_topic(index, "The Enemy - 0:25");
-            add_watch_topic(index, "Behold the lamb - ");
-            add_watch_topic(index, "Types and Shadows - ");
-            add_watch_topic(index, "Abraham and Isaac - ");
-            add_watch_topic(index, "Passover - 11:15");
-            add_watch_topic(index, "The Holy Spirit - ");
+            add_watch_topic(index, "Behold the lamb - 1:39");
+            add_watch_topic(index, "Types and Shadows - 4:40");
+            add_watch_topic(index, "Abraham and Isaac - 5:51");
+            add_watch_topic(index, "Passover - 9:15");
+            add_watch_topic(index, "The Holy Spirit - 12:35");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Pharisee: religious and political elite around the time of Jesus.");
             add_watch_term(index, "Incarnate: literally, in the flesh.");
