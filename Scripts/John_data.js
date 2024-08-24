@@ -254,7 +254,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         function create_session_2(index){
 
-            add_main_video(index, "ag-C1Xho6gw");
+            add_main_video(index, "t1uavwvdTLQ");
             add_video_title(index, "Light of the world");
             add_reading(index, "John 1:1-18");
 
