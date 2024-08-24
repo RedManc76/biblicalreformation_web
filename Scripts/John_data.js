@@ -327,7 +327,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         function create_session_4(index){
 
-            add_main_video(index, "x8H9gIEq3f8");
+            add_main_video(index, "Qf5A_E3uh44");
             add_video_title(index, "The Word became flesh");
             add_reading(index, "John 1:1-18");
 
