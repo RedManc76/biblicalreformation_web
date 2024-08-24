@@ -335,11 +335,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_watch_title(index, "Topics");
             add_watch_topic(index, "The Word became flesh - 0:25");
-            add_watch_topic(index, "Person of Jesus Christ - ");
-            add_watch_topic(index, "Eyewitness - ");
-            add_watch_topic(index, "The Son - ");
-            add_watch_topic(index, "Law and Grace - ");
-            add_watch_topic(index, "God with us - ");
+            add_watch_topic(index, "Person of Jesus Christ - 2:59");
+            add_watch_topic(index, "Eyewitness - 5:14");
+            add_watch_topic(index, "The Son - 6:20");
+            add_watch_topic(index, "Law and Grace - 8:15");
+            add_watch_topic(index, "God with us - 1:09");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Godhead: a term used to describe God in his essential being, one nature but in three persons.");
             add_watch_term(index, "Hell: the eternal destiny of those who continue in their rebellion against God.");
