@@ -1053,46 +1053,48 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_22(index){
-            add_main_video(index, "");
-            add_video_title(index, "");
-            add_reading(index, "");
+            add_main_video(index, "pyW2FYFHb_0");
+            add_video_title(index, "The Spirit promised");
+            add_reading(index, "John 7:25-53");
 
-            add_open_prayer(index, "");
+            add_open_prayer(index, "In today's session, we'll look at how people received Jesus and encourage you to seek him out while you can. We will also discuss the benefits of knowing him. ");
 
             add_watch_title(index, "Topics");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
+            add_watch_topic(index, "Love or Hate? - 0:25");
+            add_watch_topic(index, "Origins - 2:19");
+            add_watch_topic(index, "Sympathy - 7:02");
+            add_watch_topic(index, "Spiritual Thirst - 10:38");
+            add_watch_topic(index, "Indwelling - 12:21");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Ancient of days: one of the titles of God");
-            add_watch_term(index, ": ");
-            add_watch_term(index, ": ");
-            add_watch_term(index, ": ");
-            add_watch_term(index, ": ");
 
-            add_meditate_question(index, "1. ");
-            add_meditate_question(index, "2. ");
-            add_meditate_question(index, "3. ");
-            add_meditate_question(index, "4. ");
-            add_meditate_question(index, "5. ");
-            add_meditate_question(index, "6. ");
-            add_meditate_question(index, "7. ");
-            add_meditate_question(index, "8. ");
-            add_meditate_question(index, "9. ");
-            add_meditate_question(index, "10. ");
+            add_meditate_question(index, "1. Why does Jesus play such an important role in most religions around the world, and why is he regarded as the most significant figure in human history?");
+            add_meditate_question(index, "2. With the significance of your eternal future on the line, have you spent enough time investigating Jesus Christ?");
+            add_meditate_question(index, "3. How tragic that people reject Jesus because they have a misconception about who he is and have not taken the time to investigate further?");
+            add_meditate_question(index, "4. How powerful must God be to have orchestrated human history so that Jesus was born in the exact location and time that he had predicted centuries before?");
+            add_meditate_question(index, "5. The God who was incapable of suffering took on human form in order to suffer and save us. Isn't he a God worth considering?");
+            add_meditate_question(index, "6. Isn't it encouraging to come to God knowing he understands exactly what we're going through?");
+            add_meditate_question(index, "7. Christianity is not irrational and promotes critical thinking. Do you approach Christianity as a rational belief system, using your intellect to scrutinise its claims?");
+            add_meditate_question(index, "8. Is seeking Jesus a priority for you today?");
+            add_meditate_question(index, "9. Have you ever tried to find peace and fulfilment in the things of this world? Did you find everything you were looking for?");
+            add_meditate_question(index, "10. Would you like God's Spirit to dwell in you, enabling you to live a righteous life while also being a help and comforter when you are in need? Will you not come to Jesus Christ and receive it?");
 
-            add_close_prayer(index, "");
+            add_close_prayer(index, "Thank God for working out history so that Jesus Christ could be born as a man and die for our sins. Ask him to assist you in seeking him and finding spiritual fulfilment through knowing him. Ask him for salvation and the Holy Spirit's indwelling.");
 
             add_further_title(index, 'Links to Further Study');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
+            add_further_link(index, 'https://www.youtube.com/watch?v=fwdhe-G0LFo','Is Jesus important?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=AkFI07vLJA0','Evidence for Jesus outside of the Bible.');
+            add_further_link(index, 'https://www.youtube.com/watch?v=wX7Eb-llxbE',"Jesus' divine origin");
+            add_further_link(index, 'https://www.youtube.com/watch?v=rKT-a2DqDSc','How Did Prophets See the Future? Part I');
+            add_further_link(index, 'https://www.youtube.com/watch?v=8gARYCVYrkY','How Did Prophets See the Future? Part II');
+            add_further_link(index, 'https://www.youtube.com/watch?v=AOxrDKCH2BQ','How Did Prophets See the Future? Part III');
+            add_further_link(index, 'https://www.youtube.com/watch?v=M2VJelWl_Fs','Can God sympathize with our weaknesses.');
+            add_further_link(index, 'https://www.youtube.com/watch?v=mkIyFRLI6eU','Great invitation');
+            add_further_title(index, 'Links to Helpful Sermons');
+            add_further_link(index, 'https://www.youtube.com/watch?v=V-hiu2qsVsw','Embracing the claims of Christ');
+            add_further_link(index, 'https://www.youtube.com/watch?v=PA2J6mfN7Xw','The Supremacy of Christ in Suffering');
+            add_further_link(index, 'https://www.youtube.com/watch?v=8Wtl4CYSkoA','Is Christianity rational?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=fY0afczuxjY','Out of the heart will flow rivers of living water');
         }
 
         function create_session_(index){
