@@ -408,17 +408,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
         function create_session_6(index){
 
-            add_main_video(index, "TxHl278YFXg");
+            add_main_video(index, "pw7fB6z__t8");
             add_video_title(index, "The Disciples");
             add_reading(index, "John 1:35-51");
 
             add_open_prayer(index, "Almighty God. As I watch this next video, I ask for your help to learn more about Jesus. Help me to believe what I learn, and help me to trust you. Amen.");
             add_watch_title(index, "Topics");
             add_watch_topic(index, "The Twelve - 0:25");
-            add_watch_topic(index, "The Scriptures - 1:52");
-            add_watch_topic(index, "Qualifications - 5:00");
-            add_watch_topic(index, "Invitation - 8:09");
-            add_watch_topic(index, "Son of Man - 10:53");
+            add_watch_topic(index, "The Scriptures - 2:10");
+            add_watch_topic(index, "Qualifications - 4:21");
+            add_watch_topic(index, "Messiah - 6:25");
+            add_watch_topic(index, "The Sceptic - 8:10");
+            add_watch_topic(index, "Son of Man - 9:43");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Martyr: someone who is killed because of what they believe, not someone who kills themselves and others because of what they believe.");
             add_watch_term(index, "Pride: to think yourself worthy of God.");
@@ -443,7 +444,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_7(index){
-            add_main_video(index, "TzKFo1lwrg0");
+            add_main_video(index, "k1PNqeCX3-A");
             add_video_title(index, "First Miracle");
             add_reading(index, "John 2:1-12");
 
@@ -451,10 +452,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_watch_title(index, "Topics");
             add_watch_topic(index, "Miracles - 0:25");
-            add_watch_topic(index, "Signs - 2:01");
-            add_watch_topic(index, "Authority - 4:57");
-            add_watch_topic(index, "Interpretation - 9:38");
-            add_watch_topic(index, "Invitation - 14:47");
+            add_watch_topic(index, "Signs - 1:32");
+            add_watch_topic(index, "Authority - 3:35");
+            add_watch_topic(index, "Interpretation - 6:47");
+            add_watch_topic(index, "Character of Christ - 9:41");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Signs - miracles of Jesus that pointed to who he said he was.");
 
@@ -1072,7 +1073,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_meditate_question(index, "2. With the significance of your eternal future on the line, have you spent enough time investigating Jesus Christ?");
             add_meditate_question(index, "3. How tragic that people reject Jesus because they have a misconception about who he is and have not taken the time to investigate further?");
             add_meditate_question(index, "4. How powerful must God be to have orchestrated human history so that Jesus was born in the exact location and time that he had predicted centuries before?");
-            add_meditate_question(index, "5. The God who was incapable of suffering took on human form in order to suffer and save us. Isn't he a God worth considering?");
+            add_meditate_question(index, "5. The God who was incapable of suffering took on human form in order to suffer and save us. Isn't he a God worth considering?");
             add_meditate_question(index, "6. Isn't it encouraging to come to God knowing he understands exactly what we're going through?");
             add_meditate_question(index, "7. Christianity is not irrational and promotes critical thinking. Do you approach Christianity as a rational belief system, using your intellect to scrutinise its claims?");
             add_meditate_question(index, "8. Is seeking Jesus a priority for you today?");
