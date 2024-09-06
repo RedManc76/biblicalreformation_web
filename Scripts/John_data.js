@@ -200,6 +200,7 @@ document.addEventListener('DOMContentLoaded', function() {
         create_session_20(20);
         create_session_21(21);
         create_session_22(22);
+        create_session_23(23);
 
         function add_main_video(index, text){video_src_array[index] = text;}
         function add_video_title(index, text){video_title_array[index] = text;}
@@ -863,8 +864,8 @@ document.addEventListener('DOMContentLoaded', function() {
             add_meditate_question(index, "1. Why do you believe God gave us so much evidence to support Jesus' claim to be God?");
             add_meditate_question(index, "2. Why are Jesus' claims to be God superior to those made by others?");
             add_meditate_question(index, "3. How much worse would it be to reject Jesus with so much evidence compared to those who had less?");
-            add_meditate_question(index, "4. Do you think people reject Jesus based on preconceived notions or evidence? How about you?");
-            add_meditate_question(index, "5. Why didn't even Jesus' critics deny his miracles?");
+            add_meditate_question(index, "4. Do you think people reject Jesus based on preconceived notions or evidence? How about you?");
+            add_meditate_question(index, "5. Why didn't even Jesus' critics deny his miracles?");
             add_meditate_question(index, "6. If Jesus was a liar, why would God use powerful miracles to authenticate his ministry?");
             add_meditate_question(index, "7. Have you ever read the Bible to find Jesus Christ? What is preventing you from starting today?");
             add_meditate_question(index, "8. Is a relationship based solely on what we can get from someone a love relationship? Would you expect the eternal God to be treated this way?");
@@ -1096,6 +1097,46 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=PA2J6mfN7Xw','The Supremacy of Christ in Suffering');
             add_further_link(index, 'https://www.youtube.com/watch?v=8Wtl4CYSkoA','Is Christianity rational?');
             add_further_link(index, 'https://www.youtube.com/watch?v=fY0afczuxjY','Out of the heart will flow rivers of living water');
+        }
+
+        function create_session_23(index){
+            add_main_video(index, "eSMAXD5TfoU");
+            add_video_title(index, "Trap for Jesus");
+            add_reading(index, "John 8:1-11");
+
+            add_open_prayer(index, "Today's session will focus on the foundations of morality and how a holy, just God can forgive sinful people. We'll also discuss God's purpose for marriage and its implications.");
+
+            add_watch_title(index, "Topics");
+            add_watch_topic(index, "Morality - 0:25");
+            add_watch_topic(index, "Marriage - 3:15");
+            add_watch_topic(index, "Justice and Mercy - 6:17");
+            add_watch_topic(index, "Hypocrisy - 8:58");
+            add_watch_topic(index, "Salvation and Works - 10:35");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Mercy: granting a pardon from the punishment we deserve");
+
+            add_meditate_question(index, "1. We recognise that morality is objective, and it is always wrong to murder people for our own pleasure or power, but Where do the objective standards and knowledge come from?");
+            add_meditate_question(index, "2. What lessons can we draw from marriage about our relationship with Christ and his Church?");
+            add_meditate_question(index, "3. By offering us mercy, Jesus Christ signed his own death warrant. What love would pay such a price?");
+            add_meditate_question(index, "4. The first step towards salvation is to recognise our sinfulness; have you reached the point where you understand the gravity of your sin?");
+            add_meditate_question(index, "5. Is there any unforgiveness in your heart towards another person?");
+            add_meditate_question(index, "6. Why should God forgive us a huge debt when we refuse to forgive others for a much smaller one?");
+            add_meditate_question(index, "7. Have you been set free from the controlling power of sin?");
+
+            add_close_prayer(index, "Thank God for the sacrifice that allowed him to forgive us while maintaining his character. Thank him for going to such lengths to achieve this on our behalf. Ask him to continue revealing his love and to give you the strength and desire to turn from your sin and towards him.");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=2JXpzNPt67U','Atheist & Christian on Morality');
+            add_further_link(index, 'https://www.youtube.com/watch?v=OxiAikEk2vU','Moral argument for God');
+            add_further_link(index, 'https://www.youtube.com/watch?v=4vAq9sWgZ74','Marriage is about Christ and the Church');
+            add_further_link(index, 'https://www.youtube.com/watch?v=FHy34yGR57k','The Making and Meaning of Marriage');
+            add_further_link(index, 'https://www.youtube.com/watch?v=7pfqvLmhZUk','The Divine Dilemma');
+            add_further_link(index, 'https://www.youtube.com/watch?v=jOKDZKNnJWA&t=8s','The Unforgiving Servant ');
+            add_further_link(index, 'https://www.youtube.com/watch?v=e9BMU9aMRJw',"Don't Go Back to Your Sin");
+            add_further_link(index, 'https://www.youtube.com/watch?v=9HDuv3ghRfo','Stop Taking Sin So Lightly');
+            add_further_title(index, 'Links to Helpful Sermons');
+            add_further_link(index, 'https://www.youtube.com/watch?v=g7OLQqYk708','The Divine Dilemma');
+            add_further_link(index, 'https://www.youtube.com/watch?v=XZ99sbrQCuU','Passion for the World or Christ?');
         }
 
         function create_session_(index){
