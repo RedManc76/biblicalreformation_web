@@ -925,7 +925,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_19(index){
-            add_main_video(index, "--rYLXvwJHU");
+            add_main_video(index, "GTqsLK0WpeA");
             add_video_title(index, "The bread of life");
             add_reading(index, "John 6:16-59");
 
@@ -964,7 +964,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_20(index){
-            add_main_video(index, "a1KXYDPMRow");
+            add_main_video(index, "XoN8WyhkAgI");
             add_video_title(index, "A Hard Saying");
             add_reading(index, "John 6:22-71");
 
@@ -1013,7 +1013,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_21(index){
-            add_main_video(index, "cHzr7zWxb9Q");
+            add_main_video(index, "lkqLWAT5eRk");
             add_video_title(index, "Mission of Jesus");
             add_reading(index, "John 1:1-25");
 
