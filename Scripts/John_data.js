@@ -201,6 +201,7 @@ document.addEventListener('DOMContentLoaded', function() {
         create_session_21(21);
         create_session_22(22);
         create_session_23(23);
+        create_session_24(24);
 
         function add_main_video(index, text){video_src_array[index] = text;}
         function add_video_title(index, text){video_title_array[index] = text;}
@@ -229,7 +230,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "Almighty God, as I begin this study to learn who you are and what you have done, please assist me in comprehending everything I read and hear. Please show yourself to me and make your love for me evident. Amen.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Introducing the Word - 0:25");
             add_watch_topic(index, "Beyond Expectations - 2:23");
             add_watch_topic(index, "The Unique God - 4:48");
@@ -261,7 +262,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "Almighty God, thank you for all you taught me about the Word in our last session. Please help me to see and understand more about the Word and what it all means for me. Amen.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "The Creator - 0:25");
             add_watch_topic(index, "The Creation - 2:36");
             add_watch_topic(index, "The Life - 4:23");
@@ -298,7 +299,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "Almighty God, thank you for inspiring me to continue my studies. Please let me learn more about you and myself today. Help me believe what your word says and assess my own life in light of it.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Darkness - 0:25");
             add_watch_topic(index, "'True' Light - 2:11");
             add_watch_topic(index, "Man's Corruption - 4:05");
@@ -334,7 +335,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "Almighty God, Thank you for the desire you have given me to continue to seek you out. There have been some hard things to understand, so I ask for your help today as I read, watch, and meditate on your word. Help me to look beyond the intellectual questions and see the heart of love you have for me and your creation. Amen.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "The Word became flesh - 0:25");
             add_watch_topic(index, "Person of Jesus Christ - 2:59");
             add_watch_topic(index, "Eyewitness - 5:14");
@@ -375,7 +376,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "Almighty God. I am here with you again, as I want to know more about who you are. Please help me to concentrate, understand the video, and participate seriously with the meditation questions today. Give me a desire to continue my studies in John's Gospel. Amen.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "The Enemy - 0:25");
             add_watch_topic(index, "Behold the lamb - 1:39");
             add_watch_topic(index, "Types and Shadows - 4:40");
@@ -414,7 +415,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_reading(index, "John 1:35-51");
 
             add_open_prayer(index, "Almighty God. As I watch this next video, I ask for your help to learn more about Jesus. Help me to believe what I learn, and help me to trust you. Amen.");
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "The Twelve - 0:25");
             add_watch_topic(index, "The Scriptures - 2:10");
             add_watch_topic(index, "Qualifications - 4:21");
@@ -451,7 +452,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "Almighty God, as I move into chapter two, I want to thank you for all you have taught me in chapter one. Help me to continue digesting all that I have learned and open my eyes to see more of your truth in this next chapter. Amen.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Miracles - 0:25");
             add_watch_topic(index, "Signs - 1:32");
             add_watch_topic(index, "Authority - 3:35");
@@ -480,19 +481,19 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_8(index){
-            add_main_video(index, "0fwWk9GSVP8");
+            add_main_video(index, "8DCLvnvVnGY");
             add_video_title(index, "Cleansing the Temple");
             add_reading(index, "John 2:13-25");
 
             add_open_prayer(index, "Alimighty God, please give me a clear mind and heart to receive the truth today. Help me not to rely on my own understanding of what is true and false, right and wrong, and give me a right-thinking mind and a right-feeling heart, according to your will. Amen.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "The Temple - 0:25");
-            add_watch_topic(index, "The Sacrifice - 3:23");
-            add_watch_topic(index, "Pigeons - 5:59");
-            add_watch_topic(index, "Righteous Anger - 7:52");
-            add_watch_topic(index, "New Temple - 12:09");
-            add_watch_topic(index, "Deceiving Heart - 15:14");
+            add_watch_topic(index, "Wages of Sin - 3:02");
+            add_watch_topic(index, "Salvation for All - 4:57");
+            add_watch_topic(index, "Righteous Anger - 6:23");
+            add_watch_topic(index, "New Temple - 9:15");
+            add_watch_topic(index, "Deceiving Heart - 12:07");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Mercy Seat: It is a seat that sits on top of the Ark of the Covenant, which represents the place where God would receive the sacrifices for sin and administer forgiveness.");
             add_watch_term(index, "Temple: The centre of Jewish worship, it represented the presence of God amongst his people.");
@@ -523,19 +524,19 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_9(index){
-            add_main_video(index, "MtmIQ4YpyXY");
+            add_main_video(index, "YyK4dtn5jHE");
             add_video_title(index, "You must be born again");
             add_reading(index, "John 3:1-15");
 
             add_open_prayer(index, "Almighty God, I come again to learn from your word. Please give me the spiritual insight that I need to understand it, and not just understand it, but to have my life changed and transformed by your Holy Spirit. Amen.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "The big question - 0:25");
-            add_watch_topic(index, "Seek and Find - 1:28");
-            add_watch_topic(index, "Supernatural Book - 3:48");
-            add_watch_topic(index, "Born Again - 8:52");
-            add_watch_topic(index, "What can I do? - 11:27");
-            add_watch_topic(index, "The Serpent - 13:07");
+            add_watch_topic(index, "Seek and Find - 1:39");
+            add_watch_topic(index, "Supernatural Book - 3:27");
+            add_watch_topic(index, "Born Again - 6:52");
+            add_watch_topic(index, "What can I do? - 8:51");
+            add_watch_topic(index, "The Serpent - 11:06");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Supernatural: some force or being that exists outside of the natural universe and is not subject to the laws of nature.");
             add_watch_term(index, "Means of salvation: those natural processes which God uses to impart spiritual life into a human being");
@@ -568,7 +569,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "Almighty God, Thank you for what I have learned so far. Please continue to make yourself known to me and grant me the heart to love you in the same way that you love me. Amen.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "God's Love - 0:25");
             add_watch_topic(index, "The Son - 1:53");
             add_watch_topic(index, "Salvation or Condemnation? - 4:48");
@@ -607,7 +608,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
             add_open_prayer(index, "We would encourage you to continue to pray what is on your heart. Remember, God wants honesty, so our prayer needs to be real. Remember that you don't have to use special words or terms; simply speak to God as you would speak to someone else you respect. <br> In this session, we will look again at how unique Jesus is, so this could be something you might ask him to reveal to you.");
     
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Voice in the wilderness - 0:25");
             add_watch_topic(index, "Purpose and Reason - 2:48");
             add_watch_topic(index, "Unworthy - 5:03");
@@ -647,7 +648,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
             add_open_prayer(index, "As you learn to pray, it is always good to start our prayers by acknowledging who God is. You have learned a fair bit about this over the last eleven sessions. Why don't you start today by acknowledging who God is and asking him to reveal more of himself?<br>In this session, we are going to look at the kindness of Jesus and how he can sympathise with our weaknesses. Also, we will start to look at what true worship is.");
     
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Meeting at the well - 0:25");
             add_watch_topic(index, "God who sympathizes - 3:09");
             add_watch_topic(index, "Living Water - 5:39");
@@ -691,7 +692,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "Start by acknowledging God's goodness and thanking him for what he has already done. Then ask him for help understanding what you are about to learn. <br> In this session, we are going to look at the extent of the kingdom, the dangers of sin, and the task that God has for your life.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "The Messiah - 0:25");
             add_watch_topic(index, "Expanding Kingdom - 3:35");
             add_watch_topic(index, "Spiritual Cancer - 6:29");
@@ -730,7 +731,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "Again, start by acknowledging God's goodness and thanking him for what he has already done. Then ask him for help understanding what you are about to learn. <br> In this session, we are going to look at the proper way of interpreting difficult bible passages, God being in control, and Jesus power over death.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Compassion? - 0:25");
             add_watch_topic(index, "Interpretation - 2:04");
             add_watch_topic(index, "On his throne - 5:18");
@@ -767,7 +768,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "Continue to thank God for what he has and is doing in your life, particularly in regards to your relationship with him. Ask him for help understanding what you are about to learn. <br> In this session, we will see Jesus's compassion, learn about the Sabbath, see how false religion keeps us away from God, and receive a warning against rejection of Jesus and ingratitude.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Pool of Bethesda - 0:25");
             add_watch_topic(index, "Singled out - 2:20");
             add_watch_topic(index, "The Sabbath - 5:14");
@@ -810,7 +811,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "It would be well to thank God you are still here and watching these videos. If you have come to know his love and kindness over these sessions, now would be a good time to thank him again for this. <br> In this session, we will look at Jesus claim to be God and why this is important. Also, we will look at the resurrection of the dead and the purpose for which you were created.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Son of the Father - 0:25");
             add_watch_topic(index, "Image and Honour - 4:04");
             add_watch_topic(index, "Undeniable Claim - 6:22");
@@ -852,7 +853,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "In this session, we'll look at more evidence that Jesus is who he claims. Ask God for an open mind so that you can evaluate the evidence on its own merits rather than rejecting it because of preconceived notions about who Jesus is. ");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Fourfold Witness - 0:25");
             add_watch_topic(index, "Witness One - 2:38");
             add_watch_topic(index, "Witness Two - 5:15");
@@ -891,7 +892,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "In this session, we will see some more miracles that Jesus performed, pointing to who he is. Ask God to help you see who Jesus is and what his miracles say about him. Ask him to give you an open mind and to think beyond the rationalism and scepticism in today's world.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "The Mystery - 0:25");
             add_watch_topic(index, "Incarnate Son - 2:00");
             add_watch_topic(index, "Implausible - 4:36");
@@ -931,7 +932,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "In this session, we will see the primary purpose in Jesus feeding the five thousand and that spiritual nourishment is more important than physically. Your greatest need is not your wants and needs in this life but the one to come. Ask God to change your perspective and to see what is of upmost importance.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Wrong Motives - 0:25");
             add_watch_topic(index, "Time and Eternity - 2:08");
             add_watch_topic(index, "Not by works - 4:09");
@@ -971,7 +972,7 @@ document.addEventListener('DOMContentLoaded', function() {
             //add more to open prayer 
             add_open_prayer(index, "We hope you will be comfortable with prayer by now, so we will give limited prompting from this session on. Prayer is such an important part of the Christian life, and so we encourage you to develop your own prayer habit and style. Going forward, we will summarise the lesson from each session to give you some direction on what to pray for.<br><br>Today's session we will continue with the discussion Jesus had with the crowd after his miraculous feeding of the 5,000 men. We will look at what it is to believe in Jesus and how we are to be saved.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Extraordinary claim - 0:25");
             add_watch_topic(index, "Spiritual Unity - 1:27");
             add_watch_topic(index, "A hard saying - 4:18");
@@ -1019,7 +1020,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "In today's session, we will start to understand something about Jesus' mission, his humility and love for sinners, and how he rescues them from what they desire and gives them what they need.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Secrecy - 0:25");
             add_watch_topic(index, "Humility - 2:40");
             add_watch_topic(index, "Love - 4:42");
@@ -1061,7 +1062,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "In today's session, we'll look at how people received Jesus and encourage you to seek him out while you can. We will also discuss the benefits of knowing him. ");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Love or Hate? - 0:25");
             add_watch_topic(index, "Origins - 2:19");
             add_watch_topic(index, "Sympathy - 7:02");
@@ -1106,7 +1107,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "Today's session will focus on the foundations of morality and how a holy, just God can forgive sinful people. We'll also discuss God's purpose for marriage and its implications.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Morality - 0:25");
             add_watch_topic(index, "Marriage - 3:15");
             add_watch_topic(index, "Justice and Mercy - 6:17");
@@ -1139,6 +1140,53 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=XZ99sbrQCuU','Passion for the World or Christ?');
         }
 
+        function create_session_24(index){
+            add_main_video(index, "kaVHiCojD60");
+            add_video_title(index, "I AM the Light");
+            add_reading(index, "john 8:12-38");
+
+            add_open_prayer(index, "In today's session, we will discuss what it means for Jesus to be the light of the world, as well as the various reactions of those who heard him speak. We will also consider our relationship with sin.");
+
+            add_watch_title(index, "Chapters");
+            add_watch_topic(index, "I AM - 0:25");
+            add_watch_topic(index, "The Only Light - 3:26");
+            add_watch_topic(index, "The Challenge - 5:10");
+            add_watch_topic(index, "God's Timing - 6:39");
+            add_watch_topic(index, "Some Believe - 8:24");
+            add_watch_topic(index, "Slaves to Sin - 10:25");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "I AM: God is the title of the supreme being and creator, I AM is his personal name");
+            add_watch_term(index, "Pharisee: Jewish religious and political leaders of Jesus day");
+            add_watch_term(index, "Doctrine: set of beliefs");
+            add_watch_term(index, "Repent: turn from sin and trusting in our own righteousness, turning to Jesus and trusting in him");
+
+            add_meditate_question(index, "1. When it comes to who you are, do you base your answer on how you feel, what society tells you, or what the Bible says you are?");
+            add_meditate_question(index, "2. What differences do you see between what modern culture teaches you about yourself and what the Bible teaches?");
+            add_meditate_question(index, "3. Why did Jesus refer to himself as 'the light of the world'?");
+            add_meditate_question(index, "4. What is the darkness that Jesus has come to deliver us from?");
+            add_meditate_question(index, "5. What is the trajectory of your life, towards or away from Jesus?");
+            add_meditate_question(index, "6. Why is it critical that we move towards Jesus rather than away?");
+            add_meditate_question(index, "7. What does it mean to abide in Jesus' word, and are you doing so?");
+            add_meditate_question(index, "8. Are you a slave to sin, or have you been freed? How can you be certain?");
+
+            add_close_prayer(index, "Thank God for sending Jesus Christ to bring light to our dark world. Ask God to help you walk in that light and free you from slavery to your sin.");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=2_-kxwCDrOg','I AM meaning');
+            add_further_link(index, 'https://www.youtube.com/watch?v=UMGTzNJc8Ys','The I AM Sayings of Jesus');
+            add_further_link(index, 'https://www.youtube.com/watch?v=tM4mjTK2IfM','What did Jesus mean when He said, “I am the Light of the World”');
+            add_further_link(index, 'https://www.youtube.com/watch?v=fnsCL7WNua4','If You Abide in My Word, You Are Truly My Disciples');
+            add_further_link(index, 'https://www.youtube.com/watch?v=8IseOKwjiNw','Slaves To Sin or Slaves To God');
+            add_further_link(index, 'https://www.youtube.com/watch?v=cSJV5Vs3NZ4','Set Free from Sin');
+            add_further_title(index, 'Links to Helpful Sermons');
+            add_further_link(index, 'https://www.youtube.com/watch?v=07x8335999I','I Am the Light of the World');
+            add_further_link(index, 'https://www.youtube.com/watch?v=E44Ghw9bO4g','The Light of the World');
+            add_further_link(index, 'https://www.youtube.com/watch?v=cV4-65Z5uSg','The Fourfold Witness');
+            add_further_link(index, 'https://www.youtube.com/watch?v=WX377Qn44Ao','A Plan for Dying in Your Sins');
+            add_further_link(index, 'https://www.youtube.com/watch?v=RudgOdcgsxI','If My Words Abide in You');
+            add_further_link(index, 'https://www.youtube.com/watch?v=rkrlPP8s3_o','Are you Struggling Against Sin or a Slave of Sin?');
+        }
+
         function create_session_(index){
             add_main_video(index, "");
             add_video_title(index, "");
@@ -1146,7 +1194,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, " - ");
             add_watch_topic(index, " - ");
             add_watch_topic(index, " - ");
