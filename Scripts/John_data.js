@@ -491,7 +491,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_watch_topic(index, "The Temple - 0:25");
             add_watch_topic(index, "Wages of Sin - 3:02");
             add_watch_topic(index, "Salvation for All - 4:57");
-            add_watch_topic(index, "Righteous Anger - 6:23");
+            add_watch_topic(index, "Righteous Anger - 6:07");
             add_watch_topic(index, "New Temple - 9:15");
             add_watch_topic(index, "Deceiving Heart - 12:07");
             add_watch_title(index, "Biblical Terms");
@@ -563,7 +563,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_10(index){
-            add_main_video(index, "2pS_zIfwIpg");
+            add_main_video(index, "RhgRgOnyIzE");
             add_video_title(index, "God so loved the world");
             add_reading(index, "John 3:16-21");
 
@@ -571,10 +571,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_watch_title(index, "Chapters");
             add_watch_topic(index, "God's Love - 0:25");
-            add_watch_topic(index, "The Son - 1:53");
-            add_watch_topic(index, "Salvation or Condemnation? - 4:48");
-            add_watch_topic(index, "Condemned already - 6:51");
-            add_watch_topic(index, "Hope in Christ - 9:25");
+            add_watch_topic(index, "The Son - 1:40");
+            add_watch_topic(index, "Salvation or Condemnation? - 5:38");
+            add_watch_topic(index, "Condemned already - 7:12");
+            add_watch_topic(index, "Hope in Christ - 9:55");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Just: Someone who always gives a law breaks their correct sentence.");
 
@@ -602,7 +602,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_11(index){
-            add_main_video(index, "Hk46ws01GmQ");
+            add_main_video(index, "MjPgEQFP_HA");
             add_video_title(index, "Supremecy of Jesus Christ");
             add_reading(index, "John 3:22-36");
     
@@ -610,11 +610,10 @@ document.addEventListener('DOMContentLoaded', function() {
     
             add_watch_title(index, "Chapters");
             add_watch_topic(index, "Voice in the wilderness - 0:25");
-            add_watch_topic(index, "Purpose and Reason - 2:48");
-            add_watch_topic(index, "Unworthy - 5:03");
-            add_watch_topic(index, "Wedding Banquet - 7:28");
-            add_watch_topic(index, "Voice of the Son - 10:18");
-            add_watch_topic(index, "Trust and Obey - 11:56");
+            add_watch_topic(index, "Purpose and Reason - 2:10");
+            add_watch_topic(index, "The New Kingdom - 4:27");
+            add_watch_topic(index, "Wedding Banquet - 7:19");
+            add_watch_topic(index, "Trust and Obey - 9:08");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Baptism: a ritual where a person is submerged in water, which has spiritual significance.");
             add_watch_term(index, "Christ: means the annointed one, speaking of Jesus, God's own son in human flesh.");
@@ -642,7 +641,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         function create_session_12(index){
-            add_main_video(index, "81fwwDEWx_o");
+            add_main_video(index, "hzMvaKdblxg");
             add_video_title(index, "Women at the Well part 1");
             add_reading(index, "John 4:1-45");
     
@@ -650,10 +649,10 @@ document.addEventListener('DOMContentLoaded', function() {
     
             add_watch_title(index, "Chapters");
             add_watch_topic(index, "Meeting at the well - 0:25");
-            add_watch_topic(index, "God who sympathizes - 3:09");
-            add_watch_topic(index, "Living Water - 5:39");
-            add_watch_topic(index, "An immoral women - 8:38");
-            add_watch_topic(index, "True worship - 11:01");
+            add_watch_topic(index, "Biblical Accuracy - 2:28");
+            add_watch_topic(index, "Personal Message - 3:55");
+            add_watch_topic(index, "Living Water - 8:03");
+            add_watch_topic(index, "True worship - 11:29");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Holy Spirit: third person of the Godhead, God is one but subsists in three distinct person, Father, Son (Jesus) and Holy Spirit.");
             add_watch_term(index, "Living Water: the gift of the Holy Spirit.");
@@ -1185,6 +1184,49 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=WX377Qn44Ao','A Plan for Dying in Your Sins');
             add_further_link(index, 'https://www.youtube.com/watch?v=RudgOdcgsxI','If My Words Abide in You');
             add_further_link(index, 'https://www.youtube.com/watch?v=rkrlPP8s3_o','Are you Struggling Against Sin or a Slave of Sin?');
+        }
+
+        function create_session_25(index){
+            add_main_video(index, "");
+            add_video_title(index, "");
+            add_reading(index, "");
+
+            add_open_prayer(index, "");
+
+            add_watch_title(index, "Chapters");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_topic(index, " - ");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Presupposition: ");
+            add_watch_term(index, "Righteousness: ");
+            add_watch_term(index, ": ");
+            add_watch_term(index, ": ");
+            add_watch_term(index, ": ");
+
+            add_meditate_question(index, "1. ");
+            add_meditate_question(index, "2. ");
+            add_meditate_question(index, "3. ");
+            add_meditate_question(index, "4. ");
+            add_meditate_question(index, "5. ");
+            add_meditate_question(index, "6. ");
+            add_meditate_question(index, "7. ");
+            add_meditate_question(index, "8. ");
+            add_meditate_question(index, "9. ");
+            add_meditate_question(index, "10. ");
+
+            add_close_prayer(index, "");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
+            add_further_link(index, '','');
         }
 
         function create_session_(index){
