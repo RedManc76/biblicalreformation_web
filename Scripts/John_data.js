@@ -685,28 +685,25 @@ document.addEventListener('DOMContentLoaded', function() {
         }   
 
         function create_session_13(index){
-            add_main_video(index, "sUJX8ZvSKuE");
+            add_main_video(index, "6UwZiU8ySWQ");
             add_video_title(index, "Women at the Well part 2");
             add_reading(index, "John 4:1-45");
 
             add_open_prayer(index, "Start by acknowledging God's goodness and thanking him for what he has already done. Then ask him for help understanding what you are about to learn. <br> In this session, we are going to look at the extent of the kingdom, the dangers of sin, and the task that God has for your life.");
 
             add_watch_title(index, "Chapters");
-            add_watch_topic(index, "The Messiah - 0:25");
-            add_watch_topic(index, "Expanding Kingdom - 3:35");
-            add_watch_topic(index, "Spiritual Cancer - 6:29");
-            add_watch_topic(index, "Will of the Father - 7:50");
-            add_watch_topic(index, "Harvest of Souls - 10:25");
-            add_watch_topic(index, "See for yourself - 12:40");
+            add_watch_topic(index, "Expectancy- 0:25");
+            add_watch_topic(index, "The King - 2:33");
+            add_watch_topic(index, "The Prophet - 4:54");
+            add_watch_topic(index, "The Priest - 7:34");
+            add_watch_topic(index, "Harvest - 9:59");
             add_watch_title(index, "Biblical Terms");
-            add_watch_term(index, "Jews are the people of God, naturally descended from Abraham, Isaac, and Jacob.");
-            add_watch_term(index, "Gentiles: none of the Jewish people, i.e., the rest of the world.");
-            add_watch_term(index, "Self Righteousness: thinking that oneself is good and pleasing to God in and of themselves");
+            add_watch_term(index, "Messiah: the anointed one, the one who was promised to come and save God's people.");
 
-            add_meditate_question(index, "1. Jesus crossed cultural boundaries to bring the good news of salvation to them. Are there any boundaries that exist that would keep you from Jesus? If so, do you think they are a problem for Jesus?");
-            add_meditate_question(index, "2. God hates self-righteousness and self-righteous religion, thinking that God is for us because of anything we are or have done. If anyone is considered right before God, it is based entirely on what Jesus has done for them. Do you think you are good enough for God? If so, this attitude needs to go before you can come to him.");
-            add_meditate_question(index, "3. Have you thought that sin is a spiritual cancer and far more dangerous?");
-            add_meditate_question(index, "4. Doing his Father's will brought Jesus the most joy, and we were created to find our greatest joy in obeying God. This is the Father's will for your life: that you will trust his son and live for him. What is stopping you from coming to him and experiencing this joy?");
+            add_meditate_question(index, "1. Does it seem to you that the world is in a mess? why do you think that is?");
+            add_meditate_question(index, "2. What kingdom do you belong to?");
+            add_meditate_question(index, "3. Why does God allow evil?");
+            add_meditate_question(index, "4. Why did God command animal sacrifices when they could not take away sin? What or who was it pointing to?");
             add_meditate_question(index, "5. God doesn't just want to save you; he wants to use you to save others. Would this not be the greatest thing you could give your life to?");
 
             add_close_prayer(index, "Ask God to help you see the joy of a relationship with him. Ask him to help you see the dangers of sin and the cure that Jesus purchased on the cross. If you desire it, ask him to grant you the cure and the ability to trust in him. Finish by thanking him for making salvation possible.");
@@ -715,12 +712,12 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=TzPsa35Uhn4','Is Jesus the messiah');
             add_further_link(index, 'https://www.youtube.com/watch?v=O11Br4lr3Qw','The Mystery of the Messiah');
             add_further_link(index, 'https://www.youtube.com/watch?v=EQJlGFBXyx8','Salvation for all');
-            add_further_link(index, 'https://www.youtube.com/watch?v=dZEX3Jsg1sY','Saved From Self Righteousness');
-            add_further_link(index, 'https://www.youtube.com/watch?v=N1QL-4oEx34','Saved from spirtual cancer');
-            add_further_link(index, 'https://www.youtube.com/watch?v=0w6fD8fyASo','Joy in God');
+            add_further_link(index, 'https://www.youtube.com/watch?v=UTRm1go2Qw4','Why does God allow evil?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=OexKmF_q5ZE','Jesus as a Prophet, Priest, and King');
             add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, 'https://www.youtube.com/watch?v=DgTTLDuL9TY','Prophet, Priest, and King');
-            add_further_link(index, 'https://www.youtube.com/watch?v=0xP0K2GkBn4','A Blow to Self Righteousness');
+            add_further_link(index, 'https://www.youtube.com/watch?v=OEeiFIRrNXg','Kingdoms of Darkness and Light');
+            add_further_link(index, 'https://www.youtube.com/watch?v=g1Xe_aS_WlU','The Joy of Evangelism');
         }
 
         function create_session_14(index){
