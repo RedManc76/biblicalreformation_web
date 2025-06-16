@@ -721,7 +721,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_14(index){
-            add_main_video(index, "HrU3BAvQrps");
+            add_main_video(index, "co4S1yguyqU");
             add_video_title(index, "Second Sign");
             add_reading(index, "John 4:46-54");
 
@@ -729,18 +729,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_watch_title(index, "Chapters");
             add_watch_topic(index, "Compassion? - 0:25");
-            add_watch_topic(index, "Interpretation - 2:04");
-            add_watch_topic(index, "On his throne - 5:18");
-            add_watch_topic(index, "Priorities - 7:18");
-            add_watch_topic(index, "Exemplary belief - 10:54");
-            add_watch_topic(index, "Death must flee - 12:33");
+            add_watch_topic(index, "Interpretation - 1:56");
+            add_watch_topic(index, "On his throne - 4:13");
+            add_watch_topic(index, "Priorities - 6:23");
+            add_watch_topic(index, "Exemplary belief - 9:14");
+            add_watch_topic(index, "Death of Death - 10:57");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Hermeneutics:  the theory and methodology of interpretation");
 
             add_meditate_question(index, "1. What should we do if we come across difficult biblical passages?");
             add_meditate_question(index, "2. Is it more likely that we or God are to blame when we come across things in scripture that we disagree with?");
             add_meditate_question(index, "3. What is more important than the death of a child? What about where a person will spend eternity?");
-            add_meditate_question(index, "4. How does it make you feel that God isn't running around heaven trying to solve one problem after another?");
+            add_meditate_question(index, "4. How does it make you feel that God isn't running around heaven trying to solve one problem after another, but has everything under control?");
             add_meditate_question(index, "5. God sits on his throne, never flustered or surprised, and everything he plans will come to fruition. Could you trust such a God with your life?");
             add_meditate_question(index, "6. Without witnessing Jesus' miracles firsthand, can you trust his word when he says, 'All who come to me will be saved'?");
             add_meditate_question(index, "7. Is there something in your life that you believe is too difficult for Jesus? Is this going to put you off approaching him? Has this story changed your mind?");
