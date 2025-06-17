@@ -758,7 +758,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_15(index){
-            add_main_video(index, "zUMScsCpLJI");
+            add_main_video(index, "k-W-qHwLdDo");
             add_video_title(index, "The ungrateful beggar");
             add_reading(index, "John 5:1-18");
 
@@ -766,21 +766,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_watch_title(index, "Chapters");
             add_watch_topic(index, "Pool of Bethesda - 0:25");
-            add_watch_topic(index, "Singled out - 2:20");
-            add_watch_topic(index, "The Sabbath - 5:14");
-            add_watch_topic(index, "Self Righteousness - 9:39");
-            add_watch_topic(index, "Ingratitude - 13:05");
-            add_watch_topic(index, "The warning - 15:13");
+            add_watch_topic(index, "Singled out - 2:11");
+            add_watch_topic(index, "The Sabbath - 4:29");
+            add_watch_topic(index, "Self Righteousness - 6:43");
+            add_watch_topic(index, "Ingratitude - 11:15");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Sabbath: instituted by God as a day of rest for his people");
 
-            add_meditate_question(index, "1. We've thought about it before, but it's worth remembering that Jesus suffered just like us, so he might be a better friend and comforter in your hour of need. Is it comforting to know that God truly cares?");
+            add_meditate_question(index, "1. Jesus suffered just like us, so he might be a better friend and comforter in your hour of need. Do you find comfort in this?");
             add_meditate_question(index, "2. Do you really feel the destructive power of sin? Do you think you can solve the problem yourself, or is it not a problem at all?");
             add_meditate_question(index, "3. Do you believe that by watching this video, God has chosen you to hear the good news of His redeeming love? Will you not approach him on that basis?");
             add_meditate_question(index, "4. Is it not gracious of God to give us rest from our physical labours? How much more significant is it that God, through his Son, has given us rest from our spiritual attempts to restore our relationship with him? ");
-            add_meditate_question(index, "5. Why do people use religion to make peace with God when Jesus Christ has already done so?");
+            add_meditate_question(index, "5. Why do people use self righteousness to make peace with God, when Jesus Christ has already done all that necessary?");
             add_meditate_question(index, "6. How thankful are we to God? Do we reflect on everything he has accomplished and give him the praise and thanks he deserves? He gives us everything good in life and has made it possible for us to escape death and hell. ");
-            add_meditate_question(index, "7. What kind of ingratitude is demonstrated when we reject God's Son, who paid a terrible price to save us? Can you understand how serious this sin is?");
+            add_meditate_question(index, "7. What kind of ingratitude is demonstrated when we reject God's Son, who paid a terrible price to save us? ");
             add_meditate_question(index, "8. Why did God warn the man? What was the consequence of not heeding this warning? Will there be consequences for us if we ignore God's warnings?");
 
             add_close_prayer(index, "Thank God for his compassion and for choosing you to hear his offer of salvation. Ask that he keep you from false religion and self-righteousness. Ask him to help you take his warning seriously and to give you a grateful and thankful heart.");
