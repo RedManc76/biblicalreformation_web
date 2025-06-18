@@ -840,18 +840,18 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         function create_session_17(index){
-            add_main_video(index, "MOhADAYg080");
+            add_main_video(index, "NYQFTvxHAM8");
             add_video_title(index, "Fourfold witness");
             add_reading(index, "John 5:30-47");
 
             add_open_prayer(index, "In this session, we'll look at more evidence that Jesus is who he claims. Ask God for an open mind so that you can evaluate the evidence on its own merits rather than rejecting it because of preconceived notions about who Jesus is. ");
 
             add_watch_title(index, "Chapters");
-            add_watch_topic(index, "Fourfold Witness - 0:25");
-            add_watch_topic(index, "Witness One - 2:38");
-            add_watch_topic(index, "Witness Two - 5:15");
-            add_watch_topic(index, "Witness Three - 8:25");
-            add_watch_topic(index, "Rejected - 10:28");
+            add_watch_topic(index, "Self attestation - 0:25");
+            add_watch_topic(index, "John the Baptist - 2:26");
+            add_watch_topic(index, "Miracles - 5:09");
+            add_watch_topic(index, "The Scripture - 8:15");
+            add_watch_topic(index, "Jesus not Moses - 10:18");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Scripture: Holy writings, The Bible.");
 
@@ -862,8 +862,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_meditate_question(index, "5. Why didn't even Jesus' critics deny his miracles?");
             add_meditate_question(index, "6. If Jesus was a liar, why would God use powerful miracles to authenticate his ministry?");
             add_meditate_question(index, "7. Have you ever read the Bible to find Jesus Christ? What is preventing you from starting today?");
-            add_meditate_question(index, "8. Is a relationship based solely on what we can get from someone a love relationship? Would you expect the eternal God to be treated this way?");
-            add_meditate_question(index, "9. Are you willing to have God even if it means giving up everything else?");
+            add_meditate_question(index, "8. Are you willing to have God even if it means giving up everything else?");
 
             add_close_prayer(index, "Thank God for all of the evidence he has provided for us to evaluate Jesus' claims, and if you haven't come to Jesus yet, ask God to show you what is keeping you from him. Request that he remove any obstacles that are preventing you from connecting with him. ");
 
@@ -872,6 +871,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=ev4FoslmUj8','Are Miracles Possible?');
             add_further_link(index, 'https://www.youtube.com/watch?v=WWlpQauXiTU&list=PLZ3iRMLYFlHsHyvMtfgOgSPU6zEnCvxUO','Playlist - Jesus in Old Testament');
             add_further_link(index, 'https://www.youtube.com/watch?v=qBviSLOhp1w','The will of the Father');
+            add_further_link(index, 'https://www.youtube.com/watch?v=BCX3u2mz5-c','4 Proofs Jesus is God');
             add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, 'https://www.youtube.com/watch?v=iKU3ZcTc38s','Deity of Christ, P1');
             add_further_link(index, 'https://www.youtube.com/watch?v=IjhS5h0dTgw','Deity of Christ, P2');
