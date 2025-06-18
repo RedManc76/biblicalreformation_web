@@ -879,18 +879,18 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_18(index){
-            add_main_video(index, "aX-fy6dth_M");
+            add_main_video(index, "0rdvuNL4a2I");
             add_video_title(index, "The God Man");
             add_reading(index, "John 6:1-21");
 
             add_open_prayer(index, "In this session, we will see some more miracles that Jesus performed, pointing to who he is. Ask God to help you see who Jesus is and what his miracles say about him. Ask him to give you an open mind and to think beyond the rationalism and scepticism in today's world.");
 
             add_watch_title(index, "Chapters");
-            add_watch_topic(index, "The Mystery - 0:25");
-            add_watch_topic(index, "Incarnate Son - 2:00");
-            add_watch_topic(index, "Implausible - 4:36");
-            add_watch_topic(index, "Water walker - 7:47");
-            add_watch_topic(index, "Fear now - 9:43");
+            add_watch_topic(index, "Fully God - 0:25");
+            add_watch_topic(index, "Implausible denial - 2:29");
+            add_watch_topic(index, "Crown Him - 4:54");
+            add_watch_topic(index, "Water walker - 6:31");
+            add_watch_topic(index, "Fear now - 8:49");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Eternally begotten: the reationship of God the Son to God the Father");
             add_watch_term(index, "Precede: The relationship between God the Spiriit and the Father and the Son");
@@ -901,7 +901,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_meditate_question(index, "4. Does the mystery of God cause you to seek him more?");
             add_meditate_question(index, "5. Does an easily comprehensible God make it more or less likely to be the true God?");
             add_meditate_question(index, "6. Why do you think people deny Jesus's miracles?");
-            add_meditate_question(index, "7. Knowing Jesus is the most wonderful thing a human being can experience, what would you be willing to give up for it?");
+            add_meditate_question(index, "7. Knowing Jesus is the most wonderful experience a human being can have, what would you be willing to give up for it?");
             add_meditate_question(index, "8. Do you fear God? Why? Should you fear God?");
 
             add_close_prayer(index, "Thank God that he became a man and used his power to save and rescue lost sinners. Ask God to give you a godly fear that will cause you to run to him for safety. Ask God to give you a heart that is willing to pay whatever cost to get Jesus.");
