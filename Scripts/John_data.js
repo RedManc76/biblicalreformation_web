@@ -203,6 +203,7 @@ document.addEventListener('DOMContentLoaded', function() {
         create_session_23(23);
         create_session_24(24);
         create_session_25(25);
+        create_session_26(26);
 
         function add_main_video(index, text){video_src_array[index] = text;}
         function add_video_title(index, text){video_title_array[index] = text;}
@@ -1219,46 +1220,43 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_26(index){
-            add_main_video(index, "");
-            add_video_title(index, "");
-            add_reading(index, "");
+            add_main_video(index, "Piaaw-JsbAE");
+            add_video_title(index, "Sight to the blind");
+            add_reading(index, "John 9:1-41");
 
-            add_open_prayer(index, "");
+            add_open_prayer(index, "In today's session, we will look at the soverignty of God, the dangers of spiritual blindness and the value of the soul");
 
             add_watch_title(index, "Chapters");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
-            add_watch_topic(index, " - ");
+            add_watch_topic(index, "God's ordination - 0:25");
+            add_watch_topic(index, "The dilemma - 2:40");
+            add_watch_topic(index, "Just a prophet? - 4:52");
+            add_watch_topic(index, "Sinner? - 6:51");
+            add_watch_topic(index, "Blind but now I see - 9:06");
             add_watch_title(index, "Biblical Terms");
-            add_watch_term(index, ": ");
-            add_watch_term(index, ": ");
-            add_watch_term(index, ": ");
-            add_watch_term(index, ": ");
-            add_watch_term(index, ": ");
+            add_watch_term(index, "Spiritual eyes: that which we use to see spiritual truth, the ability to understand and accept spiritual things");
+            add_watch_term(index, "Soul: The immortal part of a person, the essence of who we are, our mind, will and emotions");
 
-            add_meditate_question(index, "1. ");
-            add_meditate_question(index, "2. ");
-            add_meditate_question(index, "3. ");
-            add_meditate_question(index, "4. ");
-            add_meditate_question(index, "5. ");
-            add_meditate_question(index, "6. ");
-            add_meditate_question(index, "7. ");
-            add_meditate_question(index, "8. ");
-            add_meditate_question(index, "9. ");
-            add_meditate_question(index, "10. ");
+            add_meditate_question(index, "1. How do you feel about the idea that God ordains everything that happens in the world and our lives?");
+            add_meditate_question(index, "2. How can a prophet save a sinner from the judgement of God?");
+            add_meditate_question(index, "3. Are your spiritual eyes open? If not what can you do?");
+            add_meditate_question(index, "4. Have you got preconceived ideas about Jesus that are not based on the Bible?");
+            add_meditate_question(index, "5. What do you already know about Jesus?");
+            add_meditate_question(index, "6. How much is your eternal soul worth? What would you prepared to exchange it for?");
+            add_meditate_question(index, "7. What is Jesus worth to you? What would you be prepared to give up for him?");
 
-            add_close_prayer(index, "");
+            add_close_prayer(index, "Thank God that he first love us in sending his Son, Jesus to save us. Ask that God will grant you spiritual eyes to see and a heart to worship Jesus.");
 
             add_further_title(index, 'Links to Further Study');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
-            add_further_link(index, '','');
+            add_further_link(index, 'https://www.youtube.com/watch?v=nSSLLpVChng','Has God predetermined every detail in the universe?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=6vh08Uv9Ft8','All Things Work Together for Good: Romans 8:28, Part 1');
+            add_further_link(index, 'https://www.youtube.com/watch?v=IVcCoesyCAA','Do You Love God? Romans 8:28, Part 2');
+            add_further_link(index, 'https://www.youtube.com/watch?v=HJBSFwds0Ek','Called According to God’s Purpose: Romans 8:28, Part 3');
+            add_further_link(index, 'https://www.youtube.com/watch?v=x8NaRTQ_t8A','The Only Solution to Spiritual Blindness');
+            add_further_link(index, 'https://www.youtube.com/watch?v=oA1ngfo7vLY','I Was Blind, but Now I See');
+            add_further_link(index, 'https://www.youtube.com/watch?v=j1dsuHBbpvA','Son of God, Son of Man');
+            add_further_title(index, 'Links to Helpful Sermons');
+            add_further_link(index, 'https://www.youtube.com/watch?v=xVAQbN25R4g','The Eternal Decrees of God');
+            add_further_link(index, 'https://www.youtube.com/watch?v=6XufrwXC_Zs','Once I Was Blind, But Now I See');
         }
 
         function create_session_(index){
@@ -1300,6 +1298,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, '','');
             add_further_link(index, '','');
             add_further_link(index, '','');
+            add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, '','');
             add_further_link(index, '','');
         }
