@@ -202,6 +202,7 @@ document.addEventListener('DOMContentLoaded', function() {
         create_session_22(22);
         create_session_23(23);
         create_session_24(24);
+        create_session_25(25);
 
         function add_main_video(index, text){video_src_array[index] = text;}
         function add_video_title(index, text){video_title_array[index] = text;}
@@ -1181,6 +1182,43 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_25(index){
+            add_main_video(index, "LlPe-bAXg6A");
+            add_video_title(index, "Greater than Abraham");
+            add_reading(index, "John 8:31-59");
+
+            add_open_prayer(index, "In today's session, we will consider our spiritual condition. We will look at the importance of our spiritual condition in relation to faith, and we will also consider again Jesus' statements of divinity.");
+
+            add_watch_title(index, "Chapters");
+            add_watch_topic(index, "Presupposition - 0:25");
+            add_watch_topic(index, "Abraham's belief - 3:13");
+            add_watch_topic(index, "Who's your Father? - 7:38");
+            add_watch_topic(index, "Never see death - 9:52");
+            add_watch_topic(index, "Before Abraham - 11:40");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Presupposition: Something firmily believed and assumed to be true");
+            add_watch_term(index, "Righteousness: A right standing before God, being in a right relationship with him");
+
+            add_meditate_question(index, "1. What presuppositions do you have about Jesus? Are they based on what your own feelings or what you have read in the Bible?");
+            add_meditate_question(index, "2. Why is our spiritual condition so important with regard to faith?");
+            add_meditate_question(index, "3. According to the bible, what do we have to do to be saved?");
+            add_meditate_question(index, "4. Who is your spiritual father? Is it God or the devil? How can you tell?");
+            add_meditate_question(index, "5. What is the biblical teaching on death?");
+            add_meditate_question(index, "6. What did Jesus mean when he said, 'Before Abraham was, I AM'?");
+            add_meditate_question(index, "7. If Jesus never claimed to be God, why did people continually try to kill him for blasphemy?");
+
+            add_close_prayer(index, "Thank God for sending Jesus Christ that we might escape death. Ask God to help you see your spiritual condition and to grant you faith.");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=JfneYRkoWp8','The Light of the Gospel of the Glory of Christ');
+            add_further_link(index, 'https://www.youtube.com/watch?v=fSnv1VRWAPk','Abraham Believed God');
+            add_further_link(index, 'https://www.youtube.com/watch?v=ha-3kT_ZUEY','What Does Being Spiritually Dead Mean?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=TeWTb_Ng-p8','Before Abraham Was, I AM');
+            add_further_link(index, 'https://www.youtube.com/watch?v=qV6dDwET7Gg','Why Do Christians Die?: Facing the Last Enemy');
+            add_further_title(index, 'Links to Helpful Sermons');
+            add_further_link(index, 'https://www.youtube.com/watch?v=3NEPugQ2ni0','Abraham Justified by Faith');
+        }
+
+        function create_session_26(index){
             add_main_video(index, "");
             add_video_title(index, "");
             add_reading(index, "");
@@ -1195,8 +1233,8 @@ document.addEventListener('DOMContentLoaded', function() {
             add_watch_topic(index, " - ");
             add_watch_topic(index, " - ");
             add_watch_title(index, "Biblical Terms");
-            add_watch_term(index, "Presupposition: ");
-            add_watch_term(index, "Righteousness: ");
+            add_watch_term(index, ": ");
+            add_watch_term(index, ": ");
             add_watch_term(index, ": ");
             add_watch_term(index, ": ");
             add_watch_term(index, ": ");
