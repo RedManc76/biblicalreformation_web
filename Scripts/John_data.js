@@ -204,6 +204,7 @@ document.addEventListener('DOMContentLoaded', function() {
         create_session_24(24);
         create_session_25(25);
         create_session_26(26);
+        create_session_27(27);
 
         function add_main_video(index, text){video_src_array[index] = text;}
         function add_video_title(index, text){video_title_array[index] = text;}
@@ -1257,6 +1258,46 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, 'https://www.youtube.com/watch?v=xVAQbN25R4g','The Eternal Decrees of God');
             add_further_link(index, 'https://www.youtube.com/watch?v=6XufrwXC_Zs','Once I Was Blind, But Now I See');
+        }
+
+        function create_session_27(index){
+            add_main_video(index, "1wEBNEbwBKs");
+            add_video_title(index, "The good shepherd");
+            add_reading(index, "John 10:1-21");
+
+            add_open_prayer(index, "In today's session, we will look at Jesus pertrayed as the good shepherd and the importance of hearing his voice.");
+
+            add_watch_title(index, "Chapters");
+            add_watch_topic(index, "His entrance - 0:25");
+            add_watch_topic(index, "His voice - 2:02");
+            add_watch_topic(index, "His love - 3:48");
+            add_watch_topic(index, "His protection - 6:50");
+            add_watch_topic(index, "I AM the door - 9:38");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Parable: Story or explanation of a natural event to illustrate a spiritual truth");
+            add_watch_term(index, "Prophets: Some who has been authorised by God to speak on his behalf");
+            add_watch_term(index, "Covenant:  divine-human agreement, established by God’s authority, ratified by sacrifice, supported by promises and obligations, and designed to display God’s steadfast faithfulness.");
+            add_watch_term(index, "Kingdom of God: rule of an eternal, sovereign God over all the universe");
+            add_watch_term(index, "Faith: belief and trust in God and his promises, especially as it relates to salvation.");
+
+            add_meditate_question(index, "1. Why did God announce beforehand clearily who the good shepherd would be and how he would come?");
+            add_meditate_question(index, "2. What does it mean that Jesus is the good shepherd? and what does it tell us about God?");
+            add_meditate_question(index, "3. In what way does Christianity differ from other religions, with regards to belonging to the God?");
+            add_meditate_question(index, "4. What does it mean to hear the voice of Jesus?");
+            add_meditate_question(index, "5. Is the person, ideology or religion you follow willing to die for you? Does it have to power to overceom death on your behalf?");
+            add_meditate_question(index, "6. What price was God willing to pay to save you?");
+            add_meditate_question(index, "7. What did Jesus mean when he said, 'I am the door'?");
+
+            add_close_prayer(index, "Prayer, thank God for his pastoral care and love for his people. Ask, that your spiritual ears be opened that you might hear the voice of the good shepherd");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=mEDlb6znvGA','Prophecies that JESUS fulfilled');
+            add_further_link(index, 'https://www.youtube.com/watch?v=0C94nqDcq9A','Jesus’s Sheep Hear His Voice — What’s That Mean?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=3Rp7G7OAg10&','Jesus said I am the DOOR');
+            add_further_link(index, 'https://www.youtube.com/watch?v=ZW57S8lz5tM','The Sheep Gate: Knowing Christ');
+            add_further_title(index, 'Links to Helpful Sermons');
+            add_further_link(index, 'https://www.youtube.com/watch?v=dAJRMlBXfYQ','The Sheep Hear His Voice');
+            add_further_link(index, 'https://www.youtube.com/watch?v=Q9OZVwhhvmc','I have Other Sheep That Are Not of This Fold');
         }
 
         function create_session_(index){
