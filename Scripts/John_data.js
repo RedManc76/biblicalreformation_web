@@ -205,6 +205,7 @@ document.addEventListener('DOMContentLoaded', function() {
         create_session_25(25);
         create_session_26(26);
         create_session_27(27);
+        create_session_28(28);
 
         function add_main_video(index, text){video_src_array[index] = text;}
         function add_video_title(index, text){video_title_array[index] = text;}
@@ -1298,6 +1299,50 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, 'https://www.youtube.com/watch?v=dAJRMlBXfYQ','The Sheep Hear His Voice');
             add_further_link(index, 'https://www.youtube.com/watch?v=Q9OZVwhhvmc','I have Other Sheep That Are Not of This Fold');
+        }
+
+        function create_session_28(index){
+            add_main_video(index, "Vekbabcexaw");
+            add_video_title(index, "One with the Father");
+            add_reading(index, "John 10:22-42");
+
+            add_open_prayer(index, "In todays session, we will look further at the relationship between Jesus and the Father, discuss the concept of spiritually deafness, and the security of the believer.");
+
+            add_watch_title(index, "Chapters");
+            add_watch_topic(index, "Historical Authenticity - 0:25");
+            add_watch_topic(index, "The Interrogation - 1:34");
+            add_watch_topic(index, "Spiritually deaf - 4:39");
+            add_watch_topic(index, "Hand of God - 7:17");
+            add_watch_topic(index, "In the Father - 8:39");
+            add_watch_topic(index, "Lesser to Greater - 10:54");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Holy Spirit: The third person of the Trinity");
+            add_watch_term(index, "Trinity: The nature of God, that he is one being yet subsits in three persons, the Father, the Son and the Holy Spirit");
+            add_watch_term(index, "Divine: the nature and attributes of God");
+            add_watch_term(index, "Blasphemy: Claming to be God or to have the authority of God, when you do not");
+            add_watch_term(index, "Repentance: Changing your mind about sin, turning from it and trusting in Jesus Christ for salvation");
+            add_watch_term(index, "Yahweh: The personal name of the one true living God, the creator of the universe");
+            add_watch_term(index, "a fortiori argument: A logical argument that if something is true in a lesser case, it must be even more true in a greater case");
+
+            add_meditate_question(index, "1. Examine your motives for seeking Jesus, are they to genuinely find the truth?");
+            add_meditate_question(index, "3. Does the truth that God chooses who to save scare you? If so, why do you think your scared and very other few people are?");
+            add_meditate_question(index, "4. What does the parable about the shepherd with 100 sheep tell us about God?");
+            add_meditate_question(index, "5. For those who trust in Jesus, what can snatch them from Gods hands?");
+            add_meditate_question(index, "6. Why was Jesus charged with blasphemy, wherever he went?");
+
+            add_close_prayer(index, "Thank God for the authenticity of the Bible and the evidence that supports it. Thank him for the security we have in Christ, that nothing can snatch us from his hand. Ask God to help you hear his voice and to trust in him.");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=dJjSa4LwJ4s','VERIFIED! The Biblical accuracy & reliability!');
+            add_further_link(index, 'https://www.youtube.com/watch?v=VCtC7xgc_ds','Am I choosen?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=tJewh_Zq-PE','What if I am not one of his sheep');
+            add_further_link(index, 'https://www.youtube.com/watch?v=8AJ9cYbhgvQ','Can Christians Lose Their Salvation?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=EOkIvuxKFm8','I and the Father are one in John');
+            add_further_link(index, 'https://www.youtube.com/watch?v=ZBsxLm2wNs8','I said, “You are gods”');
+            add_further_title(index, 'Links to Helpful Sermons');
+            add_further_link(index, 'https://www.youtube.com/watch?v=LxyEpPL-nH0','Can I still come to Jesus?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=GBrV75GLSHw','Safety for Gods people');  
+            add_further_link(index, 'https://www.youtube.com/watch?v=C82oPC0Sr30','I and the Father Are One');
         }
 
         function create_session_(index){
