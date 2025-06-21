@@ -206,6 +206,7 @@ document.addEventListener('DOMContentLoaded', function() {
         create_session_26(26);
         create_session_27(27);
         create_session_28(28);
+        create_session_29(29);
 
         function add_main_video(index, text){video_src_array[index] = text;}
         function add_video_title(index, text){video_title_array[index] = text;}
@@ -1343,6 +1344,49 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=LxyEpPL-nH0','Can I still come to Jesus?');
             add_further_link(index, 'https://www.youtube.com/watch?v=GBrV75GLSHw','Safety for Gods people');  
             add_further_link(index, 'https://www.youtube.com/watch?v=C82oPC0Sr30','I and the Father Are One');
+        }
+
+        function create_session_29(index){
+            add_main_video(index, "GecxAM5CYv8");
+            add_video_title(index, "The resurrection and the life ");
+            add_reading(index, "John 11:1-27");
+
+            add_open_prayer(index, "In today's session, we will look at the purpose for our lives, the soverignty of God in suffering, and the resurrection life of Jesus Christ.");
+
+            add_watch_title(index, "Chapters");
+            add_watch_topic(index, "Mistaken? - 0:25");
+            add_watch_topic(index, "God's Glory - 2:19");
+            add_watch_topic(index, "Sovereignty and Trust - 4:28");
+            add_watch_topic(index, "Darkness is coming - 6:02");
+            add_watch_topic(index, "Blessing from sorrow - 8:03");
+            add_watch_topic(index, "I AM the Resurrection - 9:35");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Resurrection: The resurrection of the body after death and to be reunited with the soul");
+            add_watch_term(index, "Ordained: To be appointed or decreed by God");
+            add_watch_term(index, "Supernatural: That which is beyond the natural world and not bound by the laws of nature");
+
+            add_meditate_question(index, "1. What is the purpose for reading the Bible?");
+            add_meditate_question(index, "2. Why did God make you? What is your purpose?");
+            add_meditate_question(index, "3. How can we trust God when we don't understand what he is doing?");
+            add_meditate_question(index, "4. Does the fact that God ordains everything that happens in the comfort or scare you? Why?");
+            add_meditate_question(index, "5. Are you going to be ready when the day of darkness comes?");
+            add_meditate_question(index, "6. What did Jesus mean when he said, 'I am the resurrection and the life'?");
+            add_meditate_question(index, "7. Are you ready for the resurrection? Do you have the resurrection life of Jesus Christ in you?");
+
+            add_close_prayer(index, "Thank God for life and for the resurrection life through Jesus Christ. Ask him to help you trust in him even through suffering and prepare you for the day when darkness closes in by granting you the light of Christ.");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=Z12ztkJj3Ew','Creation vs. The glory of God');
+            add_further_link(index, 'https://www.youtube.com/watch?v=Mi7e5y8DwAs','Ubiquity of Glory of God in Creation');
+            add_further_link(index, 'https://www.youtube.com/watch?v=GCXgMpy_WKc','Why God Created Us');
+            add_further_link(index, 'https://www.youtube.com/watch?v=HdNSxbHe8NM','Worth Every Second: Vaneetha’s Joy in Suffering');
+            add_further_link(index, 'https://www.youtube.com/watch?v=a-9RPTPnIR0','How Can God Be Sovereign and Good and Allow Suffering?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=u4G3RY3h_V0','Joni Eareckson Tada: Refined by Fire');
+            add_further_link(index, 'https://www.youtube.com/watch?v=LiKOEKE9xHE','A Biblical Theology of Resurrection');
+            add_further_title(index, 'Links to Helpful Sermons');
+            add_further_link(index, 'https://www.youtube.com/watch?v=J_DKmBOJfKE','Trusting God in the Dark');
+            add_further_link(index, 'https://www.youtube.com/watch?v=UkHYwz-596I','Trusting God Through Trials');
+            add_further_link(index, 'https://www.youtube.com/watch?v=ywP8t7e4h0U','Jesus Is the Resurrection and the Life');
         }
 
         function create_session_(index){
