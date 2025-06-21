@@ -200,6 +200,12 @@ document.addEventListener('DOMContentLoaded', function() {
         create_session_20(20);
         create_session_21(21);
         create_session_22(22);
+        create_session_23(23);
+        create_session_24(24);
+        create_session_25(25);
+        create_session_26(26);
+        create_session_27(27);
+        create_session_28(28);
 
         function add_main_video(index, text){video_src_array[index] = text;}
         function add_video_title(index, text){video_title_array[index] = text;}
@@ -228,7 +234,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "Almighty God, as I begin this study to learn who you are and what you have done, please assist me in comprehending everything I read and hear. Please show yourself to me and make your love for me evident. Amen.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Introducing the Word - 0:25");
             add_watch_topic(index, "Beyond Expectations - 2:23");
             add_watch_topic(index, "The Unique God - 4:48");
@@ -260,7 +266,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "Almighty God, thank you for all you taught me about the Word in our last session. Please help me to see and understand more about the Word and what it all means for me. Amen.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "The Creator - 0:25");
             add_watch_topic(index, "The Creation - 2:36");
             add_watch_topic(index, "The Life - 4:23");
@@ -297,7 +303,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "Almighty God, thank you for inspiring me to continue my studies. Please let me learn more about you and myself today. Help me believe what your word says and assess my own life in light of it.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Darkness - 0:25");
             add_watch_topic(index, "'True' Light - 2:11");
             add_watch_topic(index, "Man's Corruption - 4:05");
@@ -333,7 +339,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "Almighty God, Thank you for the desire you have given me to continue to seek you out. There have been some hard things to understand, so I ask for your help today as I read, watch, and meditate on your word. Help me to look beyond the intellectual questions and see the heart of love you have for me and your creation. Amen.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "The Word became flesh - 0:25");
             add_watch_topic(index, "Person of Jesus Christ - 2:59");
             add_watch_topic(index, "Eyewitness - 5:14");
@@ -374,7 +380,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "Almighty God. I am here with you again, as I want to know more about who you are. Please help me to concentrate, understand the video, and participate seriously with the meditation questions today. Give me a desire to continue my studies in John's Gospel. Amen.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "The Enemy - 0:25");
             add_watch_topic(index, "Behold the lamb - 1:39");
             add_watch_topic(index, "Types and Shadows - 4:40");
@@ -408,17 +414,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
         function create_session_6(index){
 
-            add_main_video(index, "TxHl278YFXg");
+            add_main_video(index, "pw7fB6z__t8");
             add_video_title(index, "The Disciples");
             add_reading(index, "John 1:35-51");
 
             add_open_prayer(index, "Almighty God. As I watch this next video, I ask for your help to learn more about Jesus. Help me to believe what I learn, and help me to trust you. Amen.");
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "The Twelve - 0:25");
-            add_watch_topic(index, "The Scriptures - 1:52");
-            add_watch_topic(index, "Qualifications - 5:00");
-            add_watch_topic(index, "Invitation - 8:09");
-            add_watch_topic(index, "Son of Man - 10:53");
+            add_watch_topic(index, "The Scriptures - 2:10");
+            add_watch_topic(index, "Qualifications - 4:21");
+            add_watch_topic(index, "Messiah - 6:25");
+            add_watch_topic(index, "The Sceptic - 8:10");
+            add_watch_topic(index, "Son of Man - 9:43");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Martyr: someone who is killed because of what they believe, not someone who kills themselves and others because of what they believe.");
             add_watch_term(index, "Pride: to think yourself worthy of God.");
@@ -443,18 +450,18 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_7(index){
-            add_main_video(index, "TzKFo1lwrg0");
+            add_main_video(index, "k1PNqeCX3-A");
             add_video_title(index, "First Miracle");
             add_reading(index, "John 2:1-12");
 
             add_open_prayer(index, "Almighty God, as I move into chapter two, I want to thank you for all you have taught me in chapter one. Help me to continue digesting all that I have learned and open my eyes to see more of your truth in this next chapter. Amen.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Miracles - 0:25");
-            add_watch_topic(index, "Signs - 2:01");
-            add_watch_topic(index, "Authority - 4:57");
-            add_watch_topic(index, "Interpretation - 9:38");
-            add_watch_topic(index, "Invitation - 14:47");
+            add_watch_topic(index, "Signs - 1:32");
+            add_watch_topic(index, "Authority - 3:35");
+            add_watch_topic(index, "Interpretation - 6:47");
+            add_watch_topic(index, "Character of Christ - 9:41");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Signs - miracles of Jesus that pointed to who he said he was.");
 
@@ -478,19 +485,19 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_8(index){
-            add_main_video(index, "0fwWk9GSVP8");
+            add_main_video(index, "8DCLvnvVnGY");
             add_video_title(index, "Cleansing the Temple");
             add_reading(index, "John 2:13-25");
 
             add_open_prayer(index, "Alimighty God, please give me a clear mind and heart to receive the truth today. Help me not to rely on my own understanding of what is true and false, right and wrong, and give me a right-thinking mind and a right-feeling heart, according to your will. Amen.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "The Temple - 0:25");
-            add_watch_topic(index, "The Sacrifice - 3:23");
-            add_watch_topic(index, "Pigeons - 5:59");
-            add_watch_topic(index, "Righteous Anger - 7:52");
-            add_watch_topic(index, "New Temple - 12:09");
-            add_watch_topic(index, "Deceiving Heart - 15:14");
+            add_watch_topic(index, "Wages of Sin - 3:02");
+            add_watch_topic(index, "Salvation for All - 4:57");
+            add_watch_topic(index, "Righteous Anger - 6:07");
+            add_watch_topic(index, "New Temple - 9:15");
+            add_watch_topic(index, "Deceiving Heart - 12:07");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Mercy Seat: It is a seat that sits on top of the Ark of the Covenant, which represents the place where God would receive the sacrifices for sin and administer forgiveness.");
             add_watch_term(index, "Temple: The centre of Jewish worship, it represented the presence of God amongst his people.");
@@ -521,19 +528,19 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_9(index){
-            add_main_video(index, "MtmIQ4YpyXY");
+            add_main_video(index, "YyK4dtn5jHE");
             add_video_title(index, "You must be born again");
             add_reading(index, "John 3:1-15");
 
             add_open_prayer(index, "Almighty God, I come again to learn from your word. Please give me the spiritual insight that I need to understand it, and not just understand it, but to have my life changed and transformed by your Holy Spirit. Amen.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "The big question - 0:25");
-            add_watch_topic(index, "Seek and Find - 1:28");
-            add_watch_topic(index, "Supernatural Book - 3:48");
-            add_watch_topic(index, "Born Again - 8:52");
-            add_watch_topic(index, "What can I do? - 11:27");
-            add_watch_topic(index, "The Serpent - 13:07");
+            add_watch_topic(index, "Seek and Find - 1:39");
+            add_watch_topic(index, "Supernatural Book - 3:27");
+            add_watch_topic(index, "Born Again - 6:52");
+            add_watch_topic(index, "What can I do? - 8:51");
+            add_watch_topic(index, "The Serpent - 11:06");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Supernatural: some force or being that exists outside of the natural universe and is not subject to the laws of nature.");
             add_watch_term(index, "Means of salvation: those natural processes which God uses to impart spiritual life into a human being");
@@ -560,18 +567,18 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_10(index){
-            add_main_video(index, "2pS_zIfwIpg");
+            add_main_video(index, "RhgRgOnyIzE");
             add_video_title(index, "God so loved the world");
             add_reading(index, "John 3:16-21");
 
             add_open_prayer(index, "Almighty God, Thank you for what I have learned so far. Please continue to make yourself known to me and grant me the heart to love you in the same way that you love me. Amen.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "God's Love - 0:25");
-            add_watch_topic(index, "The Son - 1:53");
-            add_watch_topic(index, "Salvation or Condemnation? - 4:48");
-            add_watch_topic(index, "Condemned already - 6:51");
-            add_watch_topic(index, "Hope in Christ - 9:25");
+            add_watch_topic(index, "The Son - 1:40");
+            add_watch_topic(index, "Salvation or Condemnation? - 5:38");
+            add_watch_topic(index, "Condemned already - 7:12");
+            add_watch_topic(index, "Hope in Christ - 9:55");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Just: Someone who always gives a law breaks their correct sentence.");
 
@@ -599,19 +606,18 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_11(index){
-            add_main_video(index, "Hk46ws01GmQ");
+            add_main_video(index, "MjPgEQFP_HA");
             add_video_title(index, "Supremecy of Jesus Christ");
             add_reading(index, "John 3:22-36");
     
             add_open_prayer(index, "We would encourage you to continue to pray what is on your heart. Remember, God wants honesty, so our prayer needs to be real. Remember that you don't have to use special words or terms; simply speak to God as you would speak to someone else you respect. <br> In this session, we will look again at how unique Jesus is, so this could be something you might ask him to reveal to you.");
     
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Voice in the wilderness - 0:25");
-            add_watch_topic(index, "Purpose and Reason - 2:48");
-            add_watch_topic(index, "Unworthy - 5:03");
-            add_watch_topic(index, "Wedding Banquet - 7:28");
-            add_watch_topic(index, "Voice of the Son - 10:18");
-            add_watch_topic(index, "Trust and Obey - 11:56");
+            add_watch_topic(index, "Purpose and Reason - 2:10");
+            add_watch_topic(index, "The New Kingdom - 4:27");
+            add_watch_topic(index, "Wedding Banquet - 7:19");
+            add_watch_topic(index, "Trust and Obey - 9:08");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Baptism: a ritual where a person is submerged in water, which has spiritual significance.");
             add_watch_term(index, "Christ: means the annointed one, speaking of Jesus, God's own son in human flesh.");
@@ -639,18 +645,18 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         function create_session_12(index){
-            add_main_video(index, "81fwwDEWx_o");
+            add_main_video(index, "hzMvaKdblxg");
             add_video_title(index, "Women at the Well part 1");
             add_reading(index, "John 4:1-45");
     
             add_open_prayer(index, "As you learn to pray, it is always good to start our prayers by acknowledging who God is. You have learned a fair bit about this over the last eleven sessions. Why don't you start today by acknowledging who God is and asking him to reveal more of himself?<br>In this session, we are going to look at the kindness of Jesus and how he can sympathise with our weaknesses. Also, we will start to look at what true worship is.");
     
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Meeting at the well - 0:25");
-            add_watch_topic(index, "God who sympathizes - 3:09");
-            add_watch_topic(index, "Living Water - 5:39");
-            add_watch_topic(index, "An immoral women - 8:38");
-            add_watch_topic(index, "True worship - 11:01");
+            add_watch_topic(index, "Biblical Accuracy - 2:28");
+            add_watch_topic(index, "Personal Message - 3:55");
+            add_watch_topic(index, "Living Water - 8:03");
+            add_watch_topic(index, "True worship - 11:29");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Holy Spirit: third person of the Godhead, God is one but subsists in three distinct person, Father, Son (Jesus) and Holy Spirit.");
             add_watch_term(index, "Living Water: the gift of the Holy Spirit.");
@@ -683,28 +689,25 @@ document.addEventListener('DOMContentLoaded', function() {
         }   
 
         function create_session_13(index){
-            add_main_video(index, "sUJX8ZvSKuE");
+            add_main_video(index, "6UwZiU8ySWQ");
             add_video_title(index, "Women at the Well part 2");
             add_reading(index, "John 4:1-45");
 
             add_open_prayer(index, "Start by acknowledging God's goodness and thanking him for what he has already done. Then ask him for help understanding what you are about to learn. <br> In this session, we are going to look at the extent of the kingdom, the dangers of sin, and the task that God has for your life.");
 
-            add_watch_title(index, "Topics");
-            add_watch_topic(index, "The Messiah - 0:25");
-            add_watch_topic(index, "Expanding Kingdom - 3:35");
-            add_watch_topic(index, "Spiritual Cancer - 6:29");
-            add_watch_topic(index, "Will of the Father - 7:50");
-            add_watch_topic(index, "Harvest of Souls - 10:25");
-            add_watch_topic(index, "See for yourself - 12:40");
+            add_watch_title(index, "Chapters");
+            add_watch_topic(index, "Expectancy- 0:25");
+            add_watch_topic(index, "The King - 2:33");
+            add_watch_topic(index, "The Prophet - 4:54");
+            add_watch_topic(index, "The Priest - 7:34");
+            add_watch_topic(index, "Harvest - 9:59");
             add_watch_title(index, "Biblical Terms");
-            add_watch_term(index, "Jews are the people of God, naturally descended from Abraham, Isaac, and Jacob.");
-            add_watch_term(index, "Gentiles: none of the Jewish people, i.e., the rest of the world.");
-            add_watch_term(index, "Self Righteousness: thinking that oneself is good and pleasing to God in and of themselves");
+            add_watch_term(index, "Messiah: the anointed one, the one who was promised to come and save God's people.");
 
-            add_meditate_question(index, "1. Jesus crossed cultural boundaries to bring the good news of salvation to them. Are there any boundaries that exist that would keep you from Jesus? If so, do you think they are a problem for Jesus?");
-            add_meditate_question(index, "2. God hates self-righteousness and self-righteous religion, thinking that God is for us because of anything we are or have done. If anyone is considered right before God, it is based entirely on what Jesus has done for them. Do you think you are good enough for God? If so, this attitude needs to go before you can come to him.");
-            add_meditate_question(index, "3. Have you thought that sin is a spiritual cancer and far more dangerous?");
-            add_meditate_question(index, "4. Doing his Father's will brought Jesus the most joy, and we were created to find our greatest joy in obeying God. This is the Father's will for your life: that you will trust his son and live for him. What is stopping you from coming to him and experiencing this joy?");
+            add_meditate_question(index, "1. Does it seem to you that the world is in a mess? why do you think that is?");
+            add_meditate_question(index, "2. What kingdom do you belong to?");
+            add_meditate_question(index, "3. Why does God allow evil?");
+            add_meditate_question(index, "4. Why did God command animal sacrifices when they could not take away sin? What or who was it pointing to?");
             add_meditate_question(index, "5. God doesn't just want to save you; he wants to use you to save others. Would this not be the greatest thing you could give your life to?");
 
             add_close_prayer(index, "Ask God to help you see the joy of a relationship with him. Ask him to help you see the dangers of sin and the cure that Jesus purchased on the cross. If you desire it, ask him to grant you the cure and the ability to trust in him. Finish by thanking him for making salvation possible.");
@@ -713,35 +716,35 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=TzPsa35Uhn4','Is Jesus the messiah');
             add_further_link(index, 'https://www.youtube.com/watch?v=O11Br4lr3Qw','The Mystery of the Messiah');
             add_further_link(index, 'https://www.youtube.com/watch?v=EQJlGFBXyx8','Salvation for all');
-            add_further_link(index, 'https://www.youtube.com/watch?v=dZEX3Jsg1sY','Saved From Self Righteousness');
-            add_further_link(index, 'https://www.youtube.com/watch?v=N1QL-4oEx34','Saved from spirtual cancer');
-            add_further_link(index, 'https://www.youtube.com/watch?v=0w6fD8fyASo','Joy in God');
+            add_further_link(index, 'https://www.youtube.com/watch?v=UTRm1go2Qw4','Why does God allow evil?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=OexKmF_q5ZE','Jesus as a Prophet, Priest, and King');
             add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, 'https://www.youtube.com/watch?v=DgTTLDuL9TY','Prophet, Priest, and King');
-            add_further_link(index, 'https://www.youtube.com/watch?v=0xP0K2GkBn4','A Blow to Self Righteousness');
+            add_further_link(index, 'https://www.youtube.com/watch?v=OEeiFIRrNXg','Kingdoms of Darkness and Light');
+            add_further_link(index, 'https://www.youtube.com/watch?v=g1Xe_aS_WlU','The Joy of Evangelism');
         }
 
         function create_session_14(index){
-            add_main_video(index, "HrU3BAvQrps");
+            add_main_video(index, "co4S1yguyqU");
             add_video_title(index, "Second Sign");
             add_reading(index, "John 4:46-54");
 
             add_open_prayer(index, "Again, start by acknowledging God's goodness and thanking him for what he has already done. Then ask him for help understanding what you are about to learn. <br> In this session, we are going to look at the proper way of interpreting difficult bible passages, God being in control, and Jesus power over death.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Compassion? - 0:25");
-            add_watch_topic(index, "Interpretation - 2:04");
-            add_watch_topic(index, "On his throne - 5:18");
-            add_watch_topic(index, "Priorities - 7:18");
-            add_watch_topic(index, "Exemplary belief - 10:54");
-            add_watch_topic(index, "Death must flee - 12:33");
+            add_watch_topic(index, "Interpretation - 1:56");
+            add_watch_topic(index, "On his throne - 4:13");
+            add_watch_topic(index, "Priorities - 6:23");
+            add_watch_topic(index, "Exemplary belief - 9:14");
+            add_watch_topic(index, "Death of Death - 10:57");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Hermeneutics:  the theory and methodology of interpretation");
 
             add_meditate_question(index, "1. What should we do if we come across difficult biblical passages?");
             add_meditate_question(index, "2. Is it more likely that we or God are to blame when we come across things in scripture that we disagree with?");
             add_meditate_question(index, "3. What is more important than the death of a child? What about where a person will spend eternity?");
-            add_meditate_question(index, "4. How does it make you feel that God isn't running around heaven trying to solve one problem after another?");
+            add_meditate_question(index, "4. How does it make you feel that God isn't running around heaven trying to solve one problem after another, but has everything under control?");
             add_meditate_question(index, "5. God sits on his throne, never flustered or surprised, and everything he plans will come to fruition. Could you trust such a God with your life?");
             add_meditate_question(index, "6. Without witnessing Jesus' miracles firsthand, can you trust his word when he says, 'All who come to me will be saved'?");
             add_meditate_question(index, "7. Is there something in your life that you believe is too difficult for Jesus? Is this going to put you off approaching him? Has this story changed your mind?");
@@ -759,29 +762,28 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_15(index){
-            add_main_video(index, "zUMScsCpLJI");
+            add_main_video(index, "k-W-qHwLdDo");
             add_video_title(index, "The ungrateful beggar");
             add_reading(index, "John 5:1-18");
 
             add_open_prayer(index, "Continue to thank God for what he has and is doing in your life, particularly in regards to your relationship with him. Ask him for help understanding what you are about to learn. <br> In this session, we will see Jesus's compassion, learn about the Sabbath, see how false religion keeps us away from God, and receive a warning against rejection of Jesus and ingratitude.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Pool of Bethesda - 0:25");
-            add_watch_topic(index, "Singled out - 2:20");
-            add_watch_topic(index, "The Sabbath - 5:14");
-            add_watch_topic(index, "Self Righteousness - 9:39");
-            add_watch_topic(index, "Ingratitude - 13:05");
-            add_watch_topic(index, "The warning - 15:13");
+            add_watch_topic(index, "Singled out - 2:11");
+            add_watch_topic(index, "The Sabbath - 4:29");
+            add_watch_topic(index, "Self Righteousness - 6:43");
+            add_watch_topic(index, "Ingratitude - 11:15");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Sabbath: instituted by God as a day of rest for his people");
 
-            add_meditate_question(index, "1. We've thought about it before, but it's worth remembering that Jesus suffered just like us, so he might be a better friend and comforter in your hour of need. Is it comforting to know that God truly cares?");
+            add_meditate_question(index, "1. Jesus suffered just like us, so he might be a better friend and comforter in your hour of need. Do you find comfort in this?");
             add_meditate_question(index, "2. Do you really feel the destructive power of sin? Do you think you can solve the problem yourself, or is it not a problem at all?");
             add_meditate_question(index, "3. Do you believe that by watching this video, God has chosen you to hear the good news of His redeeming love? Will you not approach him on that basis?");
             add_meditate_question(index, "4. Is it not gracious of God to give us rest from our physical labours? How much more significant is it that God, through his Son, has given us rest from our spiritual attempts to restore our relationship with him? ");
-            add_meditate_question(index, "5. Why do people use religion to make peace with God when Jesus Christ has already done so?");
+            add_meditate_question(index, "5. Why do people use self righteousness to make peace with God, when Jesus Christ has already done all that necessary?");
             add_meditate_question(index, "6. How thankful are we to God? Do we reflect on everything he has accomplished and give him the praise and thanks he deserves? He gives us everything good in life and has made it possible for us to escape death and hell. ");
-            add_meditate_question(index, "7. What kind of ingratitude is demonstrated when we reject God's Son, who paid a terrible price to save us? Can you understand how serious this sin is?");
+            add_meditate_question(index, "7. What kind of ingratitude is demonstrated when we reject God's Son, who paid a terrible price to save us? ");
             add_meditate_question(index, "8. Why did God warn the man? What was the consequence of not heeding this warning? Will there be consequences for us if we ignore God's warnings?");
 
             add_close_prayer(index, "Thank God for his compassion and for choosing you to hear his offer of salvation. Ask that he keep you from false religion and self-righteousness. Ask him to help you take his warning seriously and to give you a grateful and thankful heart.");
@@ -802,29 +804,27 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_16(index){
-            add_main_video(index, "LVVjizc1_-c");
+            add_main_video(index, "MXrzYcdUSME");
             add_video_title(index, "Son of the Father");
             add_reading(index, "John 5:1-29");
 
             add_open_prayer(index, "It would be well to thank God you are still here and watching these videos. If you have come to know his love and kindness over these sessions, now would be a good time to thank him again for this. <br> In this session, we will look at Jesus claim to be God and why this is important. Also, we will look at the resurrection of the dead and the purpose for which you were created.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Son of the Father - 0:25");
-            add_watch_topic(index, "Image and Honour - 4:04");
-            add_watch_topic(index, "Undeniable Claim - 6:22");
-            add_watch_topic(index, "Spiritual life - 9:24");
-            add_watch_topic(index, "Restoration - 12:27");
-            add_watch_topic(index, "The Fathers love - 15:32");
+            add_watch_topic(index, "One will and honour - 1:49");
+            add_watch_topic(index, "Undeniable Claim - 4:16");
+            add_watch_topic(index, "Spiritual life - 5:43");
+            add_watch_topic(index, "Restoration - 7:35");
+            add_watch_topic(index, "The Fathers love - 10:04");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Blasphemy: making a claim that you are God when your just a man");
 
             add_meditate_question(index, "1. If the people Jesus spoke to in his day knew he was claiming to be God, what evidence do we have today to suggest that he wasn't? ");
             add_meditate_question(index, "2. Jesus claimed to be God, which is undeniable. Was he a liar who falsely claimed to be God, a madman who believed he was God but wasn't, or was he telling the truth and was God?");
             add_meditate_question(index, "3. If you believe Jesus was who he claimed to be, then everything else he said must be true. What will you do about his claim that, unless you come to him, you will perish in Hell?");
-            add_meditate_question(index, "4. You can receive eternal life today, which will carry you through death and keep you free from the upcoming judgement. What's keeping you from receiving it?");
-            add_meditate_question(index, "5. We are all sinners and criminals under God's law, and there will come a day when you will be found guilty and cast into Hell for all eternity. Your primary need today is to avoid that judgement. The life that is found in Jesus Christ is able to do that for you; will you not have it?");
-            add_meditate_question(index, "6. There will be a great resurrection of all who have ever lived, some to eternal damnation and some to eternal life. Life and death are before you today; which will you choose?");
-            add_meditate_question(index, "7. It is difficult for us to accept that we exist for the benefit of another rather than for ourselves. Our goal is not ourselves, but Jesus Christ. Many people can't bear it and would rather go to Hell than live on that basis, but even there, they will exist solely for his glory. How about you?");
+            add_meditate_question(index, "4. There will be a great resurrection of all who have ever lived, some to eternal damnation and some to eternal life. Life and death are before you today; which will you choose?");
+            add_meditate_question(index, "5. It is difficult for us to accept that we exist for the benefit of another rather than for ourselves. Our goal is not ourselves, but the glory of Jesus Christ. Many people can't bear it and would rather go to Hell than live on that basis, but even there, they will exist solely for his glory. How about you?");
 
             add_close_prayer(index, "Thank God for life and what he has done to rescue us from hell. Thank him for the new resurrection life that awaits those who trust in him. If you've still not come to him and trusted him for salvation, ask him to help you do that.");
 
@@ -844,30 +844,29 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         function create_session_17(index){
-            add_main_video(index, "MOhADAYg080");
+            add_main_video(index, "NYQFTvxHAM8");
             add_video_title(index, "Fourfold witness");
             add_reading(index, "John 5:30-47");
 
             add_open_prayer(index, "In this session, we'll look at more evidence that Jesus is who he claims. Ask God for an open mind so that you can evaluate the evidence on its own merits rather than rejecting it because of preconceived notions about who Jesus is. ");
 
-            add_watch_title(index, "Topics");
-            add_watch_topic(index, "Fourfold Witness - 0:25");
-            add_watch_topic(index, "Witness One - 2:38");
-            add_watch_topic(index, "Witness Two - 5:15");
-            add_watch_topic(index, "Witness Three - 8:25");
-            add_watch_topic(index, "Rejected - 10:28");
+            add_watch_title(index, "Chapters");
+            add_watch_topic(index, "Self attestation - 0:25");
+            add_watch_topic(index, "John the Baptist - 2:26");
+            add_watch_topic(index, "Miracles - 5:09");
+            add_watch_topic(index, "The Scripture - 8:15");
+            add_watch_topic(index, "Jesus not Moses - 10:18");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Scripture: Holy writings, The Bible.");
 
             add_meditate_question(index, "1. Why do you believe God gave us so much evidence to support Jesus' claim to be God?");
             add_meditate_question(index, "2. Why are Jesus' claims to be God superior to those made by others?");
             add_meditate_question(index, "3. How much worse would it be to reject Jesus with so much evidence compared to those who had less?");
-            add_meditate_question(index, "4. Do you think people reject Jesus based on preconceived notions or evidence? How about you?");
-            add_meditate_question(index, "5. Why didn't even Jesus' critics deny his miracles?");
+            add_meditate_question(index, "4. Do you think people reject Jesus based on preconceived notions or evidence? How about you?");
+            add_meditate_question(index, "5. Why didn't even Jesus' critics deny his miracles?");
             add_meditate_question(index, "6. If Jesus was a liar, why would God use powerful miracles to authenticate his ministry?");
             add_meditate_question(index, "7. Have you ever read the Bible to find Jesus Christ? What is preventing you from starting today?");
-            add_meditate_question(index, "8. Is a relationship based solely on what we can get from someone a love relationship? Would you expect the eternal God to be treated this way?");
-            add_meditate_question(index, "9. Are you willing to have God even if it means giving up everything else?");
+            add_meditate_question(index, "8. Are you willing to have God even if it means giving up everything else?");
 
             add_close_prayer(index, "Thank God for all of the evidence he has provided for us to evaluate Jesus' claims, and if you haven't come to Jesus yet, ask God to show you what is keeping you from him. Request that he remove any obstacles that are preventing you from connecting with him. ");
 
@@ -876,6 +875,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=ev4FoslmUj8','Are Miracles Possible?');
             add_further_link(index, 'https://www.youtube.com/watch?v=WWlpQauXiTU&list=PLZ3iRMLYFlHsHyvMtfgOgSPU6zEnCvxUO','Playlist - Jesus in Old Testament');
             add_further_link(index, 'https://www.youtube.com/watch?v=qBviSLOhp1w','The will of the Father');
+            add_further_link(index, 'https://www.youtube.com/watch?v=BCX3u2mz5-c','4 Proofs Jesus is God');
             add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, 'https://www.youtube.com/watch?v=iKU3ZcTc38s','Deity of Christ, P1');
             add_further_link(index, 'https://www.youtube.com/watch?v=IjhS5h0dTgw','Deity of Christ, P2');
@@ -883,18 +883,18 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_18(index){
-            add_main_video(index, "aX-fy6dth_M");
+            add_main_video(index, "0rdvuNL4a2I");
             add_video_title(index, "The God Man");
             add_reading(index, "John 6:1-21");
 
             add_open_prayer(index, "In this session, we will see some more miracles that Jesus performed, pointing to who he is. Ask God to help you see who Jesus is and what his miracles say about him. Ask him to give you an open mind and to think beyond the rationalism and scepticism in today's world.");
 
-            add_watch_title(index, "Topics");
-            add_watch_topic(index, "The Mystery - 0:25");
-            add_watch_topic(index, "Incarnate Son - 2:00");
-            add_watch_topic(index, "Implausible - 4:36");
-            add_watch_topic(index, "Water walker - 7:47");
-            add_watch_topic(index, "Fear now - 9:43");
+            add_watch_title(index, "Chapters");
+            add_watch_topic(index, "Fully God - 0:25");
+            add_watch_topic(index, "Implausible denial - 2:29");
+            add_watch_topic(index, "Crown Him - 4:54");
+            add_watch_topic(index, "Water walker - 6:31");
+            add_watch_topic(index, "Fear now - 8:49");
             add_watch_title(index, "Biblical Terms");
             add_watch_term(index, "Eternally begotten: the reationship of God the Son to God the Father");
             add_watch_term(index, "Precede: The relationship between God the Spiriit and the Father and the Son");
@@ -905,7 +905,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_meditate_question(index, "4. Does the mystery of God cause you to seek him more?");
             add_meditate_question(index, "5. Does an easily comprehensible God make it more or less likely to be the true God?");
             add_meditate_question(index, "6. Why do you think people deny Jesus's miracles?");
-            add_meditate_question(index, "7. Knowing Jesus is the most wonderful thing a human being can experience, what would you be willing to give up for it?");
+            add_meditate_question(index, "7. Knowing Jesus is the most wonderful experience a human being can have, what would you be willing to give up for it?");
             add_meditate_question(index, "8. Do you fear God? Why? Should you fear God?");
 
             add_close_prayer(index, "Thank God that he became a man and used his power to save and rescue lost sinners. Ask God to give you a godly fear that will cause you to run to him for safety. Ask God to give you a heart that is willing to pay whatever cost to get Jesus.");
@@ -923,13 +923,13 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_19(index){
-            add_main_video(index, "--rYLXvwJHU");
+            add_main_video(index, "GTqsLK0WpeA");
             add_video_title(index, "The bread of life");
             add_reading(index, "John 6:16-59");
 
             add_open_prayer(index, "In this session, we will see the primary purpose in Jesus feeding the five thousand and that spiritual nourishment is more important than physically. Your greatest need is not your wants and needs in this life but the one to come. Ask God to change your perspective and to see what is of upmost importance.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Wrong Motives - 0:25");
             add_watch_topic(index, "Time and Eternity - 2:08");
             add_watch_topic(index, "Not by works - 4:09");
@@ -962,14 +962,14 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_20(index){
-            add_main_video(index, "a1KXYDPMRow");
+            add_main_video(index, "XoN8WyhkAgI");
             add_video_title(index, "A Hard Saying");
             add_reading(index, "John 6:22-71");
 
             //add more to open prayer 
             add_open_prayer(index, "We hope you will be comfortable with prayer by now, so we will give limited prompting from this session on. Prayer is such an important part of the Christian life, and so we encourage you to develop your own prayer habit and style. Going forward, we will summarise the lesson from each session to give you some direction on what to pray for.<br><br>Today's session we will continue with the discussion Jesus had with the crowd after his miraculous feeding of the 5,000 men. We will look at what it is to believe in Jesus and how we are to be saved.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Extraordinary claim - 0:25");
             add_watch_topic(index, "Spiritual Unity - 1:27");
             add_watch_topic(index, "A hard saying - 4:18");
@@ -1011,13 +1011,13 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         function create_session_21(index){
-            add_main_video(index, "cHzr7zWxb9Q");
+            add_main_video(index, "lkqLWAT5eRk");
             add_video_title(index, "Mission of Jesus");
             add_reading(index, "John 1:1-25");
 
             add_open_prayer(index, "In today's session, we will start to understand something about Jesus' mission, his humility and love for sinners, and how he rescues them from what they desire and gives them what they need.");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Secrecy - 0:25");
             add_watch_topic(index, "Humility - 2:40");
             add_watch_topic(index, "Love - 4:42");
@@ -1059,7 +1059,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "In today's session, we'll look at how people received Jesus and encourage you to seek him out while you can. We will also discuss the benefits of knowing him. ");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, "Love or Hate? - 0:25");
             add_watch_topic(index, "Origins - 2:19");
             add_watch_topic(index, "Sympathy - 7:02");
@@ -1072,7 +1072,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_meditate_question(index, "2. With the significance of your eternal future on the line, have you spent enough time investigating Jesus Christ?");
             add_meditate_question(index, "3. How tragic that people reject Jesus because they have a misconception about who he is and have not taken the time to investigate further?");
             add_meditate_question(index, "4. How powerful must God be to have orchestrated human history so that Jesus was born in the exact location and time that he had predicted centuries before?");
-            add_meditate_question(index, "5. The God who was incapable of suffering took on human form in order to suffer and save us. Isn't he a God worth considering?");
+            add_meditate_question(index, "5. The God who was incapable of suffering took on human form in order to suffer and save us. Isn't he a God worth considering?");
             add_meditate_question(index, "6. Isn't it encouraging to come to God knowing he understands exactly what we're going through?");
             add_meditate_question(index, "7. Christianity is not irrational and promotes critical thinking. Do you approach Christianity as a rational belief system, using your intellect to scrutinise its claims?");
             add_meditate_question(index, "8. Is seeking Jesus a priority for you today?");
@@ -1097,6 +1097,254 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=fY0afczuxjY','Out of the heart will flow rivers of living water');
         }
 
+        function create_session_23(index){
+            add_main_video(index, "eSMAXD5TfoU");
+            add_video_title(index, "Trap for Jesus");
+            add_reading(index, "John 8:1-11");
+
+            add_open_prayer(index, "Today's session will focus on the foundations of morality and how a holy, just God can forgive sinful people. We'll also discuss God's purpose for marriage and its implications.");
+
+            add_watch_title(index, "Chapters");
+            add_watch_topic(index, "Morality - 0:25");
+            add_watch_topic(index, "Marriage - 3:15");
+            add_watch_topic(index, "Justice and Mercy - 6:17");
+            add_watch_topic(index, "Hypocrisy - 8:58");
+            add_watch_topic(index, "Salvation and Works - 10:35");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Mercy: granting a pardon from the punishment we deserve");
+
+            add_meditate_question(index, "1. We recognise that morality is objective, and it is always wrong to murder people for our own pleasure or power, but Where do the objective standards and knowledge come from?");
+            add_meditate_question(index, "2. What lessons can we draw from marriage about our relationship with Christ and his Church?");
+            add_meditate_question(index, "3. By offering us mercy, Jesus Christ signed his own death warrant. What love would pay such a price?");
+            add_meditate_question(index, "4. The first step towards salvation is to recognise our sinfulness; have you reached the point where you understand the gravity of your sin?");
+            add_meditate_question(index, "5. Is there any unforgiveness in your heart towards another person?");
+            add_meditate_question(index, "6. Why should God forgive us a huge debt when we refuse to forgive others for a much smaller one?");
+            add_meditate_question(index, "7. Have you been set free from the controlling power of sin?");
+
+            add_close_prayer(index, "Thank God for the sacrifice that allowed him to forgive us while maintaining his character. Thank him for going to such lengths to achieve this on our behalf. Ask him to continue revealing his love and to give you the strength and desire to turn from your sin and towards him.");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=2JXpzNPt67U','Atheist & Christian on Morality');
+            add_further_link(index, 'https://www.youtube.com/watch?v=OxiAikEk2vU','Moral argument for God');
+            add_further_link(index, 'https://www.youtube.com/watch?v=4vAq9sWgZ74','Marriage is about Christ and the Church');
+            add_further_link(index, 'https://www.youtube.com/watch?v=FHy34yGR57k','The Making and Meaning of Marriage');
+            add_further_link(index, 'https://www.youtube.com/watch?v=7pfqvLmhZUk','The Divine Dilemma');
+            add_further_link(index, 'https://www.youtube.com/watch?v=jOKDZKNnJWA&t=8s','The Unforgiving Servant ');
+            add_further_link(index, 'https://www.youtube.com/watch?v=e9BMU9aMRJw',"Don't Go Back to Your Sin");
+            add_further_link(index, 'https://www.youtube.com/watch?v=9HDuv3ghRfo','Stop Taking Sin So Lightly');
+            add_further_title(index, 'Links to Helpful Sermons');
+            add_further_link(index, 'https://www.youtube.com/watch?v=g7OLQqYk708','The Divine Dilemma');
+            add_further_link(index, 'https://www.youtube.com/watch?v=XZ99sbrQCuU','Passion for the World or Christ?');
+        }
+
+        function create_session_24(index){
+            add_main_video(index, "kaVHiCojD60");
+            add_video_title(index, "I AM the Light");
+            add_reading(index, "john 8:12-38");
+
+            add_open_prayer(index, "In today's session, we will discuss what it means for Jesus to be the light of the world, as well as the various reactions of those who heard him speak. We will also consider our relationship with sin.");
+
+            add_watch_title(index, "Chapters");
+            add_watch_topic(index, "I AM - 0:25");
+            add_watch_topic(index, "The Only Light - 3:26");
+            add_watch_topic(index, "The Challenge - 5:10");
+            add_watch_topic(index, "God's Timing - 6:39");
+            add_watch_topic(index, "Some Believe - 8:24");
+            add_watch_topic(index, "Slaves to Sin - 10:25");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "I AM: God is the title of the supreme being and creator, I AM is his personal name");
+            add_watch_term(index, "Pharisee: Jewish religious and political leaders of Jesus day");
+            add_watch_term(index, "Doctrine: set of beliefs");
+            add_watch_term(index, "Repent: turn from sin and trusting in our own righteousness, turning to Jesus and trusting in him");
+
+            add_meditate_question(index, "1. When it comes to who you are, do you base your answer on how you feel, what society tells you, or what the Bible says you are?");
+            add_meditate_question(index, "2. What differences do you see between what modern culture teaches you about yourself and what the Bible teaches?");
+            add_meditate_question(index, "3. Why did Jesus refer to himself as 'the light of the world'?");
+            add_meditate_question(index, "4. What is the darkness that Jesus has come to deliver us from?");
+            add_meditate_question(index, "5. What is the trajectory of your life, towards or away from Jesus?");
+            add_meditate_question(index, "6. Why is it critical that we move towards Jesus rather than away?");
+            add_meditate_question(index, "7. What does it mean to abide in Jesus' word, and are you doing so?");
+            add_meditate_question(index, "8. Are you a slave to sin, or have you been freed? How can you be certain?");
+
+            add_close_prayer(index, "Thank God for sending Jesus Christ to bring light to our dark world. Ask God to help you walk in that light and free you from slavery to your sin.");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=2_-kxwCDrOg','I AM meaning');
+            add_further_link(index, 'https://www.youtube.com/watch?v=UMGTzNJc8Ys','The I AM Sayings of Jesus');
+            add_further_link(index, 'https://www.youtube.com/watch?v=tM4mjTK2IfM','What did Jesus mean when He said, “I am the Light of the World”');
+            add_further_link(index, 'https://www.youtube.com/watch?v=fnsCL7WNua4','If You Abide in My Word, You Are Truly My Disciples');
+            add_further_link(index, 'https://www.youtube.com/watch?v=8IseOKwjiNw','Slaves To Sin or Slaves To God');
+            add_further_link(index, 'https://www.youtube.com/watch?v=cSJV5Vs3NZ4','Set Free from Sin');
+            add_further_title(index, 'Links to Helpful Sermons');
+            add_further_link(index, 'https://www.youtube.com/watch?v=07x8335999I','I Am the Light of the World');
+            add_further_link(index, 'https://www.youtube.com/watch?v=E44Ghw9bO4g','The Light of the World');
+            add_further_link(index, 'https://www.youtube.com/watch?v=cV4-65Z5uSg','The Fourfold Witness');
+            add_further_link(index, 'https://www.youtube.com/watch?v=WX377Qn44Ao','A Plan for Dying in Your Sins');
+            add_further_link(index, 'https://www.youtube.com/watch?v=RudgOdcgsxI','If My Words Abide in You');
+            add_further_link(index, 'https://www.youtube.com/watch?v=rkrlPP8s3_o','Are you Struggling Against Sin or a Slave of Sin?');
+        }
+
+        function create_session_25(index){
+            add_main_video(index, "LlPe-bAXg6A");
+            add_video_title(index, "Greater than Abraham");
+            add_reading(index, "John 8:31-59");
+
+            add_open_prayer(index, "In today's session, we will consider our spiritual condition. We will look at the importance of our spiritual condition in relation to faith, and we will also consider again Jesus' statements of divinity.");
+
+            add_watch_title(index, "Chapters");
+            add_watch_topic(index, "Presupposition - 0:25");
+            add_watch_topic(index, "Abraham's belief - 3:13");
+            add_watch_topic(index, "Who's your Father? - 7:38");
+            add_watch_topic(index, "Never see death - 9:52");
+            add_watch_topic(index, "Before Abraham - 11:40");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Presupposition: Something firmily believed and assumed to be true");
+            add_watch_term(index, "Righteousness: A right standing before God, being in a right relationship with him");
+
+            add_meditate_question(index, "1. What presuppositions do you have about Jesus? Are they based on what your own feelings or what you have read in the Bible?");
+            add_meditate_question(index, "2. Why is our spiritual condition so important with regard to faith?");
+            add_meditate_question(index, "3. According to the bible, what do we have to do to be saved?");
+            add_meditate_question(index, "4. Who is your spiritual father? Is it God or the devil? How can you tell?");
+            add_meditate_question(index, "5. What is the biblical teaching on death?");
+            add_meditate_question(index, "6. What did Jesus mean when he said, 'Before Abraham was, I AM'?");
+            add_meditate_question(index, "7. If Jesus never claimed to be God, why did people continually try to kill him for blasphemy?");
+
+            add_close_prayer(index, "Thank God for sending Jesus Christ that we might escape death. Ask God to help you see your spiritual condition and to grant you faith.");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=JfneYRkoWp8','The Light of the Gospel of the Glory of Christ');
+            add_further_link(index, 'https://www.youtube.com/watch?v=fSnv1VRWAPk','Abraham Believed God');
+            add_further_link(index, 'https://www.youtube.com/watch?v=ha-3kT_ZUEY','What Does Being Spiritually Dead Mean?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=TeWTb_Ng-p8','Before Abraham Was, I AM');
+            add_further_link(index, 'https://www.youtube.com/watch?v=qV6dDwET7Gg','Why Do Christians Die?: Facing the Last Enemy');
+            add_further_title(index, 'Links to Helpful Sermons');
+            add_further_link(index, 'https://www.youtube.com/watch?v=3NEPugQ2ni0','Abraham Justified by Faith');
+        }
+
+        function create_session_26(index){
+            add_main_video(index, "Piaaw-JsbAE");
+            add_video_title(index, "Sight to the blind");
+            add_reading(index, "John 9:1-41");
+
+            add_open_prayer(index, "In today's session, we will look at the soverignty of God, the dangers of spiritual blindness and the value of the soul");
+
+            add_watch_title(index, "Chapters");
+            add_watch_topic(index, "God's ordination - 0:25");
+            add_watch_topic(index, "The dilemma - 2:40");
+            add_watch_topic(index, "Just a prophet? - 4:52");
+            add_watch_topic(index, "Sinner? - 6:51");
+            add_watch_topic(index, "Blind but now I see - 9:06");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Spiritual eyes: that which we use to see spiritual truth, the ability to understand and accept spiritual things");
+            add_watch_term(index, "Soul: The immortal part of a person, the essence of who we are, our mind, will and emotions");
+
+            add_meditate_question(index, "1. How do you feel about the idea that God ordains everything that happens in the world and our lives?");
+            add_meditate_question(index, "2. How can a prophet save a sinner from the judgement of God?");
+            add_meditate_question(index, "3. Are your spiritual eyes open? If not what can you do?");
+            add_meditate_question(index, "4. Have you got preconceived ideas about Jesus that are not based on the Bible?");
+            add_meditate_question(index, "5. What do you already know about Jesus?");
+            add_meditate_question(index, "6. How much is your eternal soul worth? What would you prepared to exchange it for?");
+            add_meditate_question(index, "7. What is Jesus worth to you? What would you be prepared to give up for him?");
+
+            add_close_prayer(index, "Thank God that he first love us in sending his Son, Jesus to save us. Ask that God will grant you spiritual eyes to see and a heart to worship Jesus.");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=nSSLLpVChng','Has God predetermined every detail in the universe?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=6vh08Uv9Ft8','All Things Work Together for Good: Romans 8:28, Part 1');
+            add_further_link(index, 'https://www.youtube.com/watch?v=IVcCoesyCAA','Do You Love God? Romans 8:28, Part 2');
+            add_further_link(index, 'https://www.youtube.com/watch?v=HJBSFwds0Ek','Called According to God’s Purpose: Romans 8:28, Part 3');
+            add_further_link(index, 'https://www.youtube.com/watch?v=x8NaRTQ_t8A','The Only Solution to Spiritual Blindness');
+            add_further_link(index, 'https://www.youtube.com/watch?v=oA1ngfo7vLY','I Was Blind, but Now I See');
+            add_further_link(index, 'https://www.youtube.com/watch?v=j1dsuHBbpvA','Son of God, Son of Man');
+            add_further_title(index, 'Links to Helpful Sermons');
+            add_further_link(index, 'https://www.youtube.com/watch?v=xVAQbN25R4g','The Eternal Decrees of God');
+            add_further_link(index, 'https://www.youtube.com/watch?v=6XufrwXC_Zs','Once I Was Blind, But Now I See');
+        }
+
+        function create_session_27(index){
+            add_main_video(index, "1wEBNEbwBKs");
+            add_video_title(index, "The good shepherd");
+            add_reading(index, "John 10:1-21");
+
+            add_open_prayer(index, "In today's session, we will look at Jesus pertrayed as the good shepherd and the importance of hearing his voice.");
+
+            add_watch_title(index, "Chapters");
+            add_watch_topic(index, "His entrance - 0:25");
+            add_watch_topic(index, "His voice - 2:02");
+            add_watch_topic(index, "His love - 3:48");
+            add_watch_topic(index, "His protection - 6:50");
+            add_watch_topic(index, "I AM the door - 9:38");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Parable: Story or explanation of a natural event to illustrate a spiritual truth");
+            add_watch_term(index, "Prophets: Some who has been authorised by God to speak on his behalf");
+            add_watch_term(index, "Covenant:  divine-human agreement, established by God’s authority, ratified by sacrifice, supported by promises and obligations, and designed to display God’s steadfast faithfulness.");
+            add_watch_term(index, "Kingdom of God: rule of an eternal, sovereign God over all the universe");
+            add_watch_term(index, "Faith: belief and trust in God and his promises, especially as it relates to salvation.");
+
+            add_meditate_question(index, "1. Why did God announce beforehand clearily who the good shepherd would be and how he would come?");
+            add_meditate_question(index, "2. What does it mean that Jesus is the good shepherd? and what does it tell us about God?");
+            add_meditate_question(index, "3. In what way does Christianity differ from other religions, with regards to belonging to the God?");
+            add_meditate_question(index, "4. What does it mean to hear the voice of Jesus?");
+            add_meditate_question(index, "5. Is the person, ideology or religion you follow willing to die for you? Does it have to power to overceom death on your behalf?");
+            add_meditate_question(index, "6. What price was God willing to pay to save you?");
+            add_meditate_question(index, "7. What did Jesus mean when he said, 'I am the door'?");
+
+            add_close_prayer(index, "Prayer, thank God for his pastoral care and love for his people. Ask, that your spiritual ears be opened that you might hear the voice of the good shepherd");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=mEDlb6znvGA','Prophecies that JESUS fulfilled');
+            add_further_link(index, 'https://www.youtube.com/watch?v=0C94nqDcq9A','Jesus’s Sheep Hear His Voice — What’s That Mean?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=3Rp7G7OAg10&','Jesus said I am the DOOR');
+            add_further_link(index, 'https://www.youtube.com/watch?v=ZW57S8lz5tM','The Sheep Gate: Knowing Christ');
+            add_further_title(index, 'Links to Helpful Sermons');
+            add_further_link(index, 'https://www.youtube.com/watch?v=dAJRMlBXfYQ','The Sheep Hear His Voice');
+            add_further_link(index, 'https://www.youtube.com/watch?v=Q9OZVwhhvmc','I have Other Sheep That Are Not of This Fold');
+        }
+
+        function create_session_28(index){
+            add_main_video(index, "Vekbabcexaw");
+            add_video_title(index, "One with the Father");
+            add_reading(index, "John 10:22-42");
+
+            add_open_prayer(index, "In todays session, we will look further at the relationship between Jesus and the Father, discuss the concept of spiritually deafness, and the security of the believer.");
+
+            add_watch_title(index, "Chapters");
+            add_watch_topic(index, "Historical Authenticity - 0:25");
+            add_watch_topic(index, "The Interrogation - 1:34");
+            add_watch_topic(index, "Spiritually deaf - 4:39");
+            add_watch_topic(index, "Hand of God - 7:17");
+            add_watch_topic(index, "In the Father - 8:39");
+            add_watch_topic(index, "Lesser to Greater - 10:54");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Holy Spirit: The third person of the Trinity");
+            add_watch_term(index, "Trinity: The nature of God, that he is one being yet subsits in three persons, the Father, the Son and the Holy Spirit");
+            add_watch_term(index, "Divine: the nature and attributes of God");
+            add_watch_term(index, "Blasphemy: Claming to be God or to have the authority of God, when you do not");
+            add_watch_term(index, "Repentance: Changing your mind about sin, turning from it and trusting in Jesus Christ for salvation");
+            add_watch_term(index, "Yahweh: The personal name of the one true living God, the creator of the universe");
+            add_watch_term(index, "a fortiori argument: A logical argument that if something is true in a lesser case, it must be even more true in a greater case");
+
+            add_meditate_question(index, "1. Examine your motives for seeking Jesus, are they to genuinely find the truth?");
+            add_meditate_question(index, "3. Does the truth that God chooses who to save scare you? If so, why do you think your scared and very other few people are?");
+            add_meditate_question(index, "4. What does the parable about the shepherd with 100 sheep tell us about God?");
+            add_meditate_question(index, "5. For those who trust in Jesus, what can snatch them from Gods hands?");
+            add_meditate_question(index, "6. Why was Jesus charged with blasphemy, wherever he went?");
+
+            add_close_prayer(index, "Thank God for the authenticity of the Bible and the evidence that supports it. Thank him for the security we have in Christ, that nothing can snatch us from his hand. Ask God to help you hear his voice and to trust in him.");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=dJjSa4LwJ4s','VERIFIED! The Biblical accuracy & reliability!');
+            add_further_link(index, 'https://www.youtube.com/watch?v=VCtC7xgc_ds','Am I choosen?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=tJewh_Zq-PE','What if I am not one of his sheep');
+            add_further_link(index, 'https://www.youtube.com/watch?v=8AJ9cYbhgvQ','Can Christians Lose Their Salvation?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=EOkIvuxKFm8','I and the Father are one in John');
+            add_further_link(index, 'https://www.youtube.com/watch?v=ZBsxLm2wNs8','I said, “You are gods”');
+            add_further_title(index, 'Links to Helpful Sermons');
+            add_further_link(index, 'https://www.youtube.com/watch?v=LxyEpPL-nH0','Can I still come to Jesus?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=GBrV75GLSHw','Safety for Gods people');  
+            add_further_link(index, 'https://www.youtube.com/watch?v=C82oPC0Sr30','I and the Father Are One');
+        }
+
         function create_session_(index){
             add_main_video(index, "");
             add_video_title(index, "");
@@ -1104,7 +1352,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             add_open_prayer(index, "");
 
-            add_watch_title(index, "Topics");
+            add_watch_title(index, "Chapters");
             add_watch_topic(index, " - ");
             add_watch_topic(index, " - ");
             add_watch_topic(index, " - ");
@@ -1136,6 +1384,7 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, '','');
             add_further_link(index, '','');
             add_further_link(index, '','');
+            add_further_title(index, 'Links to Helpful Sermons');
             add_further_link(index, '','');
             add_further_link(index, '','');
         }
