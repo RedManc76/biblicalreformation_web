@@ -207,6 +207,7 @@ document.addEventListener('DOMContentLoaded', function() {
         create_session_27(27);
         create_session_28(28);
         create_session_29(29);
+        create_session_30(30);
 
         function add_main_video(index, text){video_src_array[index] = text;}
         function add_video_title(index, text){video_title_array[index] = text;}
@@ -1387,6 +1388,50 @@ document.addEventListener('DOMContentLoaded', function() {
             add_further_link(index, 'https://www.youtube.com/watch?v=J_DKmBOJfKE','Trusting God in the Dark');
             add_further_link(index, 'https://www.youtube.com/watch?v=UkHYwz-596I','Trusting God Through Trials');
             add_further_link(index, 'https://www.youtube.com/watch?v=ywP8t7e4h0U','Jesus Is the Resurrection and the Life');
+        }
+
+        function create_session_30(index){
+            add_main_video(index, "kGWKFMihYkE");
+            add_video_title(index, "Lazarus raised");
+            add_reading(index, "John 11:1-57");
+
+            add_open_prayer(index, "In today's session, we will look at the reason Jesus can sympathise with our sufering, the importance of faith in Jesus, and Jesus power of death and the wicked deeds of men");
+
+            add_watch_title(index, "Chapters");
+            add_watch_topic(index, "The sisters - 0:25");
+            add_watch_topic(index, "The immanent God - 1:58");
+            add_watch_topic(index, "Missing the point - 3:22");
+            add_watch_topic(index, "Faith - 5:58");
+            add_watch_topic(index, "Rasing of Lazarus - 8:26");
+            add_watch_topic(index, "The unwitting Prophet - 10:53");
+            add_watch_title(index, "Biblical Terms");
+            add_watch_term(index, "Immanent : God being present and active in the world, as opposed to being distant or uninvolved");
+            add_watch_term(index, "Transcendent : God being above and beyond the world, not limited by it, and not bound by its laws");
+            add_watch_term(index, "Substitute : To take the place of another, in regards to salvation, for Jesus to take our punishment for sin himself");
+            add_watch_term(index, "Repentance : To recognise our sinfulness, to turn from it and trust in Jesus Christ for salvation");
+            add_watch_term(index, "Eternal decrees : That which God has determined to come to pass before he created the world");
+
+            add_meditate_question(index, "1. Do you believe Jesus cares and knows what you need?");
+            add_meditate_question(index, "2. Can you relate to Jesus who not a distant God but expereinced human pain and emotions?");
+            add_meditate_question(index, "3. Have you ever felt angry with God? Seeing Jesus' interaction with Mary and Martha has it changed your mind?");
+            add_meditate_question(index, "4. How bad a sin is unbelief, compared to murder or adultery?");
+            add_meditate_question(index, "5. Do you believe when God promises, he can not fail to deliver?");
+            add_meditate_question(index, "6. How does God handle wicked people freely doing wicked things?");
+
+            add_close_prayer(index, "Thank God for entering into his creation and sharing our suffering. Ask him to help you trust in his goodness and sovereignty, and to see the power he has over death");
+
+            add_further_title(index, 'Links to Further Study');
+            add_further_link(index, 'https://www.youtube.com/watch?v=MtTPvNsrpq8','Does God Direct All the Details of My Life?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=S3njE_wU6FY','How Can I Cast My Cares on God?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=eUDjI3T8XQ0','Why did Jesus weep at the death of Lazarus?');
+            add_further_link(index, 'https://www.youtube.com/watch?v=6vh08Uv9Ft8','All Things Work Together for Good for Gods people');
+            add_further_link(index, 'https://www.youtube.com/watch?v=iDKmdpEBtYE','What Is the Nature of Unbelief?');
+            add_further_title(index, 'Links to Helpful Sermons');
+            add_further_link(index, 'https://www.youtube.com/watch?v=n-Gl3YmFAfk','God Knows All about Me');
+            add_further_link(index, 'https://www.youtube.com/watch?v=7WCkqdLwuZ8','The Tenderness of Jesus');
+            add_further_link(index, 'https://www.youtube.com/watch?v=KER9E1_v4BQ','Assurance: To the Uncertain and to the Discouraged');
+            add_further_link(index, 'https://www.youtube.com/watch?v=7fdi1D99Ung','Sin of Unbelief');
+            add_further_link(index, 'https://www.youtube.com/watch?v=IuRuQ5JGYjM','Lazarus Raised');
         }
 
         function create_session_(index){
