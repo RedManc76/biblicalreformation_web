@@ -1,0 +1,29 @@
+Bible Memory Privacy Policy
+
+Last updated: June 2026
+
+Bible Memory ("the app") is designed to help you memorise Scripture. Your privacy matters to us.
+
+Data stored on your device
+The app stores your memorisation progress, review schedules, settings, and voice recordings locally on your device. This data is not transmitted to our servers.
+
+Microphone
+The app uses the microphone only when you choose to record passages. Recordings are saved on your device and are not uploaded by the app.
+
+Network use
+If you select the ESV translation, the app fetches Bible text from the ESV API (api.esv.org). No personal information is sent with these requests beyond the passage reference.
+
+Backup and restore
+You may export or import a backup zip file. Backups contain your local data and recordings. You control where backup files are stored.
+
+Analytics
+The app does not include analytics or advertising SDKs.
+
+Children
+The app does not knowingly collect personal information from anyone.
+
+Contact
+For privacy questions, contact the developer through the App Store or Play Store listing.
+
+Changes
+We may update this policy. Continued use of the app after changes constitutes acceptance of the updated policy.
